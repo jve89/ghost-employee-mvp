@@ -11,14 +11,10 @@ load_dotenv()
 EMAIL_ACCOUNT = os.getenv('EMAIL_ACCOUNT')
 EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+SAFE_MODE = os.getenv('SAFE_MODE', 'on').lower() == 'on'
 
 # Parse allowed senders as list
 ALLOWED_SENDERS = [email.strip() for email in os.getenv('ALLOWED_SENDERS', '').split(',') if email.strip()]
-
-# ✅ TEST .env loading
-print(f"[TEST] EMAIL_ACCOUNT: {EMAIL_ACCOUNT}")
-print(f"[TEST] OPENAI_API_KEY: {OPENAI_API_KEY[:5]}... (only showing first 5 chars for security)")
-print(f"[TEST] ALLOWED_SENDERS: {ALLOWED_SENDERS}")
 
 def main():
     mail = connect_to_mailbox(EMAIL_ACCOUNT, EMAIL_PASSWORD)
@@ -37,7 +33,10 @@ def main():
         reply = generate_gpt_reply(email_data['body'], OPENAI_API_KEY)
         print(f"[GPT REPLY]\n{reply}\n")
 
-        send_email(EMAIL_ACCOUNT, EMAIL_PASSWORD, email_data['from'], email_data['subject'], reply)
+        if SAFE_MODE:
+            print(f"[SAFE MODE] Reply not sent. Would have sent to: {email_data['from']}")
+        else:
+            send_email(EMAIL_ACCOUNT, EMAIL_PASSWORD, email_data['from'], email_data['subject'], reply)
 
 if __name__ == "__main__":
     main()
