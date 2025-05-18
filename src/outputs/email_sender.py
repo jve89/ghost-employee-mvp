@@ -1,20 +1,33 @@
-import smtplib
-from email.mime.text import MIMEText
+import os
+import requests
 
-SMTP_SERVER = 'smtp.gmail.com'
-SMTP_PORT = 465
+def send_email(sender_email, sender_password, recipient_email, subject, body):
+    api_key = os.getenv("MAILGUN_API_KEY")
+    domain = os.getenv("MAILGUN_DOMAIN")
+    sender = os.getenv("MAILGUN_FROM")  # e.g. Mailgun Sandbox <postmaster@yourdomain>
 
-def send_email(email_account, email_password, to_address, subject, body):
+    if not api_key or not domain or not sender:
+        print("[ERROR] Missing Mailgun credentials in .env")
+        return
+
+    url = f"https://api.mailgun.net/v3/{domain}/messages"
+    auth = ("api", api_key)
+
+    data = {
+        "from": sender,
+        "to": recipient_email,
+        "subject": subject,
+        "text": body
+    }
+
     try:
-        msg = MIMEText(body)
-        msg['From'] = email_account
-        msg['To'] = to_address
-        msg['Subject'] = f"Re: {subject}"
+        print(f"[DEBUG] Sending Mailgun API request to {recipient_email}...")
+        response = requests.post(url, auth=auth, data=data)
 
-        with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT) as server:
-            server.login(email_account, email_password)
-            server.send_message(msg)
+        if response.status_code == 200:
+            print(f"[EMAIL SENT] To: {recipient_email} | Subject: {subject}")
+        else:
+            print(f"[ERROR] Mailgun API failed: {response.status_code} - {response.text}")
 
-        print(f"[INFO] Sent reply to {to_address}")
     except Exception as e:
-        print(f"[ERROR] Failed to send email: {e}")
+        print(f"[ERROR] Exception while sending email: {type(e).__name__}: {e}")

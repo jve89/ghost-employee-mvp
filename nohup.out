@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/ghost-employee-mvp/src/inputs/file_monitor.py", line 1, in <module>
+    from watchdog.observers import Observer
+ModuleNotFoundError: No module named 'watchdog'
+Loading .env environment variables...
+Loading .env environment variables...
+Loading .env environment variables...
