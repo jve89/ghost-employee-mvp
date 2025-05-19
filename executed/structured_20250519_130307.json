@@ -1,0 +1,11 @@
+{
+    "file": "watched/test_executor.txt",
+    "processed_at": "20250519_130307",
+    "summary": "The employee missed an important client meeting and needs to take several actions: contact the client to apologize, update the CRM system, and inform their manager about the situation.",
+    "tasks": [
+        "Contact the client to apologize.",
+        "Update the CRM system.",
+        "Inform their manager about the situation."
+    ],
+    "alerts": []
+}

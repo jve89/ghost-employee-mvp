@@ -3,10 +3,16 @@ from watchdog.events import FileSystemEventHandler
 import time
 import os
 import datetime
+import pandas as pd
 from openai import OpenAI
 from dotenv import load_dotenv
+
 from ..outputs.email_sender import send_email
 from ..processing.summary_analyser import analyse_summary
+from ..processing.csv_analyser import analyse_csv
+from ..processing.task_extractor import extract_tasks
+from ..processing.structured_saver import save_structured_data
+from ..processing.task_executor import execute_tasks_from_log  # ✅ Proper task executor
 
 # Load environment variables
 load_dotenv()
@@ -14,7 +20,6 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
 WATCHED_FOLDER = "watched"
-LOGS_FOLDER = "logs"
 
 class WatcherHandler(FileSystemEventHandler):
     def process_file(self, file_path):
@@ -23,59 +28,101 @@ class WatcherHandler(FileSystemEventHandler):
             return
 
         try:
-            with open(file_path, 'r') as f:
-                content = f.read()
+            ext = os.path.splitext(file_path)[1].lower()
 
-            if not content.strip():
-                print(f"[INFO] Skipping empty file: {file_path}")
-                return
+            if ext == '.txt':
+                with open(file_path, 'r') as f:
+                    content = f.read()
 
-            print(f"[INFO] Sending content of {file_path} to GPT...")
-            response = client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {"role": "system", "content": "You are a helpful assistant that summarises documents."},
-                    {"role": "user", "content": f"Summarise the following text:\n\n{content}"}
-                ],
-                max_tokens=300,
-                temperature=0.3,
-            )
+                if not content.strip():
+                    print(f"[INFO] Skipping empty file: {file_path}")
+                    return
 
-            summary = response.choices[0].message.content
-            print(f"\n[SUMMARY for {file_path}]\n{summary}\n")
+                print(f"[INFO] Sending content of {file_path} to GPT...")
+                response = client.chat.completions.create(
+                    model="gpt-4o",
+                    messages=[
+                        {"role": "system", "content": "You are a helpful assistant that summarises documents."},
+                        {"role": "user", "content": f"Summarise the following text:\n\n{content}"}
+                    ],
+                    max_tokens=300,
+                    temperature=0.3,
+                )
 
-            # Analyse the summary for trigger phrases
-            alerts = analyse_summary(summary)
-            if alerts:
-                print("[ALERTS TRIGGERED]")
-                for alert in alerts:
-                    print("🚨", alert)
-                print("=" * 60)
+                summary = response.choices[0].message.content
+                print(f"\n[SUMMARY for {file_path}]\n{summary}\n")
 
-            # Send summary via email
-            recipient = os.getenv("ALLOWED_SENDERS").split(",")[1].strip()
-            print(f"[DEBUG] Sending email to {recipient}")
-            send_email(
-                sender_email=os.getenv("EMAIL_ACCOUNT"),
-                sender_password=os.getenv("EMAIL_PASSWORD"),
-                recipient_email=recipient,
-                subject=f"Summary: {os.path.basename(file_path)}",
-                body=summary
-            )
+                # Step 1: Detect alerts
+                alerts = analyse_summary(summary)
+                if alerts:
+                    print("[ALERTS TRIGGERED]")
+                    for alert in alerts:
+                        print("🚨", alert)
+                    print("=" * 60)
 
-            # Save summary to logs folder
-            if not os.path.exists(LOGS_FOLDER):
-                os.makedirs(LOGS_FOLDER)
+                # Step 2: Extract tasks
+                tasks = extract_tasks(summary)
+                if tasks:
+                    print("[TASKS IDENTIFIED]")
+                    for task in tasks:
+                        print("📝", task)
+                    print("=" * 60)
 
-            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            log_filename = f"{LOGS_FOLDER}/summary_{timestamp}.txt"
+                # Step 3: Email summary
+                recipient = os.getenv("ALLOWED_SENDERS").split(",")[1].strip()
+                print(f"[DEBUG] Sending email to {recipient}")
+                send_email(
+                    sender_email=os.getenv("EMAIL_ACCOUNT"),
+                    sender_password=os.getenv("EMAIL_PASSWORD"),
+                    recipient_email=recipient,
+                    subject=f"Summary: {os.path.basename(file_path)}",
+                    body=summary
+                )
 
-            with open(log_filename, "w") as log_file:
-                log_file.write(f"File: {file_path}\n")
-                log_file.write(f"Summary generated at: {timestamp}\n\n")
-                log_file.write(summary)
+                # Step 4: Save structured data and execute tasks
+                structured_log_path = save_structured_data(
+                    file_path=file_path,
+                    summary=summary,
+                    tasks=tasks,
+                    alerts=alerts
+                )
+                if structured_log_path:
+                    execute_tasks_from_log(structured_log_path)
 
-            print(f"[LOG SAVED] Summary written to {log_filename}")
+            elif ext == '.csv':
+                print(f"[INFO] Analysing CSV file: {file_path}")
+                alerts = analyse_csv(file_path)
+
+                if alerts:
+                    print("[CSV ALERTS TRIGGERED]")
+                    for alert in alerts:
+                        print("🚨", alert)
+                    print("=" * 60)
+
+                    recipient = os.getenv("ALLOWED_SENDERS").split(",")[1].strip()
+                    print(f"[DEBUG] Sending CSV alert email to {recipient}")
+                    send_email(
+                        sender_email=os.getenv("EMAIL_ACCOUNT"),
+                        sender_password=os.getenv("EMAIL_PASSWORD"),
+                        recipient_email=recipient,
+                        subject=f"CSV Alert: {os.path.basename(file_path)}",
+                        body="\n".join(alerts)
+                    )
+
+                    # Step 4: Save structured data and execute tasks
+                    structured_log_path = save_structured_data(
+                        file_path=file_path,
+                        summary=None,
+                        tasks=None,
+                        alerts=alerts
+                    )
+                    if structured_log_path:
+                        execute_tasks_from_log(structured_log_path)
+                else:
+                    print("[INFO] No issues found in CSV.")
+
+            else:
+                print(f"[SKIPPED] Unsupported file type: {file_path}")
 
         except Exception as e:
             print(f"[ERROR] Failed to process {file_path}: {e}")

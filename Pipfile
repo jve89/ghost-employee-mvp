@@ -5,10 +5,12 @@ name = "pypi"
 
 [packages]
 imapclient = "*"
+watchdog = "*"
 openai = "*"
 python-dotenv = "*"
 requests = "*"
-watchdog = "*"
+pandas = "*"
+rich = "*"
 
 [dev-packages]
 

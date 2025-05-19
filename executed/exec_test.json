@@ -1,0 +1,7 @@
+{
+  "task": "Notify HR of contract termination",
+  "result": "SIMULATED_EMAIL_HR_SENT",
+  "mode": "SIMULATED",
+  "source_file": "structured_manual.json",
+  "timestamp": "2025-05-19T21:50:00.000000"
+}

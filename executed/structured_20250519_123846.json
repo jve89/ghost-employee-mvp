@@ -1,0 +1,11 @@
+{
+    "file": "watched/test_structured.txt",
+    "processed_at": "20250519_123846",
+    "summary": "An employee missed a scheduled call with a client, leading to the client's frustration and consideration of ending the contract. The employee needs to follow up with the client immediately, update the internal tracker, and inform their supervisor.",
+    "tasks": [
+        "Follow up with the client immediately.",
+        "Update the internal tracker.",
+        "Inform their supervisor."
+    ],
+    "alerts": []
+}
