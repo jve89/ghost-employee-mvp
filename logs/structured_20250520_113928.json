@@ -1,0 +1,10 @@
+{
+    "file": "watched/test_dashboard.txt",
+    "processed_at": "20250520_113928",
+    "summary": "The text is a request to create a task in ClickUp and update a spreadsheet.",
+    "tasks": [
+        "Create a task in ClickUp.",
+        "Update a spreadsheet."
+    ],
+    "alerts": []
+}

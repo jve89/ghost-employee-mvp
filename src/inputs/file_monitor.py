@@ -11,7 +11,7 @@ from ..outputs.email_sender import send_email
 from ..processing.summary_analyser import analyse_summary
 from ..processing.csv_analyser import analyse_csv
 from ..processing.task_extractor import extract_tasks
-from ..processing.structured_saver import save_structured_data
+from ..processing.structured_saver import save_structured_log
 from ..processing.task_executor import execute_tasks_from_log  # ✅ Proper task executor
 
 # Load environment variables
@@ -80,7 +80,7 @@ class WatcherHandler(FileSystemEventHandler):
                 )
 
                 # Step 4: Save structured data and execute tasks
-                structured_log_path = save_structured_data(
+                structured_log_path = save_structured_log(
                     file_path=file_path,
                     summary=summary,
                     tasks=tasks,
@@ -110,7 +110,7 @@ class WatcherHandler(FileSystemEventHandler):
                     )
 
                     # Step 4: Save structured data and execute tasks
-                    structured_log_path = save_structured_data(
+                    structured_log_path = save_structured_log(
                         file_path=file_path,
                         summary=None,
                         tasks=None,

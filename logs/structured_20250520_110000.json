@@ -1,0 +1,16 @@
+{
+    "file": {
+        "file": "watched/email_1747738154.txt",
+        "processed_at": "20250520_104917",
+        "summary": "Summary:\nMartin is requesting a review of the numbers from the previous day's briefing due to a mismatch in the projections. Additionally, he wants to ensure that the leadership deck has been updated to reflect the new Q2 assumptions.\n\nAction Items:\n1. Review and correct the numbers from the previous day's briefing to resolve the projection mismatch.\n2. Update the leadership deck to align with the revised Q2 assumptions.",
+        "tasks": [
+            "Review and correct the numbers from the previous day's briefing to resolve the projection mismatch.",
+            "Update the leadership deck to align with the revised Q2 assumptions."
+        ],
+        "alerts": []
+    },
+    "processed_at": "20250520_104917",
+    "summary": null,
+    "tasks": null,
+    "alerts": null
+}

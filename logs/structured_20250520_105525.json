@@ -1,0 +1,12 @@
+{
+    "file": "watched/email_1747738518.txt",
+    "processed_at": "20250520_105525",
+    "summary": "Martin is requesting a review of the numbers from the previous day's briefing due to a mismatch in projections, with pressure from the finance team. He also asks for the leadership presentation to be updated with the latest Q2 assumptions and for the CRM records to be revised. Additionally, he wants the team to be notified on Slack.",
+    "tasks": [
+        "Review the numbers from the previous day's briefing due to a mismatch in projections.",
+        "Update the leadership presentation with the latest Q2 assumptions.",
+        "Revise the CRM records.",
+        "Notify the team on Slack."
+    ],
+    "alerts": []
+}
