@@ -11,8 +11,10 @@ python-dotenv = "*"
 requests = "*"
 pandas = "*"
 rich = "*"
+docxtpl = "*"
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.12"

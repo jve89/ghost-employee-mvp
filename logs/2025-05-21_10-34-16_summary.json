@@ -1,0 +1,15 @@
+{
+    "timestamp": "2025-05-21_10-34-16",
+    "summary": "This is a finance-related weekly meeting summary with updates on the Q2 report.",
+    "tasks": [
+        "Prepare Q2 report",
+        "Send invoice to client"
+    ],
+    "alerts": [
+        "Delayed submission by finance team"
+    ],
+    "attachments": [
+        "invoice_q2.pdf",
+        "report_draft.docx"
+    ]
+}
