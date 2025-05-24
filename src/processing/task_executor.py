@@ -43,11 +43,18 @@ def execute_tasks_from_log(log_path):
 
 
 def execute_task(task, source_file=None):
-    description = task.get("description", task if isinstance(task, str) else "")
-    title = task.get("title", "Untitled Task")
-    due_date = task.get("due_date", None)
-    assigned_to = task.get("assigned_to", None)
-    priority = task.get("priority", "normal")
+    if isinstance(task, dict):
+        description = task.get("description", "")
+        title = task.get("title", "Untitled Task")
+        due_date = task.get("due_date", None)
+        assigned_to = task.get("assigned_to", None)
+        priority = task.get("priority", "normal")
+    else:
+        description = str(task)
+        title = "Untitled Task"
+        due_date = None
+        assigned_to = None
+        priority = "normal"
 
     task_lower = description.lower()
     is_real = os.getenv("REAL_EXECUTION", "off") == "on"
@@ -134,7 +141,7 @@ If none fits, say 'fallback_action'."""
         fn_map = {
             "send_slack_message": send_slack_message,
             "update_crm_case": update_crm_case,
-            "create_calendar_event": create_calendar_event,
+            "create_calendar_event": create_calendar_event_flexible,
             "email_supervisor": email_supervisor,
             "create_jira_ticket": create_jira_ticket,
             "update_google_sheet": update_google_sheet,
@@ -146,7 +153,17 @@ If none fits, say 'fallback_action'."""
         fn = fn_map.get(action, fallback_action)
 
         if is_real:
-            return fn(task_description)
+            if fn.__name__ == "send_slack_message":
+                return fn("Supervisor", task_description)
+            elif fn.__name__ == "email_hr":
+                return fn("HR Notification", task_description)
+            elif fn.__name__ == "update_crm_case":
+                return fn("CASE123", task_description)
+            elif fn.__name__ == "email_supervisor":
+                return fn("Update", task_description)
+            else:
+                return fn(**task_description) if isinstance(task_description, dict) else fn(task_description)
+        
         else:
             print(f"[GPT-FALLBACK] Would run: {action} with '{task_description}'")
             return f"SIMULATED_GPT_{action.upper()}"

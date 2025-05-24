@@ -1,5 +1,6 @@
 from openai import OpenAI
 import os
+from src.processing.task_extractor import extract_tasks  # ✅ Import from your task extractor module
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
@@ -25,7 +26,7 @@ def analyse_summary(summary_text):
 
 def summarise_file(filepath):
     """
-    Sends file content to GPT-4o via OpenAI SDK v1.x and returns the summary.
+    Sends file content to GPT-4o via OpenAI SDK v1.x and returns the summary and tasks.
     """
     with open(filepath, "r") as f:
         content = f.read()
@@ -42,8 +43,10 @@ def summarise_file(filepath):
         )
         summary = response.choices[0].message.content.strip()
         print(f"\n[SUMMARY for {filepath}]\n{summary}\n{'=' * 60}")
-        return summary
+
+        tasks = extract_tasks(summary)
+        return summary, tasks
 
     except Exception as e:
         print(f"[ERROR] GPT failed to summarise: {e}")
-        return "Failed to generate summary."
+        return "Failed to generate summary.", []

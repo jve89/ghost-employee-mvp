@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Follow up on topic: Client Sync Meeting Notes",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "GPT_FALLBACK_FAILED",
+  "mode": "REAL",
+  "source_file": "2025-05-24_14-11-02_summary.json",
+  "timestamp": "2025-05-24T14:11:04.231082"
+}

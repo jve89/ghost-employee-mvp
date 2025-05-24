@@ -23,15 +23,15 @@ def process_email(email_data):
     print(f"[INFO] Saved email body to {filepath}")
 
     # Run your existing summarisation and task extraction pipeline on saved file
-    summary = summary_analyser.summarise_file(filepath)
-    tasks = task_extractor.extract_tasks(summary)
+    summary, tasks = summary_analyser.summarise_file(filepath)
     structured_data = {
-        "file": filepath,
-        "processed_at": time.strftime("%Y%m%d_%H%M%S"),
-        "summary": summary,
-        "tasks": tasks,
-        "alerts": [],  # you can extend alert detection here
+    "file": filepath,
+    "processed_at": time.strftime("%Y%m%d_%H%M%S"),
+    "summary": summary,
+    "tasks": tasks,
+    "alerts": [],  # you can extend alert detection here
     }
+
     # Save structured data to logs folder
     structured_saver.save_structured_log(structured_data)
 

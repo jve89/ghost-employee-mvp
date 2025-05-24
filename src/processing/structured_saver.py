@@ -60,3 +60,10 @@ def save_structured_summary(summary_data, tasks, alerts, attachments=None, email
         fill_template(chosen_template, context)
     except Exception as e:
         print(f"[WARN] Template not filled: {e}")
+
+    # ✅ Auto-run task executor
+    try:
+        from src.processing.task_executor import execute_tasks_from_log
+        execute_tasks_from_log(json_filename)
+    except Exception as e:
+        print(f"[ERROR] Task execution failed: {e}")
