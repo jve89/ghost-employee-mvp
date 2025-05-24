@@ -4,6 +4,7 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 import json
+from src.processing.due_date_extractor import extract_due_date
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -58,8 +59,15 @@ Example output:
         content = response.choices[0].message.content.strip()
         content = content.replace("```json", "").replace("```", "").strip()
         tasks = json.loads(content)
+
+        # Post-process each task with a due date (if missing)
+        for task in tasks:
+            if isinstance(task, dict) and "description" in task and "due_date" not in task:
+                task["due_date"] = extract_due_date(task["description"])
+
         print(f"[TASK EXTRACTOR] Extracted {len(tasks)} task(s).")
         return tasks
+
 
     except json.JSONDecodeError:
         print("[TASK EXTRACTOR] Failed to parse GPT response as JSON.")

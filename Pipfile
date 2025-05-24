@@ -12,6 +12,7 @@ requests = "*"
 pandas = "*"
 rich = "*"
 docxtpl = "*"
+dateparser = "*"
 
 [dev-packages]
 black = "*"
