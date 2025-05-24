@@ -43,17 +43,22 @@ def execute_tasks_from_log(log_path):
 
 
 def execute_task(task, source_file=None):
-    description = task if isinstance(task, str) else task.get("description", "")
+    description = task.get("description", task if isinstance(task, str) else "")
+    title = task.get("title", "Untitled Task")
+    due_date = task.get("due_date", None)
+    assigned_to = task.get("assigned_to", None)
+    priority = task.get("priority", "normal")
+
     task_lower = description.lower()
     is_real = os.getenv("REAL_EXECUTION", "off") == "on"
 
     matched = False
 
-    def maybe_run(fn, *args):
+    def maybe_run(fn, *args, **kwargs):
         if is_real:
-            result = fn(*args)
+            result = fn(*args, **kwargs)
         else:
-            print(f"[SIMULATED] Would run: {fn.__name__} with args: {args}")
+            print(f"[SIMULATED] Would run: {fn.__name__} with args: {args}, kwargs: {kwargs}")
             result = f"SIMULATED_{fn.__name__.upper()}"
         return result
 
@@ -74,7 +79,7 @@ def execute_task(task, source_file=None):
         result = maybe_run(create_calendar_event_flexible, task)
         matched = True
     elif "slack" in task_lower:
-        result = maybe_run(send_slack_message, "Supervisor", description)
+        result = maybe_run(send_slack_message, assigned_to or "Supervisor", description)
         matched = True
     elif "crm" in task_lower or "log" in task_lower:
         result = maybe_run(update_crm_case, "CASE123", description)
@@ -88,7 +93,13 @@ def execute_task(task, source_file=None):
         result = run_gpt_fallback(description, is_real)
 
     return {
-        "task": description,
+        "task": {
+            "title": title,
+            "description": description,
+            "due_date": due_date,
+            "assigned_to": assigned_to,
+            "priority": priority
+        },
         "result": result,
         "mode": "REAL" if is_real else "SIMULATED",
         "source_file": source_file,
