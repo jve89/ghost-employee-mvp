@@ -5,6 +5,8 @@ import os
 from dotenv import load_dotenv
 import json
 from src.processing.due_date_extractor import extract_due_date
+from src.processing.time_slot_parser import extract_time_slot
+from src.processing.user_mapper import resolve_assigned_user
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -60,10 +62,17 @@ Example output:
         content = content.replace("```json", "").replace("```", "").strip()
         tasks = json.loads(content)
 
-        # Post-process each task with a due date (if missing)
+        # Post-process each task to enrich data
         for task in tasks:
-            if isinstance(task, dict) and "description" in task and "due_date" not in task:
-                task["due_date"] = extract_due_date(task["description"])
+            if isinstance(task, dict) and "description" in task:
+                if "due_date" not in task:
+                    task["due_date"] = extract_due_date(task["description"])
+
+                if "time_slot" not in task:
+                    task["time_slot"] = extract_time_slot(task["description"])
+
+                if "assigned_to" in task:
+                    task["assigned_user"] = resolve_assigned_user(task["assigned_to"])
 
         print(f"[TASK EXTRACTOR] Extracted {len(tasks)} task(s).")
         return tasks
