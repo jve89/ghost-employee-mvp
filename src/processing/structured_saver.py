@@ -1,10 +1,11 @@
-# /processing/structured_saver.py
+# /src/processing/structured_saver.py
 
 import os
 import json
 from datetime import datetime
 from src.processing.template_filler import fill_template
-
+from src.inputs.attachment_processor import process_attachments
+from src.processing.utils import group_tasks_by_source  # ✅ NEW
 
 def pick_template(summary_text, default_template="templates/sample_template.docx"):
     summary_lower = summary_text.lower()
@@ -27,22 +28,53 @@ def save_structured_summary(summary_data, tasks, alerts, attachments=None, email
     os.makedirs("logs", exist_ok=True)
     os.makedirs("summaries", exist_ok=True)
 
+    # 🧠 Parse attachments first
+    if attachments:
+        attachment_tasks = process_attachments(attachments)
+    else:
+        attachment_tasks = []
+
+    # ✅ Initialise task list
+    tasks = tasks + attachment_tasks
+
+    # ✳️ Enrich task objects for audit/export
+    enriched_tasks = []
+    for task in tasks:
+        source = task.get("source_file", "manual")
+        task["context"] = task.get("context") or f"Grouped via: {source}"
+        enriched_tasks.append({
+            "title": task.get("title") or task.get("description", ""),
+            "description": task.get("description", ""),
+            "due_date": task.get("due_date"),
+            "time_slot": task.get("time_slot"),
+            "time_slot_source": task.get("time_slot_source"),
+            "time_slot_confidence": task.get("time_slot_confidence"),
+            "priority": task.get("priority"),
+            "assigned_to": task.get("assigned_to"),
+            "assigned_user": task.get("assigned_user", {}),
+            "context": task["context"],
+            "source_file": source
+        })
+
+    grouped_tasks = group_tasks_by_source(enriched_tasks)
+
     structured_data = {
         "timestamp": timestamp,
         "summary": summary_data,
-        "tasks": tasks,
+        "tasks": enriched_tasks,
         "alerts": alerts,
+        "grouped_by_source": grouped_tasks  # ✅ NEW SECTION
     }
 
     if attachments:
         structured_data["attachments"] = attachments
 
-    # Save structured summary as JSON
+    # 💾 Save JSON
     with open(json_filename, "w") as f:
-        json.dump(structured_data, f, indent=4)
+        json.dump(structured_data, f, indent=4, ensure_ascii=False)
     print(f"[STRUCTURED SUMMARY SAVED] {json_filename}")
 
-    # 📄 Build context using real data
+    # 📄 Generate document
     try:
         context = {
             "ClientName": email_from.split("@")[0].capitalize(),
@@ -51,8 +83,8 @@ def save_structured_summary(summary_data, tasks, alerts, attachments=None, email
             "TaskCount": len(tasks),
             "AlertCount": len(alerts) if alerts else 0,
             "EmailSubject": email_subject,
-            "FirstTaskTitle": tasks[0] if tasks else "N/A",
-            "FirstTaskDue": "TBD",  # Future: parse real due dates
+            "FirstTaskTitle": tasks[0].get("title") if tasks else "N/A",
+            "FirstTaskDue": tasks[0].get("due_date") if tasks else "TBD",
             "AttachmentCount": len(attachments) if attachments else 0
         }
 
@@ -61,7 +93,7 @@ def save_structured_summary(summary_data, tasks, alerts, attachments=None, email
     except Exception as e:
         print(f"[WARN] Template not filled: {e}")
 
-    # ✅ Auto-run task executor
+    # ✅ Run task executor
     try:
         from src.processing.task_executor import execute_tasks_from_log
         execute_tasks_from_log(json_filename)

@@ -1,0 +1,13 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: |
+      export PIPENV_VENV_IN_PROJECT=1
+      pipenv install --dev
+    command: pipenv run python3 -m src.main
+
+vscode:
+  extensions:
+    - ms-python.python

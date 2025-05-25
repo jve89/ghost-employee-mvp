@@ -17,10 +17,17 @@ USER_DIRECTORY = {
         "email": "clara@example.com",
         "slack": "@clara"
     },
+    "hr": {
+        "name": "HR",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"  # ✅ Example ID, adjust as needed
+    },
     "hr team": {
         "name": "HR Team",
         "email": "hr@example.com",
-        "slack": "@hr"
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"  # ✅ Same ID as above
     },
     "finance": {
         "name": "Finance Team",
@@ -33,7 +40,6 @@ USER_DIRECTORY = {
         "slack": "@supervisor"
     }
 }
-
 
 def resolve_assigned_user(raw_value):
     if not raw_value:

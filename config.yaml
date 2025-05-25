@@ -1,0 +1,9 @@
+export:
+  enabled_targets:
+    - notion
+    - sheets
+
+  filters:
+    min_priority: Medium
+    allowed_tags: [marketing, finance, hr]
+    exclude_assigned_to: [Temporary Intern]

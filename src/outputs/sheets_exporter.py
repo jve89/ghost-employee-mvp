@@ -58,3 +58,13 @@ def push_to_google_sheets(sheet_id, tasks, sheet_range="Sheet1!A1"):
     except Exception as e:
         print(f"[ERROR] Failed to push to Google Sheets: {e}")
 
+# Wrapper for single-task export, called by export_manager
+def export_to_sheets(task):
+    SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
+
+    if not SHEET_ID:
+        print("[SHEETS EXPORTER] ⚠️ GOOGLE_SHEET_ID not set in .env — skipping export.")
+        return
+
+    push_to_google_sheets(SHEET_ID, [task])
+
