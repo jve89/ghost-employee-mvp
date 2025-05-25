@@ -1,6 +1,12 @@
 # /src/processing/user_mapper.py
 
 USER_DIRECTORY = {
+    "johan": {
+        "name": "Johan van Erkel",
+        "email": "youremail@example.com",
+        "slack": "@johan",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+    },
     "anna": {
         "name": "Anna",
         "email": "anna@example.com",

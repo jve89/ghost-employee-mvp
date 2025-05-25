@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0befdd5b4bf2980051bc5ae27a1262824153b93d93fdb20b5e68dad917c2c1af"
+            "sha256": "5d901f342bb2dd4a4abc20474cdb0bdb6d505abc2b5049f05a5262c0667b5b53"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -596,6 +596,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==0.1.2"
+        },
+        "notion-client": {
+            "hashes": [
+                "sha256:6696bb057b7872477077d6a3bb4299c4a7924450e7d168174e79cbf8e01d9576",
+                "sha256:c4b4ae04ce182eb89611d41544dac710049683a4d7309c4b22fde52f81cbcb39"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7' and python_version < '4'",
+            "version": "==2.3.0"
         },
         "numpy": {
             "hashes": [
