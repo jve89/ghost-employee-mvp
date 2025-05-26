@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Retry Queue Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #f5f5f5;
+    }
+    button {
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+    .warning {
+      background-color: #fff3cd;
+    }
+    .danger {
+      background-color: #f8d7da;
+    }
+  </style>
+</head>
+<body>
+  <h1>Retry Queue Dashboard</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Target</th>
+        <th>Attempts</th>
+        <th>Assigned To</th>
+        <th>Priority</th>
+        <th>Last Attempt</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="retry-queue-body">
+      <!-- Rows will be populated here -->
+    </tbody>
+  </table>
+
+  <script>
+    async function fetchQueue() {
+      const res = await fetch('/api/retry-queue');
+      const queue = await res.json();
+      const tbody = document.getElementById('retry-queue-body');
+      tbody.innerHTML = "";
+
+      queue.forEach((entry, index) => {
+        const tr = document.createElement('tr');
+
+        if (entry.attempts >= 3) tr.classList.add('danger');
+        else if (entry.attempts >= 2) tr.classList.add('warning');
+
+        const task = entry.task || {};
+        const title = task.title || "[No Title]";
+        const assigned = task.assigned_to || "";
+        const priority = task.priority || "Low";
+        const target = entry.target || "";
+        const attempts = entry.attempts || 0;
+        const lastAttempt = entry.last_attempt
+          ? new Date(entry.last_attempt * 1000).toLocaleString()
+          : "-";
+
+        tr.innerHTML = `
+          <td>${index + 1}</td>
+          <td>${title}</td>
+          <td>${target}</td>
+          <td>${attempts}</td>
+          <td>${assigned}</td>
+          <td>${priority}</td>
+          <td>${lastAttempt}</td>
+          <td><button onclick="retryTask(${index})">Retry</button></td>
+        `;
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    async function retryTask(index) {
+      const res = await fetch(`/api/retry/${index}`, {
+        method: "POST"
+      });
+      const result = await res.json();
+      alert(result.retried ? "Retry successful!" : "Retry failed.");
+      fetchQueue();
+    }
+
+    // Initial load and auto-refresh every 10s
+    fetchQueue();
+    setInterval(fetchQueue, 10000);
+  </script>
+</body>
+</html>

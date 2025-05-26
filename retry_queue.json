@@ -2,16 +2,14 @@
   {
     "task": {
       "id": "task-001",
-      "title": "Monthly Marketing Report",
+      "title": "Test Export Retry",
       "priority": "High",
-      "tags": [
-        "marketing"
-      ],
-      "assigned_to": "Jane Doe",
-      "description": "Compile and submit the monthly marketing report."
+      "tags": ["test"],
+      "assigned_to": "Tester",
+      "description": "A dummy task to verify the dashboard retry."
     },
-    "target": "s3://your-bucket/exports/",
-    "attempts": 3,
-    "last_attempt": 1748238142.5872273
+    "target": "s3://my-ghost-employee-exports/exports/",
+    "attempts": 1,
+    "last_attempt": 1748258000.0
   }
 ]

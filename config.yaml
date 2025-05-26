@@ -2,14 +2,10 @@ export:
   enabled_targets:
     - notion
     - sheets
-    - s3://your-bucket/exports/
+    - s3://my-ghost-employee-exports/exports/
 
   filters:
     min_priority: Medium
     allowed_tags: [marketing, finance, hr]
     exclude_assigned_to: [Temporary Intern]
-
-aws:
-  region: your-aws-region
-  access_key_id: your-access-key-id
-  secret_access_key: your-secret-access-key
+    

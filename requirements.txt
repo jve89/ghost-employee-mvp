@@ -17,6 +17,9 @@ pyyaml
 fastapi
 boto3
 awscli
+fastapi 
+uvicorn 
+jinja2
 
 
 # Development tools (optional, comment out if not needed)

@@ -7,6 +7,13 @@ import random
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 from src.outputs import notion_exporter, sheets_exporter
+from dotenv import load_dotenv
+import os
+import boto3
+
+load_dotenv()  # load .env variables into environment
+
+s3_client = boto3.client('s3')  # boto3 reads AWS keys and region from env vars
 
 logging.basicConfig(
     level=logging.INFO,
@@ -26,19 +33,6 @@ else:
     CONFIG = {}
 
 PRIORITY_ORDER = {"Low": 1, "Medium": 2, "High": 3}
-
-# Initialize S3 client once
-s3_client = None
-if "aws" in CONFIG and "region" in CONFIG["aws"]:
-    try:
-        s3_client = boto3.client(
-            's3',
-            region_name=CONFIG["aws"]["region"],
-            aws_access_key_id=CONFIG["aws"].get("access_key_id"),
-            aws_secret_access_key=CONFIG["aws"].get("secret_access_key")
-        )
-    except Exception as e:
-        logger.error(f"Failed to initialize S3 client: {e}")
 
 
 def passes_filters(task: dict) -> bool:
