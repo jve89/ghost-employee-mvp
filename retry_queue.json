@@ -1,0 +1,17 @@
+[
+  {
+    "task": {
+      "id": "task-001",
+      "title": "Monthly Marketing Report",
+      "priority": "High",
+      "tags": [
+        "marketing"
+      ],
+      "assigned_to": "Jane Doe",
+      "description": "Compile and submit the monthly marketing report."
+    },
+    "target": "s3://your-bucket/exports/",
+    "attempts": 3,
+    "last_attempt": 1748238142.5872273
+  }
+]
