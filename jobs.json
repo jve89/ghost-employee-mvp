@@ -1,0 +1,9 @@
+[
+    {
+      "id": "vendor_assistant",
+      "name": "Vendor Assistant",
+      "description": "Processes vendor invoices and updates tracking sheets.",
+      "path": "jobs/vendor_assistant"
+    }
+  ]
+  

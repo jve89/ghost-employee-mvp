@@ -1,14 +1,15 @@
+# /jobs/vendor_assistant/main_job_runner.py
+
 import sys
 import os
 
-# Add project root to Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
-from src.core_runner import run_job_for_folder  # ✅ now it will work
+from src.job_loader import load_jobs
+from src.core_runner import run_job_for_folder
 
-JOBS_PATH = "jobs"
+jobs = load_jobs()
 
-for job in os.listdir(JOBS_PATH):
-    job_path = os.path.join(JOBS_PATH, job)
-    if os.path.isdir(job_path):
-        run_job_for_folder(job_path)
+for job in jobs:
+    print(f"[RUNNER] Running job: {job['name']}")
+    run_job_for_folder(job["path"])

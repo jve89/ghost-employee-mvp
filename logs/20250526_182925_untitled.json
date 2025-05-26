@@ -1,0 +1,16 @@
+{
+  "task": {
+    "description": "Mark invoice #INV-3221 as pending.",
+    "due_date": null,
+    "time_slot": "2025-05-26T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-26T18:29:17.326201"
+  },
+  "timestamp": "20250526_182925"
+}

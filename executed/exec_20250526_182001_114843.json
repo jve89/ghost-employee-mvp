@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Set the due date for the invoice as June 15",
+    "due_date": "2025-06-15",
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "CALENDAR_EVENT_CREATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-26T18:20:01.114815"
+}

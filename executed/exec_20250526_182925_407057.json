@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Mark invoice #INV-3221 as pending.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "GOOGLE_SHEET_UPDATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-26T18:29:25.407031"
+}
