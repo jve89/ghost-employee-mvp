@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Mark invoice #INV-3221 as pending in the vendor tracking sheet.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "SIMULATED_GPT_UPDATE_GOOGLE_SHEET",
+  "mode": "SIMULATED",
+  "source_file": null,
+  "timestamp": "2025-05-26T18:09:50.965001"
+}

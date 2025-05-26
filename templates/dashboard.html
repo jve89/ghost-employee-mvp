@@ -1,111 +1,246 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Retry Queue Dashboard</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 30px;
-    }
-    th, td {
-      padding: 10px;
-      border: 1px solid #ccc;
-      text-align: left;
-    }
-    th {
-      background-color: #f5f5f5;
-    }
-    button {
-      padding: 6px 10px;
-      cursor: pointer;
-    }
-    .warning {
-      background-color: #fff3cd;
-    }
-    .danger {
-      background-color: #f8d7da;
-    }
-  </style>
+    <title>Ghost Employee Dashboard</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2rem;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+        }
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 0.4rem 0.8rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:disabled {
+            background-color: #ccc;
+        }
+    </style>
 </head>
 <body>
-  <h1>Retry Queue Dashboard</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Title</th>
-        <th>Target</th>
-        <th>Attempts</th>
-        <th>Assigned To</th>
-        <th>Priority</th>
-        <th>Last Attempt</th>
-        <th>Action</th>
-      </tr>
-    </thead>
-    <tbody id="retry-queue-body">
-      <!-- Rows will be populated here -->
-    </tbody>
-  </table>
+    <h1>Retry Queue Dashboard</h1>
+    <div id="tiles" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+      <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
+          <h3>Export Summary</h3>
+          <p><strong>Total:</strong> <span id="tile-total">0</span></p>
+          <p><strong>Success:</strong> <span id="tile-success">0</span></p>
+          <p><strong>Failed:</strong> <span id="tile-failed">0</span></p>
+          <p><strong>Pending:</strong> <span id="tile-pending">0</span></p>
+      </div>
+      <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
+          <h3>Retry Timing</h3>
+          <p><strong>Avg Delay:</strong> <span id="tile-avg-delay">0</span>s</p>
+          <p><strong>Max Delay:</strong> <span id="tile-max-delay">0</span>s</p>
+          <p><strong>Min Delay:</strong> <span id="tile-min-delay">0</span>s</p>
+          <p><strong>Queue Age:</strong> <span id="tile-queue-age">0</span>s</p>
+      </div>
+      <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
+        <h3>Target Breakdown</h3>
+        <ul id="tile-target-breakdown"></ul>
+      </div>
+      <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
+        <h3>Stale Tasks</h3>
+        <ul id="tile-stale-tasks">
+          <li>Loading...</li>
+        </ul>
+      </div>
+      <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
+        <h3>Recent Activity</h3>
+        <ul id="tile-recent-activity">
+          <li>Loading...</li>
+        </ul>
+      </div>
+      <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
+        <h3>Dead-letter Tasks</h3>
+        <p><strong>Count:</strong> <span id="tile-dead-count">0</span></p>
+        <ul id="tile-dead-list"><li>Loading...</li></ul>
+      </div>                  
+    </div>    
+    <p>Live view of failed export tasks. This page auto-refreshes every 10 seconds.</p>
+    <button onclick="clearQueue()" style="margin-bottom: 1rem;">Clear All</button>
+    <button onclick="reviveDead()" style="margin-left: 1rem;">Revive All Dead Tasks</button>
+    <button onclick="downloadDeadTasks()" style="margin-left: 0.5rem;">Download Dead Tasks</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Target</th>
+                <th>Attempts</th>
+                <th>Last Attempt</th>
+                <th>Result</th>
+                <th>Result Time</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="queue-table-body">
+            <!-- Will be populated dynamically -->
+        </tbody>
+    </table>
 
-  <script>
-    async function fetchQueue() {
-      const res = await fetch('/api/retry-queue');
-      const queue = await res.json();
-      const tbody = document.getElementById('retry-queue-body');
-      tbody.innerHTML = "";
+    <script>
+        async function fetchTileData() {
+            try {
+                const response1 = await fetch('/api/tiles/export-summary');
+                const summary = await response1.json();
+                document.getElementById("tile-total").textContent = summary.total;
+                document.getElementById("tile-success").textContent = summary.success;
+                document.getElementById("tile-failed").textContent = summary.failed;
+                document.getElementById("tile-pending").textContent = summary.pending;
 
-      queue.forEach((entry, index) => {
-        const tr = document.createElement('tr');
+                const response2 = await fetch('/api/tiles/retry-delays');
+                const delay = await response2.json();
+                document.getElementById("tile-avg-delay").textContent = delay.average_delay;
+                document.getElementById("tile-max-delay").textContent = delay.max_delay;
+                document.getElementById("tile-min-delay").textContent = delay.min_delay;
+                document.getElementById("tile-queue-age").textContent = delay.queue_age;
 
-        if (entry.attempts >= 3) tr.classList.add('danger');
-        else if (entry.attempts >= 2) tr.classList.add('warning');
+                const response3 = await fetch('/api/tiles/target-breakdown');
+                const breakdown = await response3.json();
+                const list = document.getElementById("tile-target-breakdown");
+                list.innerHTML = "";
+                for (const target in breakdown) {
+                    const li = document.createElement("li");
+                    li.textContent = `${target}: ${breakdown[target]}`;
+                    list.appendChild(li);
+                }
 
-        const task = entry.task || {};
-        const title = task.title || "[No Title]";
-        const assigned = task.assigned_to || "";
-        const priority = task.priority || "Low";
-        const target = entry.target || "";
-        const attempts = entry.attempts || 0;
-        const lastAttempt = entry.last_attempt
-          ? new Date(entry.last_attempt * 1000).toLocaleString()
-          : "-";
+                const response4 = await fetch('/api/tiles/stale-tasks');
+                const stale = await response4.json();
+                const staleList = document.getElementById("tile-stale-tasks");
+                staleList.innerHTML = "";
+                if (stale.length === 0) {
+                    staleList.innerHTML = "<li>No stale tasks</li>";
+                } else {
+                    stale.forEach(entry => {
+                        const li = document.createElement("li");
+                        li.textContent = `${entry.title} (${entry.hours_ago}h ago)`;
+                        staleList.appendChild(li);
+                    });
+                }
 
-        tr.innerHTML = `
-          <td>${index + 1}</td>
-          <td>${title}</td>
-          <td>${target}</td>
-          <td>${attempts}</td>
-          <td>${assigned}</td>
-          <td>${priority}</td>
-          <td>${lastAttempt}</td>
-          <td><button onclick="retryTask(${index})">Retry</button></td>
-        `;
+                const response5 = await fetch('/api/tiles/recent-activity');
+                const recent = await response5.json();
+                const activityList = document.getElementById("tile-recent-activity");
+                activityList.innerHTML = "";
+                if (recent.length === 0) {
+                    activityList.innerHTML = "<li>No recent activity</li>";
+                 } else {
+                    recent.forEach(entry => {
+                        const li = document.createElement("li");
+                        li.textContent = `${entry.title} – ${entry.status} at ${entry.when}`;
+                        activityList.appendChild(li);
+                    });
+                }
 
-        tbody.appendChild(tr);
-      });
-    }
+                const response6 = await fetch('/api/tiles/dead-tasks');
+                const dead = await response6.json();
+                document.getElementById("tile-dead-count").textContent = dead.count;
+                const deadList = document.getElementById("tile-dead-list");
+                list.innerHTML = "";  // ✅ clears out "Loading..."
 
-    async function retryTask(index) {
-      const res = await fetch(`/api/retry/${index}`, {
-        method: "POST"
-      });
-      const result = await res.json();
-      alert(result.retried ? "Retry successful!" : "Retry failed.");
-      fetchQueue();
-    }
+                if (dead.titles.length === 0) {
+                    const li = document.createElement("li");
+                    li.textContent = "No dead-letter tasks";
+                    list.appendChild(li);
+                } else {
+                    dead.titles.forEach(title => {
+                        const li = document.createElement("li");
+                        li.textContent = title;
+                        list.appendChild(li);
+                    });
+                }
 
-    // Initial load and auto-refresh every 10s
-    fetchQueue();
-    setInterval(fetchQueue, 10000);
-  </script>
+            } catch (e) {
+                console.error("Failed to load tile data", e);
+            }
+        }
+
+        async function fetchQueue() {
+            const response = await fetch('/api/retry-queue');
+            const queue = await response.json();
+
+            const tbody = document.getElementById('queue-table-body');
+            tbody.innerHTML = "";
+
+            queue.forEach((entry, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${entry.task.title || '[No Title]'}</td>
+                    <td>${entry.target}</td>
+                    <td>${entry.attempts}</td>
+                    <td>${entry.last_attempt ? new Date(entry.last_attempt * 1000).toLocaleString() : '-'}</td>
+                    <td>${entry.retry_result || '-'}</td>
+                    <td>${entry.result_timestamp ? new Date(entry.result_timestamp * 1000).toLocaleString() : '-'}</td>
+                    <td><button onclick="retry(${index})">Retry</button></td>
+                `;
+                tbody.appendChild(row);
+            });
+
+            fetchTileData(); // 👈 Refresh tile too
+        }
+
+        async function retry(index) {
+            const btn = event.target;
+            btn.disabled = true;
+            btn.textContent = 'Retrying...';
+            const response = await fetch(`/api/retry/${index}`, { method: "POST" });
+            const result = await response.json();
+            await fetchQueue();
+        }
+
+        async function clearQueue() {
+            const confirmed = confirm("Are you sure you want to clear the retry queue?");
+            if (!confirmed) return;
+
+            await fetch('/api/clear-queue', { method: "POST" });
+            await fetchQueue();
+        }
+
+        async function reviveDead() {
+            const confirmed = confirm("Revive all tasks from dead-letter queue?");
+            if (!confirmed) return;
+
+            const response = await fetch('/api/revive-dead', { method: "POST" });
+            const result = await response.json();
+            alert(`✅ Revived ${result.revived} task(s).`);
+            await fetchQueue();  // Refresh the dashboard
+        }
+
+        async function downloadDeadTasks() {
+            const response = await fetch('/api/download-dead-tasks');
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = "dead_tasks.json";
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            window.URL.revokeObjectURL(url);
+        }
+
+        fetchQueue();
+        setInterval(fetchQueue, 10000); // Refresh every 10 seconds
+    </script>
 </body>
 </html>

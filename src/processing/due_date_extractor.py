@@ -89,3 +89,14 @@ def normalize_natural_phrasing(text):
         text = re.sub(rf"\b{re.escape(original)}\b", replacement, text, flags=re.IGNORECASE)
 
     return text
+
+def recognise_due_dates(tasks):
+    """
+    Goes through a list of tasks and fills in the 'due_date' field
+    by analysing each task's title + description.
+    """
+    for task in tasks:
+        input_text = task.get("description", "") or task.get("title", "")
+        due_date = extract_due_date(input_text)
+        task["due_date"] = due_date
+    return tasks

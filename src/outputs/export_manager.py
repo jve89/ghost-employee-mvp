@@ -8,6 +8,7 @@ import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 from src.outputs import notion_exporter, sheets_exporter
 from dotenv import load_dotenv
+from datetime import datetime
 import os
 import boto3
 
@@ -123,9 +124,10 @@ def export_to_s3(task, target):
 
 
 def export_to_target(task, target):
+    logger.info(f"[DISPATCH] Routing task to export target: {target}")
     if target == "notion":
         return notion_exporter.export_to_notion(task)
-    elif target == "sheets":
+    elif target in ("sheets", "google_sheets"): 
         return sheets_exporter.export_to_sheets(task)
     elif target.startswith("s3://"):
         return export_to_s3(task, target)
@@ -133,6 +135,31 @@ def export_to_target(task, target):
         logger.error(f"Unknown export target: {target}")
         return False
 
+
+def export_to_targets(tasks, targets):
+    results = []
+
+    for task in tasks:
+        for target in targets:
+            try:
+                success = export_to_target(task, target)
+                results.append({
+                    "task_id": task.get("id", task.get("title", "N/A")),
+                    "target": target,
+                    "status": "success" if success else "failed",
+                    "timestamp": datetime.now().isoformat()
+                })
+            except Exception as e:
+                logger.error(f"Exception while exporting task '{task.get('title', 'N/A')}' to {target}: {e}")
+                results.append({
+                    "task_id": task.get("id", task.get("title", "N/A")),
+                    "target": target,
+                    "status": "failed",
+                    "timestamp": datetime.now().isoformat(),
+                    "error": str(e)
+                })
+
+    return results
 
 def export_task(task: dict):
     enabled_targets = CONFIG.get("export", {}).get("enabled_targets", [])

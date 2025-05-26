@@ -1,0 +1,14 @@
+{
+    "job_name": "Vendor Assistant",
+    "watch_folder": "jobs/vendor_assistant/input/",
+    "summary_prompt": "Summarise vendor-related documents and extract any tasks such as updating payment status, checking contract dates, or logging amounts.",
+    "task_extractor_rules": "jobs/vendor_assistant/task_templates/vendor_tasks.json",
+    "export_targets": ["sheets"],
+    "retry_policy": {
+      "max_attempts": 5,
+      "backoff": "exponential"
+    },
+    "output_log_path": "jobs/vendor_assistant/output/export_log.json",
+    "retry_queue_path": "jobs/vendor_assistant/output/retry_queue.json"
+  }
+  

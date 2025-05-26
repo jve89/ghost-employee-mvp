@@ -182,3 +182,11 @@ def save_execution_result(result):
         print(f"[EXECUTED] Logged to {filename}")
     except Exception as e:
         print(f"[ERROR] Failed to log execution result: {e}")
+
+def execute_tasks(tasks):
+    results = []
+    for task in tasks:
+        result = execute_task(task)
+        save_execution_result(result)
+        results.append(result)
+    return results

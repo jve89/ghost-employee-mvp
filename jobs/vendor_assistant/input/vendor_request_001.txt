@@ -1,0 +1,3 @@
+Please update the vendor tracking sheet with the latest invoice from "CleanSupply Ltd".
+Amount due is €3,250, due by June 15.
+Mark invoice #INV-3221 as pending.

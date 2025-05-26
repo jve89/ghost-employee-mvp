@@ -11,7 +11,7 @@ from ..outputs.email_sender import send_email
 from ..processing.summary_analyser import analyse_summary
 from ..processing.csv_analyser import analyse_csv
 from ..processing.task_extractor import extract_tasks
-from ..processing.structured_saver import save_structured_log
+from ..processing.structured_saver import save_structured_summary
 from ..processing.task_executor import execute_tasks_from_log  # ✅ Proper task executor
 
 # Load environment variables
@@ -80,7 +80,7 @@ class WatcherHandler(FileSystemEventHandler):
                 )
 
                 # Step 4: Save structured data and execute tasks
-                structured_log_path = save_structured_log(
+                structured_log_path = save_structured_summary(
                     file_path=file_path,
                     summary=summary,
                     tasks=tasks,
@@ -110,7 +110,7 @@ class WatcherHandler(FileSystemEventHandler):
                     )
 
                     # Step 4: Save structured data and execute tasks
-                    structured_log_path = save_structured_log(
+                    structured_log_path = save_structured_summary(
                         file_path=file_path,
                         summary=None,
                         tasks=None,
@@ -136,6 +136,19 @@ class WatcherHandler(FileSystemEventHandler):
         if not event.is_directory:
             print(f"[FILE MODIFIED] {event.src_path}")
             self.process_file(event.src_path)
+
+# Utility function for batch processing jobs (used by core_runner.py)
+def get_new_files(folder_path):
+    """
+    Returns a list of full paths to all files in the folder.
+    Does not move, archive, or delete them.
+    """
+    new_files = []
+    for filename in os.listdir(folder_path):
+        full_path = os.path.join(folder_path, filename)
+        if os.path.isfile(full_path):
+            new_files.append(full_path)
+    return new_files
 
 def start_file_monitor():
     if not os.path.exists(WATCHED_FOLDER):

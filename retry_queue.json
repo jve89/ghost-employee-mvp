@@ -1,15 +1,1 @@
-[
-  {
-    "task": {
-      "id": "task-001",
-      "title": "Test Export Retry",
-      "priority": "High",
-      "tags": ["test"],
-      "assigned_to": "Tester",
-      "description": "A dummy task to verify the dashboard retry."
-    },
-    "target": "s3://my-ghost-employee-exports/exports/",
-    "attempts": 1,
-    "last_attempt": 1748258000.0
-  }
-]
+[]

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Record the amount due of \u20ac3,250 and the due date of June 15 in the vendor tracking sheet.",
+    "due_date": "2025-06-15",
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "SIMULATED_GPT_UPDATE_GOOGLE_SHEET",
+  "mode": "SIMULATED",
+  "source_file": null,
+  "timestamp": "2025-05-26T18:09:50.187995"
+}

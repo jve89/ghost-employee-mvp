@@ -1,0 +1,16 @@
+[
+  {
+    "task": {
+      "id": "task-xyz",
+      "title": "History Log Test",
+      "description": "Testing history logging",
+      "file_name": "fake_payload.json",
+      "payload": {}
+    },
+    "target": "s3://this-bucket-does-not-exist/",
+    "attempts": 5,
+    "last_attempt": 1748276305.9605372,
+    "retry_result": false,
+    "result_timestamp": 1748276305.960538
+  }
+]

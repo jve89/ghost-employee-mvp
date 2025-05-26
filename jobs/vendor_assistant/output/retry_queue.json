@@ -1,0 +1,45 @@
+[
+  {
+    "task": {
+      "description": "Update the vendor tracking sheet with the latest invoice from 'CleanSupply Ltd'.",
+      "context": "Invoice amount is \u20ac3,250 and due date is June 15.",
+      "due_date": null,
+      "time_slot": "2025-05-26T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Record the amount due of \u20ac3,250 and the due date of June 15 in the vendor tracking sheet.",
+      "due_date": "2025-06-15",
+      "time_slot": "2025-06-15T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Mark invoice #INV-3221 as pending in the vendor tracking sheet.",
+      "due_date": null,
+      "time_slot": "2025-05-26T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  }
+]
