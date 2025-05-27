@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Manager</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2rem;
+            background-color: #f8f8f8;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin-top: 1rem;
+        }
+        th, td {
+            padding: 0.6rem;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+        button {
+            padding: 0.4rem 0.8rem;
+            margin-right: 0.4rem;
+        }
+        .on {
+            background-color: green;
+            color: white;
+        }
+        .off {
+            background-color: red;
+            color: white;
+        }
+        #log-modal {
+            display: none;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+            margin-top: 2rem;
+        }
+        #log-output {
+            max-height: 400px;
+            overflow-y: auto;
+            background: #111;
+            color: #0f0;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>👥 Job Manager</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Job Name</th>
+                <th>Status</th>
+                <th>Last Run</th>
+                <th>Test Mode</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="job-table">
+            <!-- Rows injected via JS -->
+        </tbody>
+    </table>
+
+    <!-- ✅ Log Viewer -->
+    <div id="log-modal">
+        <h3>📜 Live Logs</h3>
+        <pre id="log-output">Select a job to view logs...</pre>
+    </div>
+
+    <script>
+        async function fetchJobs() {
+            const res = await fetch('/api/job-manager');
+            const data = await res.json();
+            const table = document.getElementById('job-table');
+            table.innerHTML = '';
+
+            data.jobs.forEach(job => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${job.name}</td>
+                    <td>${job.status}</td>
+                    <td>${job.last_run}</td>
+                    <td>
+                        <button class="${job.test_mode ? 'on' : 'off'}" onclick="toggleTest('${job.folder}', this)">
+                            ${job.test_mode ? 'ON' : 'OFF'}
+                        </button>
+                    </td>
+                  <td>
+                    <a href="/job/${job.folder}" target="_blank">
+                        <button>📊 View</button>
+                    </a>
+                    <button onclick="viewLogs('${job.folder}')">📜 Logs</button>
+                    <button onclick="deleteJob('${job.folder}')">🗑 Delete</button>
+                    <button onclick="togglePause('${job.folder}', this)">
+                        ⏸ Pause
+                    </button>
+                  </td>
+                `;
+                table.appendChild(row);
+            });
+        }
+
+        async function toggleTest(folder, button) {
+            const formData = new FormData();
+            formData.append("folder", folder);
+            const res = await fetch('/api/job-manager/toggle-test', {
+                method: "POST",
+                body: formData
+            });
+            const result = await res.json();
+            button.textContent = result.test_mode ? 'ON' : 'OFF';
+            button.className = result.test_mode ? 'on' : 'off';
+        }
+
+        async function deleteJob(folder) {
+            if (!confirm(`Delete job folder '${folder}'? This cannot be undone.`)) return;
+            const formData = new FormData();
+            formData.append("folder", folder);
+            await fetch('/api/job-manager/delete', {
+                method: "POST",
+                body: formData
+            });
+            fetchJobs(); // Refresh table
+        }
+
+        // ✅ View Logs Script
+        async function viewLogs(folder) {
+            document.getElementById("log-modal").style.display = "block";
+            const logOutput = document.getElementById("log-output");
+
+            async function fetchLog() {
+                const res = await fetch(`/api/job-log/${folder}`);
+                const text = await res.text();
+                logOutput.textContent = text;
+            }
+
+            await fetchLog();
+            setInterval(fetchLog, 5000); // Refresh every 5 seconds
+        }
+
+        async function togglePause(folder, button) {
+            const formData = new FormData();
+            formData.append("folder", folder);
+            const res = await fetch('/api/job-manager/toggle-pause', {
+                method: "POST",
+                body: formData
+            });
+            const result = await res.json();
+            button.textContent = result.paused ? "▶️ Resume" : "⏸ Pause";
+        }
+
+        fetchJobs();
+    </script>
+</body>
+</html>

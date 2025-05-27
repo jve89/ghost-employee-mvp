@@ -1,15 +1,10 @@
-{
-    "rules": [
-      {
-        "trigger_keywords": ["update sheet", "log invoice", "record payment"],
-        "task_type": "update_google_sheet",
-        "fields_required": ["vendor_name", "invoice_id", "amount", "due_date"]
-      },
-      {
-        "trigger_keywords": ["check contract expiry", "verify dates"],
-        "task_type": "contract_check",
-        "fields_required": ["contract_id", "vendor_name", "expiry_date"]
-      }
-    ]
+[
+  {
+    "keywords": ["invoice", "payment", "amount"],
+    "action": "update_payment_status"
+  },
+  {
+    "keywords": ["contract", "expiry", "renewal"],
+    "action": "check_contract_dates"
   }
-  
+]

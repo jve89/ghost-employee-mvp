@@ -6,22 +6,41 @@ import os
 import asyncio
 import time
 from src.outputs import export_manager
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from dashboard.tiles.export_summary import router as export_summary_router
 from dashboard.tiles.retry_delays import router as retry_delays_router
 from dashboard.tiles.target_breakdown import router as target_breakdown_router
 from dashboard.tiles.stale_tasks import router as stale_tasks_router
 from dashboard.tiles.recent_activity import router as recent_activity_router
 from dashboard.tiles.dead_tasks import router as dead_tasks_router
-from fastapi.responses import FileResponse
+from dashboard.tiles.job_status import router as job_status_router
+from dashboard.add_job_ui import router as job_router
+from dashboard.job_manager_api import router as job_manager_api
+from dashboard.job_logs_api import router as job_logs_api
+from dashboard.tiles.job_stats import router as job_stats_router
+from dashboard.job_config_api import router as job_config_router
+from dashboard.tiles.job_performance import router as job_perf_router
+from dashboard.routes import job_dashboard
+
 
 app = FastAPI()
+templates = Jinja2Templates(directory="templates")
+app.mount("/jobs", StaticFiles(directory="jobs"), name="jobs")
 app.include_router(export_summary_router)
 app.include_router(retry_delays_router)
 app.include_router(target_breakdown_router)
 app.include_router(stale_tasks_router)
 app.include_router(recent_activity_router)
 app.include_router(dead_tasks_router)
-templates = Jinja2Templates(directory="templates")
+app.include_router(job_router)
+app.include_router(job_status_router)
+app.include_router(job_manager_api)
+app.include_router(job_logs_api)
+app.include_router(job_stats_router)
+app.include_router(job_config_router)
+app.include_router(job_perf_router)
+app.include_router(job_dashboard.router)
 
 RETRY_QUEUE_PATH = "retry_queue.json"
 
@@ -139,3 +158,41 @@ async def retry_delays_tile():
         "queue_age": round(queue_age, 1)
     }
     return result
+
+@app.on_event("startup")
+async def startup_message():
+    print("✅ Dashboard server is running!")
+
+@app.get("/jobs", response_class=HTMLResponse)
+async def job_manager(request: Request):
+    return templates.TemplateResponse("job_manager.html", {"request": request})
+
+@app.get("/job/{job_folder}", response_class=HTMLResponse)
+async def job_dashboard(job_folder: str, request: Request):
+    return templates.TemplateResponse("job_dashboard.html", {
+        "request": request,
+        "job_folder": job_folder
+    })
+
+@app.get("/job/{job_folder}", response_class=HTMLResponse)
+async def job_dashboard(request: Request, job_folder: str):
+    config_path = f"jobs/{job_folder}/config.json"
+    status_path = f"jobs/{job_folder}/status.json"
+
+    config = {}
+    status = {}
+
+    if os.path.exists(config_path):
+        with open(config_path) as f:
+            config = json.load(f)
+    if os.path.exists(status_path):
+        with open(status_path) as f:
+            status = json.load(f)
+
+    return templates.TemplateResponse("job_dashboard.html", {
+        "request": request,
+        "job_name": config.get("job_name", job_folder),
+        "job_folder": job_folder,
+        "config": config,
+        "status": status
+    })

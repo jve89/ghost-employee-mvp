@@ -20,7 +20,7 @@ awscli
 fastapi 
 uvicorn 
 jinja2
-
+python-multipart
 
 # Development tools (optional, comment out if not needed)
 #black

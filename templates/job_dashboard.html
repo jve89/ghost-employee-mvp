@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Dashboard – {{ job_folder }}</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2rem;
+            background: #f4f4f4;
+        }
+        h1 {
+            margin-bottom: 1rem;
+        }
+        .section {
+            background: white;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #ccc;
+        }
+        pre {
+            background: #111;
+            color: #0f0;
+            padding: 1rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>👤 Ghost Employee: {{ job_folder }}</h1>
+
+    <div class="section">
+        <h2>📜 Live Logs</h2>
+        <pre id="log-output">Loading logs...</pre>
+    </div>
+
+    <div class="section">
+        <h2>📊 Job Stats</h2>
+        <ul id="job-stats">
+            <li>Loading...</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📈 Performance</h2>
+        <canvas id="perf-chart" width="800" height="300"></canvas>
+    </div>
+
+    <div class="section">
+        <h2>👥 Supervisors</h2>
+        <ul id="supervisors-list">Loading...</ul>
+    </div>
+
+    <div class="section">
+        <h2>⚙️ Configuration</h2>
+        <pre id="config-output">Loading config...</pre>
+    </div>
+
+    <div class="section">
+        <h2>🛠 Edit Configuration</h2>
+        <textarea id="config-editor" style="width: 100%; height: 300px;"></textarea><br>
+        <button onclick="saveConfig()">💾 Save Config</button>
+        <p id="config-status"></p>
+    </div>
+
+    <div class="section">
+        <h2>📁 Recent Export Log</h2>
+        <pre id="export-log">Loading export log...</pre>
+    </div>
+
+    <div class="section">
+        <h2>🔍 Structured Summaries</h2>
+        <div id="summary-list">Loading...</div>
+    </div>
+
+    <script>
+        async function loadSection(label, url, elementId) {
+            try {
+                const res = await fetch(url);
+                const text = await res.text();
+                document.getElementById(elementId).textContent = text;
+            } catch {
+                document.getElementById(elementId).textContent = `❌ Failed to load ${label}`;
+            }
+        }
+
+        async function loadJobStats() {
+            try {
+                const res = await fetch(`/api/job-stats/${job}`);
+                const stats = await res.json();
+
+                const list = document.getElementById("job-stats");
+                list.innerHTML = `
+                    <li>Total Exports: ${stats.total_exports}</li>
+                    <li>Successful Exports: ${stats.successful_exports}</li>
+                    <li>Failed Exports: ${stats.failed_exports}</li>
+                    <li>Retry Queue: ${stats.retry_queue_length}</li>
+                    <li>Oldest Retry: ${stats.retry_queue_age}s</li>
+                `;
+            } catch {
+                document.getElementById("job-stats").innerHTML = "<li>Failed to load stats</li>";
+            }
+        }
+
+        async function loadSupervisors() {
+            try {
+                const res = await fetch(`/api/job-config/${job}`);
+                const config = await res.json();
+                const list = document.getElementById("supervisors-list");
+
+                if (!config.supervisors || config.supervisors.length === 0) {
+                    list.innerHTML = "<li>No supervisors assigned</li>";
+                } else {
+                    list.innerHTML = config.supervisors
+                        .map(s => `<li>${s.name} (${s.email})</li>`)
+                        .join("");
+                }
+            } catch {
+                document.getElementById("supervisors-list").innerHTML = "<li>Failed to load</li>";
+            }
+        }
+
+        async function loadEditor() {
+            try {
+                const res = await fetch(`/api/job-config/${job}`);
+                const config = await res.json();
+                document.getElementById("config-editor").value = JSON.stringify(config, null, 2);
+            } catch (e) {
+                document.getElementById("config-editor").value = "Failed to load config";
+            }
+        }
+
+        async function saveConfig() {
+            const configText = document.getElementById("config-editor").value;
+            const formData = new FormData();
+            formData.append("config_text", configText);
+
+            const res = await fetch(`/api/job-config/${job}`, {
+                method: "POST",
+                body: formData
+            });
+
+            const result = await res.json();
+            const status = document.getElementById("config-status");
+            status.textContent = result.status === "ok" ? "✅ Saved!" : `❌ Error: ${result.error}`;
+        }
+
+        async function loadPerformanceChart() {
+            try {
+                const res = await fetch(`/api/job-performance/${job}`);
+                const data = await res.json();
+
+                const ctx = document.getElementById("perf-chart").getContext("2d");
+                new Chart(ctx, {
+                    type: "line",
+                    data: {
+                        labels: data.timestamps,
+                        datasets: [
+                            {
+                                label: "✅ Success",
+                                data: data.success,
+                                borderColor: "green",
+                                fill: false
+                            },
+                            {
+                                label: "❌ Fail",
+                                data: data.fail,
+                                borderColor: "red",
+                                fill: false
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            } catch {
+                document.getElementById("perf-chart").outerHTML = "<p>❌ Failed to load chart</p>";
+            }
+        }
+
+        async function loadSummaries() {
+            const container = document.getElementById("summary-list");
+            container.innerHTML = "Loading...";
+
+            try {
+                const res = await fetch(`/api/job-summaries/${job}`);
+                const data = await res.json();
+
+                if (!data.length) {
+                    container.innerHTML = "<p>No summaries found.</p>";
+                    return;
+                }
+
+                container.innerHTML = data.map(entry => `
+                    <div style="margin-bottom: 1rem; padding: 1rem; border: 1px solid #ddd; background: #fff;">
+                        <strong>Summary:</strong>
+                        <p>${entry.summary}</p>
+                        <strong>Tasks:</strong>
+                        <ul>
+                            ${entry.tasks.map(task => `<li>${task.description || task}</li>`).join("")}
+                        </ul>
+                    </div>
+                `).join("");
+            } catch (e) {
+                container.innerHTML = `<p>Error loading summaries: ${e}</p>`;
+            }
+        }
+        
+        const job = "{{ job_folder }}";
+        loadSection("log", `/api/job-log/${job}`, "log-output");
+        loadSection("config", `/jobs/${job}/config.json`, "config-output");
+        loadSection("export log", `/jobs/${job}/output/export_log.json`, "export-log");
+        loadEditor();
+        loadSummaries();
+        loadJobStats();
+        loadPerformanceChart();
+
+        setInterval(() => loadSection("log", `/api/job-log/${job}`, "log-output"), 5000);
+    </script>
+</body>
+</html>

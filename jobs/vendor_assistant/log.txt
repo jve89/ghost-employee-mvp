@@ -1,0 +1,2 @@
+[2025-05-27 16:54:44] 🔁 Job execution started
+[2025-05-27 16:54:44] ❌ ERROR: Simulated failure for alert test
