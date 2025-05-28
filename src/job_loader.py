@@ -10,3 +10,11 @@ def load_jobs():
     
     with open(JOBS_REGISTRY, "r") as f:
         return json.load(f)
+
+def get_all_job_names():
+    jobs_dir = "jobs"
+    return [
+        name for name in os.listdir(jobs_dir)
+        if os.path.isdir(os.path.join(jobs_dir, name))
+        and not name.startswith("__")
+    ]

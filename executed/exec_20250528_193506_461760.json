@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review and renew the contract with ACME Ltd.",
+    "due_date": "2023-11-30",
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "CLICKUP_TASK_ASSIGNED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T19:35:06.461720"
+}

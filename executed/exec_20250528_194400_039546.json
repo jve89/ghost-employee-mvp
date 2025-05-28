@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review the terms of the expiring contract with ACME Ltd and decide whether to renew or negotiate new terms.",
+    "due_date": "2023-11-30",
+    "assigned_to": "Legal Team",
+    "priority": "Medium"
+  },
+  "result": "FALLBACK_ACTION_TAKEN",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T19:44:00.039481"
+}

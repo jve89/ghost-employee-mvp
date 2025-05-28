@@ -11,7 +11,7 @@ async def get_structured_summaries(job_folder: str):
 
     if not os.path.exists(path):
         return []
-
+ 
     with open(path, "r") as f:
         try:
             data = json.load(f)

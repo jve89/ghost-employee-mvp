@@ -34,6 +34,11 @@
     button:disabled {
       background-color: #ccc;
     }
+    .highlight-error {
+      color: red;
+      font-weight: bold;
+      background-color: #ffeeee;
+    }
   </style>
 </head>
 <body>
@@ -80,6 +85,17 @@
     <div style="background: #fff; padding: 1rem; border: 1px solid #ddd; flex: 1;">
       <h3>Ghost Workforce</h3>
       <ul id="tile-ghost-workforce"><li>Loading...</li></ul>
+    </div>
+        <div class="tile" id="timeline-tile">
+        <h3>🕓 Recent Timeline</h3>
+        <!-- 🔍 Timeline Search -->
+        <input type="text" id="timeline-search" placeholder="Search timeline..." onkeyup="filterTimeline()" style="margin-bottom: 0.5rem; width: 100%; padding: 0.5rem; font-size: 1rem;" />
+        <label for="job-filter">Filter by Job:</label>
+        <select id="job-filter" onchange="filterByJob()">
+          <option value="">All Jobs</option>
+        </select>
+        <ul id="timeline-list"></ul>
+        <pre id="log-output" style="white-space: pre-wrap; background: #eee; padding: 1rem; display: none; border: 1px solid #ccc; margin-top: 1rem;"></pre>
     </div>
   </div>
 
@@ -216,6 +232,174 @@
       }
     }
 
+    function filterTimeline() {
+      const q = document.getElementById("timeline-search").value.toLowerCase();
+      document.querySelectorAll("#timeline-list li").forEach(li => {
+        li.style.display = li.textContent.toLowerCase().includes(q) ? "" : "none";
+      });
+    }
+
+    let fullTimeline = []; // global variable to store raw entries
+
+    async function loadTimelineTile() {
+      const res = await fetch("/timeline");
+      const data = await res.json();
+      fullTimeline = data.timeline;
+
+      // Populate dropdown with unique job names
+      const jobFilter = document.getElementById("job-filter");
+      const jobNames = [...new Set(fullTimeline.map(entry => entry.job))].sort();
+      jobFilter.innerHTML = '<option value="">All Jobs</option>';
+      jobNames.forEach(job => {
+        const option = document.createElement("option");
+        option.value = job;
+        option.textContent = job;
+        jobFilter.appendChild(option);
+      });
+
+      renderTimeline(fullTimeline);
+    }
+
+    loadTimelineTile();
+    setInterval(loadTimelineTile, 15000); // refresh every 15 seconds
+    
+    let pinnedTimestamps = new Set();
+
+    function renderTimeline(entries) {
+      const list = document.getElementById("timeline-list");
+      list.innerHTML = "";
+
+      entries = [...entries]; // clone to avoid mutating original
+      entries.sort((a, b) => {
+        const aPinned = pinnedTimestamps.has(a.timestamp);
+        const bPinned = pinnedTimestamps.has(b.timestamp);
+        if (aPinned && !bPinned) return -1;
+        if (!aPinned && bPinned) return 1;
+        return b.timestamp.localeCompare(a.timestamp); // fallback to recent first
+      });
+
+      entries.forEach(entry => {
+        const item = document.createElement("li");
+
+        const timestamp = entry.timestamp?.slice(0, 19) || "";
+        const jobName = entry.job || "Unknown";
+        const rawSummary = (entry.summary || "").split("\n")[0].replace("**Summary:**", "").trim();
+        const tagData = detectSmartTag(rawSummary);
+        const summaryLine = tagData
+          ? `<span style="background:${tagData.color}; color:white; padding:0 6px; border-radius:4px; font-size:0.8rem; margin-right:6px;">${tagData.tag}</span>${rawSummary}`
+          : rawSummary;
+
+        const icon = entry.tag_icon || "";
+
+        item.innerHTML = `
+          ⭐️ <a href="#" onclick="togglePin(this, '${timestamp}')">Pin</a> 
+          [${timestamp}] ${icon} 
+          <strong><a href="/job/${jobName}" target="_blank">${jobName}</a></strong>: 
+          ${summaryLine} 
+          <a href="#" onclick="showLog('${jobName}', '${timestamp}')">🔍 View</a>
+        `;
+
+        list.appendChild(item);
+      });
+    }
+
+    function togglePin(anchor, timestamp) {
+      if (pinnedTimestamps.has(timestamp)) {
+        pinnedTimestamps.delete(timestamp);
+        anchor.innerText = "⭐️ Pin";
+      } else {
+        pinnedTimestamps.add(timestamp);
+        anchor.innerText = "📌 Unpin";
+      }
+      renderTimeline(fullTimeline); // re-render to apply order
+    }
+
+    function detectSmartTag(summary = "") {
+      const rules = [
+        { keywords: ["error", "failed"], tag: "Error", color: "#e60000" },           // 🔴 Strong red
+        { keywords: ["test mode", "simulation"], tag: "Test", color: "#6c757d" },     // ⚙️ Grey
+        { keywords: ["retry"], tag: "Retry", color: "#ffc107" },                      // 🟡 Yellow
+        { keywords: ["alert", "warning"], tag: "Alert", color: "#dc3545" },           // 🔺 Red
+        { keywords: ["export"], tag: "Export", color: "#28a745" },                    // ✅ Green
+        { keywords: ["upload"], tag: "Upload", color: "#17a2b8" },                    // 📤 Teal
+        { keywords: ["parse"], tag: "Parse", color: "#6610f2" },                      // 📄 Purple
+        { keywords: ["scheduled"], tag: "Schedule", color: "#fd7e14" }                // 🕒 Orange
+      ];
+
+      summary = summary.toLowerCase();
+
+      for (const rule of rules) {
+        if (rule.keywords.some(k => summary.includes(k))) {
+          return { tag: rule.tag, color: rule.color };
+        }
+      }
+
+      return null;
+    }
+
+    function filterByJob() {
+      const selected = document.getElementById("job-filter").value;
+      const filtered = selected ? fullTimeline.filter(e => e.job === selected) : fullTimeline;
+      renderTimeline(filtered);
+    }
+
+    let currentLogKey = null;
+
+    function showLog(job, timestamp) {
+      fetch(`/api/log/${job}/${timestamp}`)
+        .then(res => res.json())
+        .then(data => {
+          const contentEl = document.getElementById("log-content");
+          contentEl.dataset.raw = data.log || "No log found.";
+          const raw = data.log || "No log found.";
+          contentEl.dataset.raw = raw;
+
+          const highlighted = raw
+            .split("\n")
+            .map(line => {
+              const lower = line.toLowerCase();
+              if (lower.includes("error") || lower.includes("failed")) {
+                return `<span class="highlight-error">${line}</span>`;
+              }
+              return line;
+            })
+            .join("\n");
+
+          contentEl.innerHTML = highlighted.replace(/\n/g, "<br>");
+
+          document.getElementById("log-modal").style.display = "block";
+        });
+    }
+
+    function closeModal() {
+      document.getElementById("log-modal").style.display = "none";
+    }
+
+    function searchLog() {
+      const query = document.getElementById("log-search").value.toLowerCase();
+      const fullText = document.getElementById("log-content").dataset.raw || "";
+      const lines = fullText.split('\n');
+      const filtered = lines.filter(line => line.toLowerCase().includes(query)).join('\n');
+      document.getElementById("log-content").textContent = filtered || "(No matching lines)";
+    }
+
+    function downloadCurrentLog() {
+      const raw = document.getElementById("log-content").dataset.raw || "";
+      const blob = new Blob([raw], { type: "text/plain" });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+
+      // Give it a timestamped filename
+      const ts = new Date().toISOString().replace(/[:.]/g, "-");
+      a.download = `log-${ts}.txt`;
+
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      window.URL.revokeObjectURL(url);
+    }
+
     async function downloadDeadTasks() {
       const response = await fetch('/api/download-dead-tasks');
       const blob = await response.blob();
@@ -232,5 +416,15 @@
     fetchQueue();
     setInterval(fetchQueue, 10000);
   </script>
+  <!-- Modal for Logs -->
+  <div id="log-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;">
+    <div style="background:white; margin:5% auto; padding:1rem; width:80%; max-height:80%; overflow:auto; position:relative;">
+      <button onclick="closeModal()" style="position:absolute; top:0.5rem; right:0.5rem;">❌ Close</button>
+      <button onclick="downloadCurrentLog()" style="margin-left: 0.5rem;">📤 Download This Log</button>
+      <h3>Log Details</h3>
+      <input type="text" id="log-search" placeholder="Search in log..." onkeyup="searchLog()" style="width:100%; padding:0.5rem; margin-bottom:1rem;" />
+      <pre id="log-content" style="white-space:pre-wrap;"></pre>
+    </div>
+  </div>
 </body>
 </html>

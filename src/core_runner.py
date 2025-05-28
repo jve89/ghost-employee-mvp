@@ -12,11 +12,11 @@ from src.outputs.job_alerts import maybe_alert_on_failure
 from retry_worker import handle_retries
 
 
-def run_job_for_folder(folder_path: str):
-    config_path = os.path.join(folder_path, "config.json")
-    status_path = os.path.join(folder_path, "status.json")
-    log_path = os.path.join(folder_path, "log.txt")
-    summary_log_path = os.path.join(folder_path, "output", "summary_log.json")
+def run_job_for_folder(folder, test_mode=False):
+    config_path = os.path.join(folder, "config.json")
+    status_path = os.path.join(folder, "status.json")
+    log_path = os.path.join(folder, "log.txt")
+    summary_log_path = os.path.join(folder, "output", "summary_log.json")
 
     def log(msg):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

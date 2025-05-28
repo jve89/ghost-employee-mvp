@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Reach out to ACME Ltd to discuss the upcoming contract expiration and their intentions moving forward.",
+    "due_date": null,
+    "assigned_to": "Account Manager",
+    "priority": "Medium"
+  },
+  "result": "SLACK_MESSAGE_SENT",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T19:44:01.614154"
+}

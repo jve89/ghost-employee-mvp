@@ -24,5 +24,488 @@
     ],
     "tag": "contract",
     "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T17:22:41.185298",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary:**\nACME Ltd currently has an invoice of \u20ac4500 that is still pending. Additionally, their contract is set to expire next month.\n\n**Action Items:**\n1. Follow up on the payment of the pending \u20ac4500 invoice from ACME Ltd.\n2. Review and renew or update the contract with ACME Ltd, as it is expiring next month.",
+    "tasks": [
+      {
+        "description": "Follow up on the payment of the pending \u20ac4500 invoice from ACME Ltd.",
+        "due_date": null,
+        "time_slot": "2025-06-04T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and renew or update the contract with ACME Ltd.",
+        "due_date": "next month",
+        "context": "The contract is expiring next month.",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:35:06.464745",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary:\nAn invoice for ACME Ltd amounting to \u20ac4500 is pending payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment for the \u20ac4500 invoice for ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
+    "tasks": [
+      {
+        "description": "Process the payment for the \u20ac4500 invoice for ACME Ltd.",
+        "priority": "High",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and renew the contract with ACME Ltd.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "Contract expires next month",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:35:41.715381",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary: An invoice for \u20ac4500 has been received from ACME Ltd, and there is a contract that will expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review the details of the contract with ACME Ltd, which is set to expire next month, and decide whether to renew or renegotiate.",
+    "tasks": [
+      {
+        "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review the details of the contract with ACME Ltd and decide whether to renew or renegotiate.",
+        "due_date": "2023-11-30",
+        "context": "The contract is set to expire next month.",
+        "time_slot": "2025-06-04T10:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:36:03.645390",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary: An invoice from ACME Ltd for the amount of \u20ac4500 is pending. The contract with ACME Ltd is expiring next month.\n\nAction Items:\n\n1. Process the payment for the pending invoice of \u20ac4500 with ACME Ltd.\n2. Review and decide on the renewal or termination of the contract with ACME Ltd before its expiration next month.",
+    "tasks": [
+      {
+        "description": "Process the payment for the pending invoice of \u20ac4500 with ACME Ltd.",
+        "priority": "High",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "The contract is expiring next month.",
+        "time_slot": "2025-05-30T10:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:37:15.998060",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary: An invoice of \u20ac4500 from ACME Ltd is currently pending, and the contract with them is due to expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review and decide on the renewal or termination of the contract with ACME Ltd before it expires next month.",
+    "tasks": [
+      {
+        "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+        "priority": "High",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "Contract expires next month",
+        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:37:47.285207",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary:**\nAn invoice for ACME Ltd in the amount of \u20ac4500 is pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process the payment for the pending invoice of \u20ac4500.\n2. Review the contract details ahead of its expiration next month.\n3. Consider initiating contract renewal discussions with ACME Ltd.",
+    "tasks": [
+      {
+        "description": "Process the payment for the pending invoice of \u20ac4500",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Review the contract details ahead of its expiration next month",
+        "priority": "Medium",
+        "assigned_to": "Legal Team",
+        "due_date": null,
+        "time_slot": "2025-06-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      },
+      {
+        "description": "Consider initiating contract renewal discussions with ACME Ltd",
+        "priority": "Medium",
+        "assigned_to": "Sales Team",
+        "context": "Contract expires next month",
+        "due_date": null,
+        "time_slot": "2025-06-04T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Sales Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:39:10.467356",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary:\nAn invoice for ACME Ltd is received with a pending amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Review and process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Check the details of the contract with ACME Ltd and prepare for renewal or termination discussions as the contract is expiring next month.",
+    "tasks": [
+      {
+        "description": "Review and process the payment of the \u20ac4500 invoice for ACME Ltd.",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Check the details of the contract with ACME Ltd and prepare for renewal or termination discussions.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "context": "The contract is expiring next month.",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:39:33.438204",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary:\nACME Ltd has an outstanding invoice amount of \u20ac4500. Additionally, their contract is set to expire next month.\n\nAction Items:\n1. Process the pending payment for the invoice of \u20ac4500 from ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
+    "tasks": [
+      {
+        "description": "Process the pending payment for the invoice of \u20ac4500 from ACME Ltd.",
+        "due_date": null,
+        "time_slot": "2025-05-28T15:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and renew the contract with ACME Ltd before it expires next month.",
+        "due_date": "2023-11-30",
+        "time_slot": "2025-06-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:43:08.424248",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary:**\nAn invoice amounting to \u20ac4500 has been received from ACME Ltd. The contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process and settle the \u20ac4500 invoice from ACME Ltd.\n2. Review the contract with ACME Ltd to determine if renewal or renegotiation is needed before its expiration next month.",
+    "tasks": [
+      {
+        "description": "Process and settle the \u20ac4500 invoice from ACME Ltd.",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Review the contract with ACME Ltd to determine if renewal or renegotiation is needed.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "context": "Contract expires next month",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:43:31.911434",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary: An invoice has been received from ACME Ltd for \u20ac4500, and there is a pending payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 for the invoice from ACME Ltd.\n2. Review and potentially renew the contract with ACME Ltd before it expires next month.",
+    "tasks": [
+      {
+        "description": "Process the payment of \u20ac4500 for the invoice from ACME Ltd.",
+        "priority": "High",
+        "context": "Pending payment for received invoice",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and potentially renew the contract with ACME Ltd.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "Contract expires next month",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:44:01.617028",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary: An invoice has been received for ACME Ltd with an outstanding amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review the terms of the expiring contract with ACME Ltd and decide whether to renew or negotiate new terms.\n3. Reach out to ACME Ltd to discuss the upcoming contract expiration and their intentions moving forward.",
+    "tasks": [
+      {
+        "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Review the terms of the expiring contract with ACME Ltd and decide whether to renew or negotiate new terms.",
+        "due_date": "2023-11-30",
+        "priority": "Medium",
+        "assigned_to": "Legal Team",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      },
+      {
+        "description": "Reach out to ACME Ltd to discuss the upcoming contract expiration and their intentions moving forward.",
+        "priority": "Medium",
+        "assigned_to": "Account Manager",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Account Manager"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T19:46:52.359949",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary:**\nAn invoice has been received for ACME Ltd amounting to \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is due to expire next month.\n\n**Action Items:**\n1. Process payment for the pending \u20ac4500 invoice.\n2. Review and decide on the renewal or termination of the contract with ACME Ltd, which is expiring next month.",
+    "tasks": [
+      {
+        "description": "Process payment for the pending \u20ac4500 invoice",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Review and decide on the renewal or termination of the contract with ACME Ltd",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "context": "Contract is expiring next month",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T20:05:42.594687",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary:\nACME Ltd has an outstanding invoice of \u20ac4500, and their contract is due to expire next month.\n\nAction Items:\n1. Process the payment for the invoice of \u20ac4500 to ACME Ltd.\n2. Review and potentially renew the contract with ACME Ltd before it expires next month.",
+    "tasks": [
+      {
+        "description": "Process the payment for the invoice of \u20ac4500 to ACME Ltd.",
+        "priority": "High",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and potentially renew the contract with ACME Ltd.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "Contract expires next month",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T20:05:44.603413",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary:**\nAn invoice from ACME Ltd for \u20ac4500 is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process and pay the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review the contract with ACME Ltd and decide on renewal or negotiation since it is expiring next month.",
+    "tasks": [
+      {
+        "description": "Process and pay the pending invoice of \u20ac4500 for ACME Ltd",
+        "priority": "High",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review the contract with ACME Ltd and decide on renewal or negotiation",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "The contract is expiring next month",
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T20:07:01.931242",
+    "filename": "vendor_request_001.txt",
+    "summary": "Summary: An invoice for ACME Ltd amounting to \u20ac4500 is pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review and prepare for the contract renewal or termination with ACME Ltd as it expires next month.",
+    "tasks": [
+      {
+        "description": "Process the pending invoice of \u20ac4500 for ACME Ltd.",
+        "priority": "High",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review and prepare for the contract renewal or termination with ACME Ltd.",
+        "due_date": "Next month",
+        "priority": "High",
+        "context": "The contract with ACME Ltd is set to expire next month.",
+        "time_slot": "2025-06-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-28T20:07:07.864041",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary**: An invoice from ACME Ltd has been received, with a pending amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items**:\n1. Process and settle the invoice amount of \u20ac4500.\n2. Review the current contract with ACME Ltd.\n3. Decide whether to renew, renegotiate, or terminate the contract before it expires next month.",
+    "tasks": [
+      {
+        "description": "Process and settle the invoice amount of \u20ac4500",
+        "priority": "High",
+        "context": "Invoice received from ACME Ltd",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review the current contract with ACME Ltd",
+        "priority": "Medium",
+        "context": "Contract is set to expire next month",
+        "due_date": null,
+        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Decide whether to renew, renegotiate, or terminate the contract with ACME Ltd",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "context": "Contract expires next month",
+        "time_slot": "2025-12-31T10:00:00+01:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
   }
 ]
