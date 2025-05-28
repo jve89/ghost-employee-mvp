@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the current contract with ACME Ltd and prepare for renewal or renegotiation.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract expires next month.",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  }
+]

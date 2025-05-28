@@ -1,0 +1,6 @@
+src/controller.py:    tasks = extract_tasks(file_path)
+src/core_runner.py:                tasks = extract_tasks(summary)
+src/inputs/attachment_processor.py:            tasks = extract_tasks(text_or_tasks)
+src/inputs/file_monitor.py:                tasks = extract_tasks(summary)
+src/processing/summary_analyser.py:        tasks = extract_tasks(summary)
+src/processing/task_extractor.py:def extract_tasks(summary_text):

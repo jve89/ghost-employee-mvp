@@ -1,7 +1,7 @@
 {
-  "last_run": "2025-05-27T19:45:00",
-  "status": "error",
-  "duration": 0,
-  "message": "Previous simulated failure",
-  "consecutive_failures": 2
+  "last_run": "2025-05-28T14:02:46.560505",
+  "status": "success",
+  "message": "Processed 1 file(s)",
+  "duration": null,
+  "failure_count": 0
 }

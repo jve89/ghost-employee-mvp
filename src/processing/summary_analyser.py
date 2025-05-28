@@ -50,3 +50,17 @@ def summarise_file(filepath):
     except Exception as e:
         print(f"[ERROR] GPT failed to summarise: {e}")
         return "Failed to generate summary.", []
+
+def tag_summary(summary_text: str) -> tuple[str, str]:
+    tags = {
+        "contract": ("💼", ["contract", "agreement", "signed", "terms"]),
+        "invoice": ("💰", ["invoice", "payment due", "billing", "amount"]),
+        "reminder": ("⏰", ["reminder", "follow up", "due", "deadline"]),
+        "report": ("📊", ["report", "summary", "overview", "analysis"]),
+        "hr": ("👥", ["onboarding", "employee", "training", "benefits"])
+    }
+    summary_text_lower = summary_text.lower()
+    for tag, (icon, keywords) in tags.items():
+        if any(kw in summary_text_lower for kw in keywords):
+            return tag, icon
+    return "uncategorised", "📁"

@@ -1,2 +1,24 @@
 [2025-05-27 16:54:44] 🔁 Job execution started
 [2025-05-27 16:54:44] ❌ ERROR: Simulated failure for alert test
+[2025-05-28 13:33:07] 🔁 Job execution started
+[2025-05-28 13:33:07] 📂 Found 1 new file(s).
+[2025-05-28 13:33:24] ❌ ERROR: extract_tasks() takes 1 positional argument but 2 were given
+[2025-05-28 13:40:26] 🔁 Job execution started
+[2025-05-28 13:40:26] 📂 Found 1 new file(s).
+[2025-05-28 13:40:40] ❌ ERROR: extract_tasks() takes 1 positional argument but 2 were given
+[2025-05-28 13:46:42] 🔁 Job execution started
+[2025-05-28 13:46:42] 📂 Found 1 new file(s).
+[2025-05-28 13:46:54] ❌ ERROR: extract_tasks() takes 1 positional argument but 2 were given
+[2025-05-28 13:49:51] 🔁 Job execution started
+[2025-05-28 13:49:51] 📂 Found 1 new file(s).
+[2025-05-28 13:50:02] ❌ ERROR: extract_tasks() takes 1 positional argument but 2 were given
+[2025-05-28 13:52:39] 🔁 Job execution started
+[2025-05-28 13:52:39] 📂 Found 1 new file(s).
+[2025-05-28 13:52:48] ❌ ERROR: extract_tasks() takes 1 positional argument but 2 were given
+[2025-05-28 13:58:20] 🔁 Job execution started
+[2025-05-28 13:58:20] 📂 Found 1 new file(s).
+[2025-05-28 13:58:31] [ERROR] Failed to process file jobs/vendor_assistant/input/vendor_request_001.txt: extract_tasks() takes 1 positional argument but 2 were given
+[2025-05-28 13:58:31] ✅ Job finished successfully
+[2025-05-28 14:02:24] 🔁 Job execution started
+[2025-05-28 14:02:24] 📂 Found 1 new file(s).
+[2025-05-28 14:02:46] ✅ Job finished successfully

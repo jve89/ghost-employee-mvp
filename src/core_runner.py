@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 from src.inputs.file_monitor import get_new_files
-from src.processing.summary_analyser import summarise_file
+from src.processing.summary_analyser import summarise_file, tag_summary
 from src.processing.task_extractor import extract_tasks
 from src.processing.due_date_extractor import recognise_due_dates
 from src.processing.task_executor import execute_tasks
@@ -42,40 +42,62 @@ def run_job_for_folder(folder_path: str):
         summary_data = []
 
         for file in new_files:
-            summary, tasks = summarise_file(file)
-            tasks = recognise_due_dates(tasks)
-            tasks = extract_tasks(summary, tasks)
-
-            export_results = export_to_targets(tasks, config["export_targets"])
-            execute_tasks(tasks)
-
-            for task, result in zip(tasks, export_results):
-                log_task_result(task, result)
-
-            handle_retries(config["retry_queue_path"], tasks, export_results)
-            all_export_results.extend(export_results)
-
-            # Log structured summary
-            summary_data.append({
-                "timestamp": datetime.now().isoformat(),
-                "filename": os.path.basename(file),
-                "summary": summary,
-                "tasks": tasks
-            })
-
-        # Write structured summary log (last 50 entries)
-        if os.path.exists(summary_log_path):
             try:
-                with open(summary_log_path, "r") as f:
-                    existing = json.load(f)
-            except:
-                existing = []
-        else:
-            existing = []
+                summary, tasks = summarise_file(file)
+                tag, tag_icon = tag_summary(summary)
+                tasks = recognise_due_dates(tasks)
+                tasks = extract_tasks(summary)
 
-        combined = existing + summary_data
-        with open(summary_log_path, "w") as f:
-            json.dump(combined[-50:], f, indent=2)
+                export_results = export_to_targets(tasks, config["export_targets"])
+                execute_tasks(tasks)
+
+                for task, result in zip(tasks, export_results):
+                    log_task_result(task, result)
+
+                handle_retries(config["retry_queue_path"], tasks, export_results)
+                all_export_results.extend(export_results)
+
+                structured_summary = {
+                    "timestamp": datetime.now().isoformat(),
+                    "filename": os.path.basename(file),
+                    "summary": summary,
+                    "tasks": tasks,
+                    "tag": tag,
+                    "tag_icon": tag_icon
+                }
+
+                summary_data.append(structured_summary)
+                print("[DEBUG] Structured summary appended:")
+                print(json.dumps(structured_summary, indent=2))
+                print(f"[DEBUG] Added summary for {file} with tag {tag_icon} {tag}")
+                print(f"[DEBUG] summary_data content: {json.dumps(summary_data, indent=2)}")
+
+            except Exception as e:
+                log(f"[ERROR] Failed to process file {file}: {str(e)}")
+                print(f"[DEBUG] Skipped file {file} due to error: {str(e)}")
+
+        # 🔐 Only write summary_log.json if there's something to write
+        if summary_data:
+            os.makedirs(os.path.dirname(summary_log_path), exist_ok=True)
+
+            if os.path.exists(summary_log_path):
+                try:
+                    with open(summary_log_path, "r") as f:
+                        existing = json.load(f)
+                except:
+                    existing = []
+            else:
+                existing = []
+
+            combined = existing + summary_data
+
+            print(f"[DEBUG] Writing summary_log.json with {len(summary_data)} new entries")
+            print(f"[DEBUG] Final path: {summary_log_path}")
+
+            with open(summary_log_path, "w") as f:
+                json.dump(combined[-50:], f, indent=2)
+        else:
+            print("[DEBUG] No summary_data to write — skipping summary_log.json")
 
         # Update status
         status = {
@@ -93,7 +115,6 @@ def run_job_for_folder(folder_path: str):
     except Exception as e:
         log(f"❌ ERROR: {str(e)}")
 
-        # Load existing status if any
         status = {}
         if os.path.exists(status_path):
             with open(status_path, "r") as f:
