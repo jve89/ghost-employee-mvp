@@ -1,12 +1,8 @@
 # .gitpod.yml
-image:
-  file: .gitpod.Dockerfile
 
 tasks:
-  - init: |
-      export PIPENV_VENV_IN_PROJECT=1
-      pipenv install --dev
-    command: pipenv run python3 -m src.main
+  - init: pip install -r requirements.txt
+    command: uvicorn app_main:app --reload
 
 vscode:
   extensions:

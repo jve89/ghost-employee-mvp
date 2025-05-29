@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from api import retry_controls
 
 import os
 import json
@@ -59,6 +60,7 @@ app.include_router(job_config_router)
 
 app.include_router(job_dashboard.router)
 app.include_router(timeline_router)
+app.include_router(retry_controls.router)
 
 RETRY_QUEUE_PATH = "retry_queue.json"
 
