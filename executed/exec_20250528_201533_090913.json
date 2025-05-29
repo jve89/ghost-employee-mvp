@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review the terms and conditions of the current contract with ACME Ltd.",
+    "due_date": null,
+    "assigned_to": "Legal Team",
+    "priority": "Medium"
+  },
+  "result": "FALLBACK_ACTION_TAKEN",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:15:33.090880"
+}

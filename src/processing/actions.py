@@ -1,23 +1,52 @@
 import os
 import time
+import json
 from dotenv import load_dotenv
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
 
 load_dotenv()
 
+try:
+    with open("slack_users.json", "r") as f:
+        user_map = json.load(f)
+except FileNotFoundError:
+    user_map = {}
+
 # Check if real execution is enabled
+SLACK_TOKEN = os.getenv("SLACK_API_TOKEN")
 REAL_EXECUTION = os.getenv("REAL_EXECUTION", "off") == "on"
+
+slack_client = WebClient(token=SLACK_TOKEN)
+
+try:
+    with open("slack_channels.json", "r") as f:
+        channel_map = json.load(f)
+except FileNotFoundError:
+    channel_map = {"general": "#general"}
 
 # ✅ Real + Simulated actions
 
-def send_slack_message(recipient, message):
-    if REAL_EXECUTION:
-        # TODO: Replace with real Slack API call
-        print(f"[REAL] Sending Slack message to {recipient}: {message}")
-        # slack_client.chat_postMessage(channel=recipient, text=message)
+def send_slack_message(channel=None, recipient=None, message=None, **kwargs):
+    target = channel or recipient or "general"
+    slack_channel = channel_map.get(target.lower(), "#general-updates")
+
+    # 🔁 Replace any @name with Slack ID
+    for name, slack_id in user_map.items():
+        message = message.replace(f"@{name}", slack_id)
+
+    if REAL_EXECUTION and SLACK_TOKEN:
+        try:
+            response = slack_client.chat_postMessage(channel=slack_channel, text=message)
+            print(f"[REAL SLACK] Sent to {slack_channel}: {message}")
+            return response["ts"]
+        except SlackApiError as e:
+            print(f"[SLACK ERROR] {e.response['error']}")
+            return "SLACK_FAILED"
     else:
-        print(f"[SIMULATED] Slack to {recipient}: {message}")
-    time.sleep(1)
-    return "SLACK_MESSAGE_SENT"
+        print(f"[SIMULATED SLACK] Sending to {slack_channel}: {message}")
+        time.sleep(1)
+        return "SIMULATED_SLACK_SENT"
 
 def update_crm_case(case_id, note):
     if REAL_EXECUTION:

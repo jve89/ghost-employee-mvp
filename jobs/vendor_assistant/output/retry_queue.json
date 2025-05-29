@@ -613,5 +613,2275 @@
     "last_attempt": null,
     "retry_result": false,
     "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and settle the pending \u20ac4500 invoice from ACME Ltd",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending invoice payment of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and possibly renew the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and pay the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on renewing or renegotiating the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Contracts Manager",
+      "context": "The contract is set to expire next month.",
+      "time_slot": "2025-06-06T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Contracts Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up with ACME Ltd regarding the payment of the \u20ac4500 invoice.",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the existing contract with ACME Ltd ahead of its expiration next month.",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide on whether to renew or renegotiate the contract with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-06-05T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the \u20ac4500 invoice payment for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up with ACME Ltd regarding payment of the pending \u20ac4500 invoice.",
+      "priority": "High",
+      "assigned_to": "Accounts Receivable",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Accounts Receivable"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the contract with ACME Ltd and prepare for renewal negotiations or alternative arrangements.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Contracts Manager",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Contracts Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract terms with ACME Ltd and decide on renewal or termination",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Communicate with ACME Ltd regarding the upcoming contract expiration and potential next steps",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-06-04T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending invoice payment for ACME Ltd (\u20ac4500).",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-06-28T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "context": "Invoice is currently pending",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending payment of \u20ac4500 for ACME Ltd's invoice.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract details with ACME Ltd and consider renewal or adjustments.",
+      "due_date": "2023-11-30",
+      "priority": "Medium",
+      "time_slot": "2025-05-30T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Contact ACME Ltd to discuss options for contract renewal or termination.",
+      "priority": "Medium",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending payment of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and take necessary actions regarding the renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending payment of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms and conditions of the current contract with ACME Ltd.",
+      "priority": "Medium",
+      "assigned_to": "Legal Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Discuss and decide on the renewal of the contract with ACME Ltd before it expires.",
+      "priority": "High",
+      "due_date": "2023-11-30",
+      "assigned_to": "Management Team",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Management Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Contact ACME Ltd to negotiate any necessary contract adjustments or renewal terms.",
+      "priority": "High",
+      "assigned_to": "Negotiation Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Negotiation Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the invoice of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "context": "Invoice is currently pending payment.",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and address the upcoming contract expiration with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Discuss options for renewal or termination.",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure the payment of the \u20ac4500 invoice to ACME Ltd is processed promptly.",
+      "priority": "High",
+      "context": "Pending invoice from ACME Ltd",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the existing contract with ACME Ltd to decide whether to renew or amend it.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and pay the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and assess the contract terms with ACME Ltd.",
+      "due_date": "Next month",
+      "priority": "Medium",
+      "context": "Contract is expiring next month",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide whether to renew the contract with ACME Ltd and initiate the renewal process if applicable.",
+      "due_date": "Next month",
+      "priority": "High",
+      "assigned_to": "Management Team",
+      "context": "Contract is expiring next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Management Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for the invoice from ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal or renegotiation of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the payment of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Initiate discussions with ACME Ltd regarding the renewal or termination of the contract.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Contracts Manager",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Contracts Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and arrange payment for the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd and take necessary steps before its expiration next month.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Consider renewal discussions or termination procedures.",
+      "time_slot": "2025-06-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for ACME Ltd's invoice",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-06-05T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the ACME Ltd contract terms and prepare for renewal or renegotiation",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-04T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract expires next month.",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the pending invoice for \u20ac4500 from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare for contract renewal discussions or negotiations with ACME Ltd.",
+      "due_date": "Next month",
+      "priority": "High",
+      "context": "The current contract is expiring next month.",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up on the payment of the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Accounts Receivable",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Accounts Receivable"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and prepare for the upcoming contract renewal or termination with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up on the payment of the \u20ac4500 invoice with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the expiring contract with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-06-01T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide on whether to renew the contract with ACME Ltd and take necessary actions for renewal if applicable.",
+      "context": "Contract is expiring next month",
+      "due_date": null,
+      "time_slot": "2025-06-05T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and settle the pending invoice for \u20ac4500 from ACME Ltd.",
+      "priority": "High",
+      "context": "Invoice is pending payment.",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd and consider renewal or termination options.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract is expiring next month.",
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for ACME Ltd's invoice of \u20ac4500",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process or review the \u20ac4500 invoice for ACME Ltd",
+      "priority": "High",
+      "context": "Invoice has been received with a pending amount",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renegotiate or renew the contract with ACME Ltd",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract is set to expire next month",
+      "time_slot": "2025-06-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for the received invoice from ACME Ltd.",
+      "priority": "High",
+      "context": "Payment is pending.",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month.",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms and conditions of the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "priority": "Medium",
+      "time_slot": "2025-06-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide whether to renew or renegotiate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-12-01T09:00:00+01:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up with ACME Ltd to ensure payment of the outstanding invoice of \u20ac4500.",
+      "priority": "High",
+      "assigned_to": "Accounts Receivable",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Accounts Receivable"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the expiring contract with ACME Ltd and prepare for renewal discussions.",
+      "due_date": "2023-11-30",
+      "priority": "Medium",
+      "assigned_to": "Legal Team",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Arrange for the payment of the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd to decide on renewal or termination.",
+      "priority": "High",
+      "due_date": "2023-11-30",
+      "assigned_to": "Legal Team",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "If renewing the contract, initiate negotiation or renewal processes in advance of the expiration date.",
+      "priority": "Medium",
+      "assigned_to": "Legal Team",
+      "context": "Coordinate with ACME Ltd representatives",
+      "due_date": null,
+      "time_slot": "2025-05-30T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Update records to reflect the pending invoice and upcoming contract expiration.",
+      "priority": "Medium",
+      "assigned_to": "Administrative Team",
+      "due_date": null,
+      "time_slot": "2025-06-01T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Administrative Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and consider renewing or renegotiating the contract with ACME Ltd.",
+      "due_date": "Next month",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract is set to expire next month",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and complete the payment for the \u20ac4500 invoice",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-28T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd and prepare for renewal discussions or termination",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "The contract expires next month",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd and decide on renewal or termination.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal of ACME Ltd's contract before it expires next month.",
+      "due_date": "Next month",
+      "priority": "High",
+      "time_slot": "2025-06-29T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of the \u20ac4500 pending invoice for ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and possibly renew the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "time_slot": "2025-06-30T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Arrange payment for the pending invoice amount of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract terms and conditions with ACME Ltd to decide on renewal or any necessary adjustments.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for the invoice from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract details for ACME Ltd and prepare for renewal or termination.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract expires next month.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract details with ACME Ltd in preparation for its expiration next month.",
+      "due_date": "2025-06-30",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Consider renewal or renegotiation terms for the contract with ACME Ltd if necessary.",
+      "context": "The contract is set to expire next month.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and pay the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and pay the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd to determine if renewal is necessary.",
+      "priority": "Medium",
+      "assigned_to": "Legal Team",
+      "due_date": "2023-11-30",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Initiate discussions regarding the potential renewal or termination of the contract with ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Management Team",
+      "due_date": "2023-11-30",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Management Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending payment of \u20ac4500 for ACME Ltd",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and possibly renew the contract with ACME Ltd",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract expires next month",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the pending invoice of \u20ac4500 from ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Evaluate the terms and performance of the current contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide on whether to renew, renegotiate, or terminate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T12:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process payment for the \u20ac4500 invoice due to ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and pay the \u20ac4500 invoice for ACME Ltd",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and potentially renew the contract with ACME Ltd",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Check the details of the expiring contract with ACME Ltd and take necessary steps for renewal or termination.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Verify and process the payment for the \u20ac4500 invoice from ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the expiring contract with ACME Ltd and decide on renewal or termination.",
+      "due_date": "2023-11-30",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Negotiate new terms and conditions if renewing the contract with ACME Ltd.",
+      "context": "Only applicable if the decision is to renew the contract.",
+      "due_date": null,
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare necessary documentation and communicate the decision to ACME Ltd if terminating the contract.",
+      "context": "Only applicable if the decision is to terminate the contract.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Arrange payment for the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-06-28T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process or schedule the payment for the \u20ac4500 invoice",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the contract with ACME Ltd",
+      "due_date": "next month",
+      "priority": "High",
+      "context": "Prepare for renewal discussions or termination",
+      "time_slot": "2025-06-05T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up with ACME Ltd on the payment of the \u20ac4500 invoice.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for the invoice received from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract terms with ACME Ltd and initiate discussions or negotiations for renewal, amendment, or termination.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract with ACME Ltd is set to expire next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and clear the pending payment of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-06-29T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for the pending invoice from ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the pending payment of \u20ac4500 to ACME Ltd",
+      "priority": "High",
+      "context": "Invoice has been received from ACME Ltd",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal or termination of the contract with ACME Ltd",
+      "due_date": "Next month",
+      "priority": "High",
+      "context": "Contract with ACME Ltd is set to expire next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "context": "Invoice is currently pending.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process payment for the \u20ac4500 invoice from ACME Ltd.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms and decide on the renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and settle the pending invoice payment of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or negotiate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Contract Manager",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Contract Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Pay the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and address the upcoming contract expiration with ACME Ltd.",
+      "priority": "High",
+      "due_date": "2023-11-30",
+      "context": "The contract with ACME Ltd is expiring next month.",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the pending \u20ac4500 invoice",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract details with ACME Ltd and decide on renewal or termination actions",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and settle the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "context": "Invoice is currently pending.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract is set to expire next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up with ACME Ltd regarding the payment of the \u20ac4500 invoice.",
+      "due_date": null,
+      "time_slot": "2025-05-30T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and consider renewing or renegotiating the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of the \u20ac4500 invoice to ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and discuss the renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-03T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
   }
 ]

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review the ACME Ltd contract terms and prepare for renewal or renegotiation",
+    "due_date": "2023-11-30",
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "CRM_CASE_UPDATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:26:36.618760"
+}

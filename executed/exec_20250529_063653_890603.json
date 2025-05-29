@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review and consider renewing or renegotiating the contract with ACME Ltd.",
+    "due_date": "2023-11-30",
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "SLACK_MESSAGE_SENT",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T06:36:53.890580"
+}

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review the contract with ACME Ltd to decide on renewal or termination.",
+    "due_date": "2023-11-30",
+    "assigned_to": "Legal Team",
+    "priority": "High"
+  },
+  "result": "CLICKUP_TASK_ASSIGNED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:33:42.975545"
+}

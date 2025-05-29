@@ -2,14 +2,15 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from auto_scheduler import start_scheduler
+
 import os
 import json
 
 import time
 import threading
-from auto_scheduler import start_scheduler
+
 from auto_scheduler import run_job_periodically
+from auto_scheduler import start_background_jobs
 from src.job_loader import get_all_job_names
 
 from src.outputs import export_manager
@@ -34,7 +35,7 @@ from dashboard.routes import job_dashboard
 
 
 app = FastAPI()
-start_scheduler()
+start_background_jobs()
 
 templates = Jinja2Templates(directory="templates")
 app.mount("/jobs", StaticFiles(directory="jobs"), name="jobs")
@@ -87,7 +88,7 @@ def save_retry_queue(queue):
 
 @app.on_event("startup")
 async def startup_event():
-    start_scheduler()
+    start_background_jobs()
 
 @app.get("/", response_class=HTMLResponse)
 async def dashboard(request: Request):

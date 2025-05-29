@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review and take necessary actions regarding the renewal or termination of the contract with ACME Ltd.",
+    "due_date": "2023-11-30",
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "CRM_CASE_UPDATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:14:54.990090"
+}

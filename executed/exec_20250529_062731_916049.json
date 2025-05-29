@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Decide on whether to renew, renegotiate, or terminate the contract with ACME Ltd.",
+    "due_date": "2023-11-30",
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "GPT_FALLBACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T06:27:31.916027"
+}

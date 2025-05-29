@@ -26,16 +26,24 @@ def run_job_periodically(job_name):
             print(f"[AUTO-RUN] {job_name} ran at {datetime.now().isoformat()}")
             result = run_job_once(job_name, test_mode=config.get("test_mode", False))
 
-            print(f"[AUTO] {job_name} completed. Tasks: {len(result.get('tasks', []))}")
+            if result:
+                print(f"[AUTO] {job_name} completed. Tasks: {len(result.get('tasks', []))}")
+            else:
+                print(f"[AUTO] {job_name} returned no result.")
+
         except Exception as e:
             print(f"[AUTO] Error in {job_name}: {e}")
             traceback.print_exc()
 
-        time.sleep(60)  # run every 60 seconds
+        time.sleep(60)
 
-def start_scheduler():
+def start_background_jobs():
     jobs = get_all_job_names()
     for job in jobs:
         t = threading.Thread(target=run_job_periodically, args=(job,), daemon=True)
         t.start()
         print(f"[AUTO] Launched background thread for {job}")
+
+if os.getenv("RUN_MAIN") == "true":
+    print("[AUTO-SCHEDULER] Starting background jobs...")
+    start_background_jobs()

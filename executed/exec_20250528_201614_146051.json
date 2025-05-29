@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Process the payment for the invoice of \u20ac4500 to ACME Ltd.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "FALLBACK_ACTION_TAKEN",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:16:14.146010"
+}

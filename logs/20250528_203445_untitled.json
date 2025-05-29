@@ -1,0 +1,22 @@
+{
+  "task": {
+    "description": "Review and consider renewing or renegotiating the contract with ACME Ltd.",
+    "due_date": "Next month",
+    "priority": "High",
+    "assigned_to": "Legal Team",
+    "context": "Contract is set to expire next month",
+    "time_slot": "2025-06-01T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "Legal Team"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-28T20:34:41.990443"
+  },
+  "timestamp": "20250528_203445"
+}

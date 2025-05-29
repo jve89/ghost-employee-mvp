@@ -1,0 +1,22 @@
+{
+  "task": {
+    "description": "Review the contract terms with ACME Ltd and initiate discussions or negotiations for renewal, amendment, or termination.",
+    "due_date": "2023-11-30",
+    "priority": "High",
+    "assigned_to": "Legal Team",
+    "context": "Contract with ACME Ltd is set to expire next month.",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "Legal Team"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T06:32:31.977849"
+  },
+  "timestamp": "20250529_063235"
+}

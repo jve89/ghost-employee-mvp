@@ -1,0 +1,22 @@
+{
+  "task": {
+    "description": "Review and renew or negotiate the contract with ACME Ltd.",
+    "due_date": "2023-11-30",
+    "priority": "High",
+    "assigned_to": "Contract Manager",
+    "context": "The contract is expiring next month.",
+    "time_slot": "2025-06-01T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "Contract Manager"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T06:34:54.856691"
+  },
+  "timestamp": "20250529_063457"
+}

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
+    "due_date": "2023-11-30",
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "GPT_FALLBACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T06:32:14.037793"
+}

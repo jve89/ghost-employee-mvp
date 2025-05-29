@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review the contract with ACME Ltd and take necessary steps before its expiration next month.",
+    "due_date": "2023-11-30",
+    "assigned_to": "Legal Team",
+    "priority": "High"
+  },
+  "result": "CALENDAR_EVENT_CREATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:25:31.920841"
+}

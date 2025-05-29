@@ -41,6 +41,22 @@ def execute_tasks_from_log(log_path):
     except Exception as e:
         print(f"[ERROR] Failed to execute tasks from {log_path}: {e}")
 
+def parse_gpt_output(output: str) -> dict:
+    try:
+        # Strip markdown code fences if present
+        if output.startswith("```"):
+            output = output.strip("```").strip()
+            if output.startswith("json"):
+                output = output[len("json"):].strip()
+
+        task_data = json.loads(output)
+        if "action" not in task_data or "details" not in task_data:
+            raise ValueError("Missing required keys in GPT output.")
+        return task_data
+
+    except Exception as e:
+        print(f"[GPT PARSE ERROR] {e} | Raw output: {output}")
+        return None
 
 def execute_task(task, source_file=None):
     if isinstance(task, dict):
@@ -115,28 +131,39 @@ def execute_task(task, source_file=None):
 
 
 def run_gpt_fallback(task_description, is_real):
-    prompt = f"""The following is a workplace task:
-\"\"\"{task_description}\"\"\"
-Classify it into one of the known actions:
-- send_slack_message
-- update_crm_case
-- create_calendar_event
-- email_supervisor
-- create_jira_ticket
-- update_google_sheet
-- assign_task_in_clickup
-- email_hr
+    prompt = f"""
+You are a task execution assistant. Given the following task description, return a JSON object with:
+- action: a string (e.g. "send_slack_message", "update_crm_case")
+- details: a dictionary of parameters
+- You may include user mentions like "@johan" in messages. These will be replaced with Slack IDs via config.
 
-Reply ONLY with the matching function name.
-If none fits, say 'fallback_action'."""
+Respond in strict JSON. Example:
+{{
+  "action": "send_slack_message",
+  "details": {{
+    "channel": "supervisor",
+    "message": "Reminder to approve the ACME invoice. @johan"
+  }}
+}}
+
+Task:
+\"\"\"{task_description}\"\"\"
+"""
 
     try:
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}]
         )
-        action = response.choices[0].message.content.strip()
-        print(f"[GPT-FALLBACK] GPT classified: {action}")
+        raw_output = response.choices[0].message.content.strip()
+        print(f"[GPT-FALLBACK RAW] {raw_output}")
+
+        parsed = parse_gpt_output(raw_output)
+        if not parsed:
+            return "GPT_PARSE_FAILED"
+
+        action = parsed["action"]
+        details = parsed["details"]
 
         fn_map = {
             "send_slack_message": send_slack_message,
@@ -153,20 +180,10 @@ If none fits, say 'fallback_action'."""
         fn = fn_map.get(action, fallback_action)
 
         if is_real:
-            if fn.__name__ == "send_slack_message":
-                return fn("Supervisor", task_description)
-            elif fn.__name__ == "email_hr":
-                return fn("HR Notification", task_description)
-            elif fn.__name__ == "update_crm_case":
-                return fn("CASE123", task_description)
-            elif fn.__name__ == "email_supervisor":
-                return fn("Update", task_description)
-            else:
-                return fn(**task_description) if isinstance(task_description, dict) else fn(task_description)
-        
+            return fn(**details)
         else:
-            print(f"[GPT-FALLBACK] Would run: {action} with '{task_description}'")
-            return f"SIMULATED_GPT_{action.upper()}"
+            print(f"[SIMULATED GPT] Would run: {fn.__name__} with {details}")
+            return f"SIMULATED_GPT_{fn.__name__.upper()}"
 
     except Exception as e:
         print(f"[GPT-FALLBACK ERROR] {e}")

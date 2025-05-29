@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Prepare necessary documentation and communicate the decision to ACME Ltd if terminating the contract.",
+    "context": "Only applicable if the decision is to terminate the contract.",
+    "due_date": null,
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T06:29:55.113120"
+  },
+  "timestamp": "20250529_062959"
+}

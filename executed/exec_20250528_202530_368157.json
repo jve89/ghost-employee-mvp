@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Process and arrange payment for the \u20ac4500 invoice from ACME Ltd.",
+    "due_date": null,
+    "assigned_to": "Finance Team",
+    "priority": "High"
+  },
+  "result": "GOOGLE_SHEET_UPDATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:25:30.368133"
+}

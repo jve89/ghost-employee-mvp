@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Communicate with ACME Ltd regarding the upcoming contract expiration and potential next steps",
+    "due_date": "2023-11-30",
+    "priority": "High",
+    "time_slot": "2025-06-04T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-28T20:12:16.026637"
+  },
+  "timestamp": "20250528_201221"
+}

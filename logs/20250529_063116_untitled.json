@@ -1,0 +1,18 @@
+{
+  "task": {
+    "description": "Review the terms of the contract with ACME Ltd",
+    "due_date": "next month",
+    "priority": "High",
+    "context": "Prepare for renewal discussions or termination",
+    "time_slot": "2025-06-05T15:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T06:31:14.452042"
+  },
+  "timestamp": "20250529_063116"
+}

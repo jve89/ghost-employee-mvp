@@ -21,6 +21,7 @@ fastapi
 uvicorn 
 jinja2
 python-multipart
+slack-sdk
 
 # Development tools (optional, comment out if not needed)
 #black

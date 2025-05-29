@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review and decide on the renewal of ACME Ltd's contract before it expires next month.",
+    "due_date": "Next month",
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "GPT_FALLBACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T06:22:09.237250"
+}

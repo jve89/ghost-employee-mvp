@@ -1,0 +1,16 @@
+{
+  "task": {
+    "description": "Decide on whether to renew or renegotiate the contract with ACME Ltd.",
+    "due_date": null,
+    "time_slot": "2025-06-05T10:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-28T20:09:50.400018"
+  },
+  "timestamp": "20250528_201004"
+}

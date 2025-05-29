@@ -24,6 +24,7 @@ pdfplumber = "*"
 notion-client = "*"
 python-multipart = "*"
 python-dotenv = "*"
+slack-sdk = "*"
 
 [dev-packages]
 black = "*"

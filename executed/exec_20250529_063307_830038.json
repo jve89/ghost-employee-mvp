@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Process and clear the pending payment of \u20ac4500 for ACME Ltd.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "GPT_FALLBACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T06:33:07.830020"
+}

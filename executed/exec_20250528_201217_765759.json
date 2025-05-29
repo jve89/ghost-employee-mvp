@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Process the payment for the \u20ac4500 invoice",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "FALLBACK_ACTION_TAKEN",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-28T20:12:17.765725"
+}
