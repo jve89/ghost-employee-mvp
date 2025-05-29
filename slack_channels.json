@@ -1,7 +1,7 @@
 {
-  "hr": "#hr",
-  "supervisor": "#ops-supervisors",
-  "finance": "#finance",
-  "general": "#general",
-  "aviation": "#aviation"
+  "hr": "C012ABCDEF1",
+  "supervisor": "C012ABCDEF2",
+  "finance": "C012ABCDEF3",
+  "general": "C012ABCDEF4",
+  "aviation": "C012ABCDEF5"
 }

@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Set up John Doe's workspace and necessary equipment",
+    "due_date": "2023-07-09",
+    "context": "Ensure everything is ready prior to July 10",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:04:05.242428"
+  },
+  "timestamp": "20250529_100410"
+}

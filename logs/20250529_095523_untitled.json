@@ -1,0 +1,21 @@
+{
+  "task": {
+    "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+    "due_date": "2023-10-03",
+    "assigned_to": "@jve89",
+    "context": "Reminder needs to be sent today",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "@jve89"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:55:23.952061"
+  },
+  "timestamp": "20250529_095523"
+}

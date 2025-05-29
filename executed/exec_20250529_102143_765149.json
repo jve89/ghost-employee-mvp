@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Set up workspace and resources for John Doe",
+    "due_date": "2023-07-09",
+    "assigned_to": "Office Management Team",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:21:43.765129"
+}

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Follow up on the payment of the \u20ac4500 invoice with ACME Ltd.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T09:47:24.679089"
+}

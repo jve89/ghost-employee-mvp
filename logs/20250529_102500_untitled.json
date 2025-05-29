@@ -1,0 +1,21 @@
+{
+  "task": {
+    "description": "Schedule an introductory meeting with John Doe and his team",
+    "due_date": "2023-07-14",
+    "assigned_to": "John Doe's Manager",
+    "context": "Meeting should be scheduled for his first week",
+    "time_slot": "2025-06-05T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "John Doe's Manager"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:24:53.608576"
+  },
+  "timestamp": "20250529_102500"
+}

@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Notify HR about John Doe's acceptance of the offer and his start date",
+    "context": "John Doe is scheduled to start on July 10",
+    "due_date": null,
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:56:52.544053"
+  },
+  "timestamp": "20250529_095653"
+}

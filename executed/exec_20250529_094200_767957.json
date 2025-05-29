@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Process the payment of \u20ac4500 to ACME Ltd.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "High"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T09:42:00.767939"
+}

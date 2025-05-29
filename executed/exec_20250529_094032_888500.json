@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Notify relevant stakeholders about the contract's pending expiration and the decision on renewal or termination.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T09:40:32.888480"
+}

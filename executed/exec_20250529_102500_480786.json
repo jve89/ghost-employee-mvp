@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Schedule an introductory meeting with John Doe and his team",
+    "due_date": "2023-07-14",
+    "assigned_to": "John Doe's Manager",
+    "priority": "normal"
+  },
+  "result": "CALENDAR_EVENT_CREATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:25:00.480743"
+}

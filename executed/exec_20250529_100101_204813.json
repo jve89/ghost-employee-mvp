@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Draft appropriate HR notification messages to include in `test_hr_notification.txt` if no content is available or it's incomplete.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:01:01.204795"
+}

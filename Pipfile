@@ -24,7 +24,10 @@ pdfplumber = "*"
 notion-client = "*"
 python-multipart = "*"
 python-dotenv = "*"
+boto3 = "*"
 slack-sdk = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 black = "*"

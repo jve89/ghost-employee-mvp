@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Send a Slack message to @jve89 requesting them to review the final report",
+    "due_date": "2023-10-13",
+    "assigned_to": "self",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:27:09.169289"
+}

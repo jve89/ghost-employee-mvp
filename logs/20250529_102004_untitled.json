@@ -1,0 +1,21 @@
+{
+  "task": {
+    "description": "Ensure workspace and equipment are ready",
+    "due_date": "2023-07-10",
+    "assigned_to": "Office Manager",
+    "context": "For John Doe's first day",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "Office Manager"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:20:00.400525"
+  },
+  "timestamp": "20250529_102004"
+}

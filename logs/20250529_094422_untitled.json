@@ -1,0 +1,16 @@
+{
+  "task": {
+    "description": "Send a Slack message to @jve89 with the information that the payment for invoice #1234 has been processed successfully.",
+    "due_date": null,
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:44:22.494530"
+  },
+  "timestamp": "20250529_094422"
+}

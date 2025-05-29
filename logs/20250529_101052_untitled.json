@@ -1,0 +1,23 @@
+{
+  "task": {
+    "description": "Send John Doe any necessary pre-employment documents and instructions",
+    "due_date": "2023-07-10",
+    "assigned_to": "HR Team",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "HR Team",
+      "email": "hr@example.com",
+      "slack": "@hr",
+      "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:10:49.189716"
+  },
+  "timestamp": "20250529_101052"
+}

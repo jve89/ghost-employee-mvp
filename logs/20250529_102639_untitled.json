@@ -1,0 +1,20 @@
+{
+  "task": {
+    "description": "Set up John Doe's workstation and provide necessary equipment and access",
+    "assigned_to": "IT Department",
+    "due_date": null,
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "IT Department"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:26:35.032490"
+  },
+  "timestamp": "20250529_102639"
+}

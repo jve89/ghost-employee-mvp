@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Send a Slack message to @jve89 to remind them to review the invoice.",
+    "due_date": null,
+    "assigned_to": "You",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:29:16.494791"
+}

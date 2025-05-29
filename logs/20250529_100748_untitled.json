@@ -1,0 +1,21 @@
+{
+  "task": {
+    "description": "Set up John's workspace and access to necessary systems",
+    "due_date": "2023-07-09",
+    "assigned_to": "IT Department",
+    "context": "Ensure completion before John starts on July 10",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "IT Department"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:07:43.757132"
+  },
+  "timestamp": "20250529_100748"
+}

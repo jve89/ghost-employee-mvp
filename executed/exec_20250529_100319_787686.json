@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Ensure all necessary paperwork and systems access are ready",
+    "due_date": "2023-07-10",
+    "assigned_to": "IT and HR Teams",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:03:19.787663"
+}

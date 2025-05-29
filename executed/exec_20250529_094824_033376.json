@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Send a Slack message to @jve89 informing them that the payment for invoice #1234 has been successfully processed.",
+    "due_date": null,
+    "assigned_to": null,
+    "priority": "normal"
+  },
+  "result": "NO_MESSAGE",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T09:48:24.033360"
+}

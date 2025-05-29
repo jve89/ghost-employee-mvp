@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Schedule an orientation session or meeting for John Doe",
+    "due_date": "2023-07-10",
+    "context": "To be held on his first day",
+    "time_slot": "2025-05-30T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:12:59.110606"
+  },
+  "timestamp": "20250529_101305"
+}

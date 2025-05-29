@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Review and address renewal or termination of the contract with ACME Ltd.",
+    "due_date": "2023-11-30",
+    "assigned_to": "Legal Department",
+    "priority": "High"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:29:07.572506"
+}

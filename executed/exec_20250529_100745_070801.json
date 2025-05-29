@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Prepare onboarding materials and orientation schedule for John Doe",
+    "due_date": null,
+    "assigned_to": "HR Team",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:07:45.070774"
+}

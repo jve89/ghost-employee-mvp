@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1623f034d5be2b40a598a960b9c7c4d2dbdc83f3aed823a424e9af240303d7fa"
+            "sha256": "a7103490688683a73c5ff942ad6a412b520357b29062fe8ffa114cb434c38951"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -47,6 +47,23 @@
             ],
             "markers": "python_full_version >= '3.7.0'",
             "version": "==4.13.4"
+        },
+        "boto3": {
+            "hashes": [
+                "sha256:2f2cd517dd31d33ace0eefe567dc903fdf74221513e32f1e9445bdfac7554db7",
+                "sha256:85c1556a110896f68de8573a9b4757c81071448dbf6ffc1074941bfc8a43195e"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==1.38.25"
+        },
+        "botocore": {
+            "hashes": [
+                "sha256:5a960bd990a11cdb78865e908a58ed712d87d9b419f55ad21c99d7d21f0d6726",
+                "sha256:8c73e97d9662a6c92be33dab66cd1e2b59797154c7ec379ce3bb5d6779d9d78c"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==1.38.25"
         },
         "cachetools": {
             "hashes": [
@@ -235,6 +252,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==3.4.2"
         },
+        "click": {
+            "hashes": [
+                "sha256:27c491cc05d968d271d5a1db13e3b5a184636d9d930f148c50b038f0d0646202",
+                "sha256:61a3265b914e850b85317d0b3109c7f8cd35a670f963866005d6ef1d5175a12b"
+            ],
+            "markers": "python_version >= '3.10'",
+            "version": "==8.2.1"
+        },
         "cryptography": {
             "hashes": [
                 "sha256:00094838ecc7c6594171e8c8a9166124c1197b074cfca23645cee573910d76bc",
@@ -325,6 +350,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2.0.0"
+        },
+        "fastapi": {
+            "hashes": [
+                "sha256:1e2c2a2646905f9e83d32f04a3f86aff4a286669c6c950ca95b5fd68c2602681",
+                "sha256:e94613d6c05e27be7ffebdd6ea5f388112e5e430c8f7d6494a9d1d88d43e814d"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.115.12"
         },
         "google-api-core": {
             "hashes": [
@@ -516,6 +550,14 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==0.10.0"
+        },
+        "jmespath": {
+            "hashes": [
+                "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980",
+                "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.0.1"
         },
         "lxml": {
             "hashes": [
@@ -1432,6 +1474,14 @@
             "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==4.9.1"
         },
+        "s3transfer": {
+            "hashes": [
+                "sha256:0148ef34d6dd964d0d8cf4311b2b21c474693e57c2e069ec708ce043d2b527be",
+                "sha256:f5e6db74eb7776a37208001113ea7aa97695368242b364d73e91c981ac522177"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==0.13.0"
+        },
         "setuptools": {
             "hashes": [
                 "sha256:49f7af965996f26d43c8ae34539c8d99c5042fbff34302ea151eaa9c207cd257",
@@ -1472,6 +1522,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2.7"
+        },
+        "starlette": {
+            "hashes": [
+                "sha256:595633ce89f8ffa71a015caed34a5b2dc1c0cdb3f0f1fbd1e69339cf2abeec35",
+                "sha256:7f7361f34eed179294600af672f565727419830b54b7b084efe44bb82d2fccd5"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==0.46.2"
         },
         "tqdm": {
             "hashes": [
@@ -1528,6 +1586,15 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==2.4.0"
+        },
+        "uvicorn": {
+            "hashes": [
+                "sha256:0e929828f6186353a80b58ea719861d2629d766293b6d19baf086ba31d4f3328",
+                "sha256:deb49af569084536d269fe0a6d67e3754f104cf03aba7c11c40f01aadf33c403"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==0.34.2"
         },
         "watchdog": {
             "hashes": [

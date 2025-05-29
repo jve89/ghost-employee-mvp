@@ -1,0 +1,22 @@
+{
+  "task": {
+    "description": "Send a Slack message to @jve89 requesting a review of the final report",
+    "due_date": "2023-10-20",
+    "priority": "High",
+    "assigned_to": "Slack User @jve89",
+    "context": "The review needs to be completed within the day.",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium",
+    "assigned_user": {
+      "name": "Slack User @jve89"
+    }
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:22:02.670905"
+  },
+  "timestamp": "20250529_102202"
+}

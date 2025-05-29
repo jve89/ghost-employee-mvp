@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Review and discuss the contract terms with ACME Ltd for potential renewal or renegotiation.",
+    "due_date": "next month",
+    "context": "The contract is expiring next month.",
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:47:23.262626"
+  },
+  "timestamp": "20250529_094726"
+}

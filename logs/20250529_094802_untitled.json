@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Review the contract terms with ACME Ltd and consider renewal or amendment.",
+    "due_date": "2023-11-30",
+    "context": "The contract is expiring next month.",
+    "time_slot": "2025-05-30T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:47:58.863214"
+  },
+  "timestamp": "20250529_094802"
+}

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Set up John Doe's workstation and necessary access to company systems",
+    "due_date": "2023-07-09",
+    "assigned_to": "IT Department",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:24:59.480049"
+}

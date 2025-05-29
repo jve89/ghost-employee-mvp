@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Schedule orientation and introductory meetings with team members",
+    "context": "Around John Doe's start date",
+    "due_date": null,
+    "time_slot": "2025-06-02T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:21:40.352153"
+  },
+  "timestamp": "20250529_102144"
+}

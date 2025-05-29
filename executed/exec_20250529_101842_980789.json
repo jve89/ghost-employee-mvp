@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+    "due_date": "2023-10-30",
+    "assigned_to": "Slack user sending the message",
+    "priority": "normal"
+  },
+  "result": "NO_MESSAGE",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:18:42.980776"
+}

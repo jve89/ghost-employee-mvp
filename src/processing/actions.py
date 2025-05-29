@@ -27,13 +27,19 @@ except FileNotFoundError:
 
 # ✅ Real + Simulated actions
 
-def send_slack_message(channel=None, recipient=None, message=None, **kwargs):
+def send_slack_message(channel=None, recipient=None, message=None, mention=None, **kwargs):
     target = channel or recipient or "general"
     slack_channel = channel_map.get(target.lower(), "#general-updates")
+
+    if not message:
+        print("[SKIP] Slack message is None or empty — skipping send.")
+        return "NO_MESSAGE"
 
     # 🔁 Replace any @name with Slack ID
     for name, slack_id in user_map.items():
         message = message.replace(f"@{name}", slack_id)
+    if mention:
+        message = f"{mention} {message}"
 
     if REAL_EXECUTION and SLACK_TOKEN:
         try:

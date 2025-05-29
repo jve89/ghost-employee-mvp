@@ -275,3 +275,213 @@
 [2025-05-29 06:37:53] 🔁 Job execution started
 [2025-05-29 06:37:53] 📂 Found 1 new file(s).
 [2025-05-29 06:38:11] ✅ Job finished successfully
+[2025-05-29 09:36:42] 🔁 Job execution started
+[2025-05-29 09:36:42] 🔁 Job execution started
+[2025-05-29 09:36:42] 📂 Found 2 new file(s).
+[2025-05-29 09:36:42] 📂 Found 2 new file(s).
+[2025-05-29 09:37:14] ✅ Job finished successfully
+[2025-05-29 09:37:28] ✅ Job finished successfully
+[2025-05-29 09:38:14] 🔁 Job execution started
+[2025-05-29 09:38:14] 📂 Found 2 new file(s).
+[2025-05-29 09:38:28] 🔁 Job execution started
+[2025-05-29 09:38:28] 📂 Found 2 new file(s).
+[2025-05-29 09:38:42] ✅ Job finished successfully
+[2025-05-29 09:38:55] ✅ Job finished successfully
+[2025-05-29 09:39:42] 🔁 Job execution started
+[2025-05-29 09:39:42] 📂 Found 3 new file(s).
+[2025-05-29 09:39:55] 🔁 Job execution started
+[2025-05-29 09:39:55] 📂 Found 3 new file(s).
+[2025-05-29 09:40:44] [ERROR] Failed to process file jobs/vendor_assistant/input/slack_test_001.txt: 'NoneType' object has no attribute 'replace'
+[2025-05-29 09:40:44] ✅ Job finished successfully
+[2025-05-29 09:40:56] [ERROR] Failed to process file jobs/vendor_assistant/input/slack_test_001.txt: 'NoneType' object has no attribute 'replace'
+[2025-05-29 09:40:56] ✅ Job finished successfully
+[2025-05-29 09:41:44] 🔁 Job execution started
+[2025-05-29 09:41:44] 📂 Found 3 new file(s).
+[2025-05-29 09:41:56] 🔁 Job execution started
+[2025-05-29 09:41:56] 📂 Found 3 new file(s).
+[2025-05-29 09:42:20] [ERROR] Failed to process file jobs/vendor_assistant/input/slack_test_001.txt: 'NoneType' object has no attribute 'replace'
+[2025-05-29 09:42:20] ✅ Job finished successfully
+[2025-05-29 09:42:53] [ERROR] Failed to process file jobs/vendor_assistant/input/slack_test_001.txt: 'NoneType' object has no attribute 'replace'
+[2025-05-29 09:42:53] ✅ Job finished successfully
+[2025-05-29 09:43:20] 🔁 Job execution started
+[2025-05-29 09:43:20] 📂 Found 3 new file(s).
+[2025-05-29 09:43:37] 🔁 Job execution started
+[2025-05-29 09:43:37] 🔁 Job execution started
+[2025-05-29 09:43:37] 📂 Found 3 new file(s).
+[2025-05-29 09:43:37] 📂 Found 3 new file(s).
+[2025-05-29 09:44:17] ✅ Job finished successfully
+[2025-05-29 09:44:22] ✅ Job finished successfully
+[2025-05-29 09:45:17] 🔁 Job execution started
+[2025-05-29 09:45:17] 📂 Found 3 new file(s).
+[2025-05-29 09:45:22] 🔁 Job execution started
+[2025-05-29 09:45:22] 📂 Found 3 new file(s).
+[2025-05-29 09:45:59] ✅ Job finished successfully
+[2025-05-29 09:46:10] ✅ Job finished successfully
+[2025-05-29 09:46:59] 🔁 Job execution started
+[2025-05-29 09:46:59] 📂 Found 3 new file(s).
+[2025-05-29 09:47:10] 🔁 Job execution started
+[2025-05-29 09:47:10] 📂 Found 3 new file(s).
+[2025-05-29 09:47:44] 🔁 Job execution started
+[2025-05-29 09:47:44] 📂 Found 3 new file(s).
+[2025-05-29 09:47:44] 🔁 Job execution started
+[2025-05-29 09:47:44] 📂 Found 3 new file(s).
+[2025-05-29 09:48:24] ✅ Job finished successfully
+[2025-05-29 09:48:28] ✅ Job finished successfully
+[2025-05-29 09:49:26] 🔁 Job execution started
+[2025-05-29 09:49:26] 📂 Found 3 new file(s).
+[2025-05-29 09:49:26] 🔁 Job execution started
+[2025-05-29 09:49:26] 📂 Found 3 new file(s).
+[2025-05-29 09:50:02] ✅ Job finished successfully
+[2025-05-29 09:50:03] ✅ Job finished successfully
+[2025-05-29 09:51:02] 🔁 Job execution started
+[2025-05-29 09:51:02] 📂 Found 3 new file(s).
+[2025-05-29 09:51:03] 🔁 Job execution started
+[2025-05-29 09:51:03] 📂 Found 3 new file(s).
+[2025-05-29 09:55:02] 🔁 Job execution started
+[2025-05-29 09:55:02] 🔁 Job execution started
+[2025-05-29 09:55:02] 📂 Found 2 new file(s).
+[2025-05-29 09:55:02] 📂 Found 2 new file(s).
+[2025-05-29 09:55:23] ✅ Job finished successfully
+[2025-05-29 09:55:23] ✅ Job finished successfully
+[2025-05-29 09:56:23] 🔁 Job execution started
+[2025-05-29 09:56:23] 📂 Found 2 new file(s).
+[2025-05-29 09:56:23] 🔁 Job execution started
+[2025-05-29 09:56:23] 📂 Found 2 new file(s).
+[2025-05-29 09:56:33] 🔁 Job execution started
+[2025-05-29 09:56:40] 🔁 Job execution started
+[2025-05-29 09:56:40] 🔁 Job execution started
+[2025-05-29 09:56:40] 📂 Found 2 new file(s).
+[2025-05-29 09:56:40] 📂 Found 2 new file(s).
+[2025-05-29 09:57:00] ✅ Job finished successfully
+[2025-05-29 09:57:03] ✅ Job finished successfully
+[2025-05-29 09:58:00] 🔁 Job execution started
+[2025-05-29 09:58:00] 📂 Found 2 new file(s).
+[2025-05-29 09:58:03] 🔁 Job execution started
+[2025-05-29 09:58:03] 📂 Found 2 new file(s).
+[2025-05-29 09:58:20] ✅ Job finished successfully
+[2025-05-29 09:58:20] ✅ Job finished successfully
+[2025-05-29 09:59:20] 🔁 Job execution started
+[2025-05-29 09:59:20] 📂 Found 3 new file(s).
+[2025-05-29 09:59:20] 🔁 Job execution started
+[2025-05-29 09:59:20] 📂 Found 3 new file(s).
+[2025-05-29 09:59:44] 🔁 Job execution started
+[2025-05-29 09:59:44] 📂 Found 3 new file(s).
+[2025-05-29 09:59:44] 🔁 Job execution started
+[2025-05-29 09:59:44] 📂 Found 3 new file(s).
+[2025-05-29 09:59:51] 🔁 Job execution started
+[2025-05-29 09:59:51] 📂 Found 3 new file(s).
+[2025-05-29 09:59:51] 🔁 Job execution started
+[2025-05-29 09:59:51] 📂 Found 3 new file(s).
+[2025-05-29 10:00:39] ✅ Job finished successfully
+[2025-05-29 10:01:07] ✅ Job finished successfully
+[2025-05-29 10:01:39] 🔁 Job execution started
+[2025-05-29 10:01:39] 📂 Found 3 new file(s).
+[2025-05-29 10:01:57] [ERROR] Failed to process file jobs/vendor_assistant/input/.test_hr_notification.txt.swp: [Errno 2] No such file or directory: 'jobs/vendor_assistant/input/.test_hr_notification.txt.swp'
+[2025-05-29 10:01:57] ✅ Job finished successfully
+[2025-05-29 10:02:07] 🔁 Job execution started
+[2025-05-29 10:02:07] 📂 Found 2 new file(s).
+[2025-05-29 10:02:40] ✅ Job finished successfully
+[2025-05-29 10:02:57] 🔁 Job execution started
+[2025-05-29 10:02:57] 📂 Found 2 new file(s).
+[2025-05-29 10:03:28] ✅ Job finished successfully
+[2025-05-29 10:03:40] 🔁 Job execution started
+[2025-05-29 10:03:40] 📂 Found 2 new file(s).
+[2025-05-29 10:04:20] ✅ Job finished successfully
+[2025-05-29 10:04:28] 🔁 Job execution started
+[2025-05-29 10:04:28] 📂 Found 2 new file(s).
+[2025-05-29 10:04:58] ✅ Job finished successfully
+[2025-05-29 10:05:20] 🔁 Job execution started
+[2025-05-29 10:05:20] 📂 Found 2 new file(s).
+[2025-05-29 10:05:50] ✅ Job finished successfully
+[2025-05-29 10:05:58] 🔁 Job execution started
+[2025-05-29 10:05:58] 📂 Found 2 new file(s).
+[2025-05-29 10:06:26] ✅ Job finished successfully
+[2025-05-29 10:06:50] 🔁 Job execution started
+[2025-05-29 10:06:50] 📂 Found 2 new file(s).
+[2025-05-29 10:07:26] 🔁 Job execution started
+[2025-05-29 10:07:26] 📂 Found 2 new file(s).
+[2025-05-29 10:07:26] ✅ Job finished successfully
+[2025-05-29 10:08:02] ✅ Job finished successfully
+[2025-05-29 10:08:26] 🔁 Job execution started
+[2025-05-29 10:08:26] 📂 Found 2 new file(s).
+[2025-05-29 10:08:46] ✅ Job finished successfully
+[2025-05-29 10:09:02] 🔁 Job execution started
+[2025-05-29 10:09:02] 📂 Found 2 new file(s).
+[2025-05-29 10:09:36] ✅ Job finished successfully
+[2025-05-29 10:09:46] 🔁 Job execution started
+[2025-05-29 10:09:46] 📂 Found 2 new file(s).
+[2025-05-29 10:10:15] ✅ Job finished successfully
+[2025-05-29 10:10:36] 🔁 Job execution started
+[2025-05-29 10:10:36] 📂 Found 2 new file(s).
+[2025-05-29 10:11:03] ✅ Job finished successfully
+[2025-05-29 10:11:15] 🔁 Job execution started
+[2025-05-29 10:11:15] 📂 Found 2 new file(s).
+[2025-05-29 10:11:44] ✅ Job finished successfully
+[2025-05-29 10:12:03] 🔁 Job execution started
+[2025-05-29 10:12:03] 📂 Found 2 new file(s).
+[2025-05-29 10:12:32] ✅ Job finished successfully
+[2025-05-29 10:12:44] 🔁 Job execution started
+[2025-05-29 10:12:44] 📂 Found 2 new file(s).
+[2025-05-29 10:13:14] ✅ Job finished successfully
+[2025-05-29 10:13:32] 🔁 Job execution started
+[2025-05-29 10:13:32] 📂 Found 2 new file(s).
+[2025-05-29 10:14:05] ✅ Job finished successfully
+[2025-05-29 10:14:14] 🔁 Job execution started
+[2025-05-29 10:14:14] 📂 Found 2 new file(s).
+[2025-05-29 10:14:58] ✅ Job finished successfully
+[2025-05-29 10:15:05] 🔁 Job execution started
+[2025-05-29 10:15:05] 📂 Found 2 new file(s).
+[2025-05-29 10:15:49] ✅ Job finished successfully
+[2025-05-29 10:15:58] 🔁 Job execution started
+[2025-05-29 10:15:58] 📂 Found 2 new file(s).
+[2025-05-29 10:16:36] ✅ Job finished successfully
+[2025-05-29 10:16:49] 🔁 Job execution started
+[2025-05-29 10:16:49] 📂 Found 2 new file(s).
+[2025-05-29 10:17:01] 🔁 Job execution started
+[2025-05-29 10:17:01] 🔁 Job execution started
+[2025-05-29 10:17:01] 📂 Found 2 new file(s).
+[2025-05-29 10:17:01] 📂 Found 2 new file(s).
+[2025-05-29 10:17:46] ✅ Job finished successfully
+[2025-05-29 10:17:46] ✅ Job finished successfully
+[2025-05-29 10:17:57] 🔁 Job execution started
+[2025-05-29 10:17:57] 📂 Found 2 new file(s).
+[2025-05-29 10:17:57] 🔁 Job execution started
+[2025-05-29 10:17:57] 📂 Found 2 new file(s).
+[2025-05-29 10:18:42] ✅ Job finished successfully
+[2025-05-29 10:18:43] ✅ Job finished successfully
+[2025-05-29 10:19:42] 🔁 Job execution started
+[2025-05-29 10:19:42] 📂 Found 3 new file(s).
+[2025-05-29 10:19:43] 🔁 Job execution started
+[2025-05-29 10:19:43] 📂 Found 3 new file(s).
+[2025-05-29 10:20:20] ✅ Job finished successfully
+[2025-05-29 10:20:21] ✅ Job finished successfully
+[2025-05-29 10:21:20] 🔁 Job execution started
+[2025-05-29 10:21:20] 📂 Found 3 new file(s).
+[2025-05-29 10:21:21] 🔁 Job execution started
+[2025-05-29 10:21:21] 📂 Found 3 new file(s).
+[2025-05-29 10:21:58] ✅ Job finished successfully
+[2025-05-29 10:22:02] ✅ Job finished successfully
+[2025-05-29 10:22:58] 🔁 Job execution started
+[2025-05-29 10:22:58] 📂 Found 3 new file(s).
+[2025-05-29 10:23:02] 🔁 Job execution started
+[2025-05-29 10:23:02] 📂 Found 3 new file(s).
+[2025-05-29 10:23:32] ✅ Job finished successfully
+[2025-05-29 10:23:50] ✅ Job finished successfully
+[2025-05-29 10:24:34] 🔁 Job execution started
+[2025-05-29 10:24:34] 📂 Found 3 new file(s).
+[2025-05-29 10:24:34] 🔁 Job execution started
+[2025-05-29 10:24:34] 📂 Found 3 new file(s).
+[2025-05-29 10:25:16] ✅ Job finished successfully
+[2025-05-29 10:25:17] ✅ Job finished successfully
+[2025-05-29 10:26:16] 🔁 Job execution started
+[2025-05-29 10:26:16] 📂 Found 3 new file(s).
+[2025-05-29 10:26:17] 🔁 Job execution started
+[2025-05-29 10:26:17] 📂 Found 3 new file(s).
+[2025-05-29 10:27:08] ✅ Job finished successfully
+[2025-05-29 10:27:09] ✅ Job finished successfully
+[2025-05-29 10:28:08] 🔁 Job execution started
+[2025-05-29 10:28:08] 📂 Found 5 new file(s).
+[2025-05-29 10:28:09] 🔁 Job execution started
+[2025-05-29 10:28:09] 📂 Found 5 new file(s).
+[2025-05-29 10:29:16] ✅ Job finished successfully
+[2025-05-29 10:29:16] ✅ Job finished successfully

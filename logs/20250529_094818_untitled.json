@@ -1,0 +1,17 @@
+{
+  "task": {
+    "description": "Inform HR of John Doe's start date on July 10.",
+    "context": "John Doe's start date is scheduled for July 10.",
+    "due_date": "2025-07-10",
+    "time_slot": "2025-07-10T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:48:15.409506"
+  },
+  "timestamp": "20250529_094818"
+}

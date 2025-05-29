@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Notify team members about John Doe\u2019s start date and role",
+    "due_date": null,
+    "assigned_to": "HR Team",
+    "priority": "normal"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:11:36.648856"
+}

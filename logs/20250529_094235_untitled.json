@@ -1,0 +1,16 @@
+{
+  "task": {
+    "description": "If not renewing, prepare necessary documents and notifications for terminating the partnership with ACME Ltd.",
+    "due_date": null,
+    "time_slot": "2025-05-30T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:42:27.019500"
+  },
+  "timestamp": "20250529_094235"
+}

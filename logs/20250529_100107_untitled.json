@@ -1,0 +1,16 @@
+{
+  "task": {
+    "description": "Address any system-specific or environmental metadata issues if they disrupt the normal operation of the file or system usage.",
+    "due_date": null,
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T10:00:57.566658"
+  },
+  "timestamp": "20250529_100107"
+}

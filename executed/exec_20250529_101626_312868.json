@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Schedule an orientation meeting for John Doe",
+    "due_date": "2023-07-10",
+    "assigned_to": "HR Department",
+    "priority": "Medium"
+  },
+  "result": "CALENDAR_EVENT_CREATED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:16:26.312835"
+}

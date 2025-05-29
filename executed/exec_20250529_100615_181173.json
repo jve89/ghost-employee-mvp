@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Ensure all necessary workspace, equipment, and access are set up and ready for John Doe",
+    "due_date": "2023-07-10",
+    "assigned_to": "IT and Facilities Teams",
+    "priority": "High"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:06:15.181152"
+}

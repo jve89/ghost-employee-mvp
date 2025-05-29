@@ -2883,5 +2883,4533 @@
     "last_attempt": null,
     "retry_result": false,
     "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Arrange for the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew or renegotiate the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract expires next month",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and his start date on July 10",
+      "assigned_to": "HR Department",
+      "due_date": "2025-07-10",
+      "time_slot": "2025-07-10T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the pending invoice for \u20ac4500 from ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Assess the terms and conditions of the expiring contract with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide whether to renew, renegotiate, or terminate the contract with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Communicate with ACME Ltd to discuss the contract status and any outstanding payments.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up with ACME Ltd to ensure the payment of the \u20ac4500 invoice.",
+      "priority": "High",
+      "assigned_to": "Accounts Receivable",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Accounts Receivable"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract with ACME Ltd and discuss renewal or necessary changes.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Contracts Manager",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Contracts Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and potentially renew the contract with ACME Ltd before it expires.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up on the \u20ac4500 invoice payment with ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the received invoice from ACME Ltd for accuracy and completeness.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 for ACME Ltd in a timely manner.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Evaluate the current contract with ACME Ltd and decide on renewal or termination.",
+      "due_date": "next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare a new contract proposal to discuss with ACME Ltd if renewing.",
+      "context": "Only if the decision is made to renew the contract.",
+      "due_date": null,
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule a meeting with ACME Ltd to negotiate contract terms if considering renewal.",
+      "due_date": null,
+      "time_slot": "2025-06-05T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify relevant stakeholders about the contract's pending expiration and the decision on renewal or termination.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "context": "Invoice is pending payment",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and decide on the renewal or renegotiation of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-30T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer and his start date of July 10.",
+      "assigned_to": "HR Department",
+      "due_date": "2025-07-10",
+      "time_slot": "2025-07-10T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice to ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms and conditions of the current contract with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Decide whether to renew or renegotiate the contract with ACME Ltd.",
+      "due_date": "next month",
+      "context": "The contract is set to expire next month.",
+      "time_slot": "2025-06-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "If renewing, initiate the renewal process and update contract terms as necessary.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "If not renewing, prepare necessary documents and notifications for terminating the partnership with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process or follow up on the payment of the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Accounts Receivable",
+      "due_date": null,
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Accounts Receivable"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and address the impending contract expiration with ACME Ltd, considering renewal or any necessary negotiations.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Contract Management Team",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Contract Management Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the outstanding \u20ac4500 invoice from ACME Ltd",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract terms with ACME Ltd and consider renewal or renegotiation options",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract is due to expire next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer and his start date.",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform HR of John Doe's start date on July 10.",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-07-10T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 confirming successful payment processing for invoice #1234.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 with the information that the payment for invoice #1234 has been processed successfully.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd before it expires.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-05-31T12:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify the HR department about John Doe's acceptance of the job offer.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Confirm John Doe's start date as July 10 with HR.",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-07-10T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Assess the contract terms and determine if renewal is necessary.",
+      "due_date": "next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Initiate discussions or negotiations for contract renewal, if applicable.",
+      "due_date": "next month",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set a reminder to follow up on the contract renewal before expiration next month.",
+      "due_date": "next month",
+      "time_slot": "2025-06-25T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 stating the successful processing of payment for invoice #1234",
+      "assigned_to": "@jve89",
+      "context": "Notification of payment processing",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify the HR department about John Doe's acceptance of the offer and his start date",
+      "assigned_to": "HR Coordinator",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Coordinator"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 confirming the successful processing of payment for invoice #1234.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment for the pending invoice of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and potentially renew the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow up on the payment of the \u20ac4500 invoice with ACME Ltd.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and discuss the contract terms with ACME Ltd for potential renewal or renegotiation.",
+      "due_date": "next month",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Follow-up with ACME Ltd about the pending payment of \u20ac4500.",
+      "due_date": null,
+      "time_slot": "2025-05-30T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract terms with ACME Ltd and consider renewal or amendment.",
+      "due_date": "2023-11-30",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and renew the contract with ACME Ltd before it expires next month.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer and his start date on July 10.",
+      "assigned_to": "HR Department",
+      "due_date": "2025-07-10",
+      "time_slot": "2025-07-10T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform HR of John Doe's start date on July 10.",
+      "context": "John Doe's start date is scheduled for July 10.",
+      "due_date": "2025-07-10",
+      "time_slot": "2025-07-10T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 informing them that the payment for invoice #1234 has been successfully processed.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 confirming the successful processing of payment for invoice #1234.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and process the payment of the \u20ac4500 invoice to ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Assess the current contract with ACME Ltd. and prepare for renewal or termination.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract is expiring next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and arrange payment for the pending invoice of \u20ac4500 to ACME Ltd.",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the contract details with ACME Ltd and decide whether to renew, renegotiate, or terminate the contract.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "context": "The contract is expiring next month.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer and his start date of July 10",
+      "assigned_to": "HR Department",
+      "due_date": "2025-07-10",
+      "time_slot": "2025-07-10T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 confirming the successful payment processing for invoice #1234.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 confirming the successful payment processing of invoice #1234",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "context": "John Doe will be starting on July 10",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them about reviewing the vendor invoice",
+      "due_date": "2023-10-22",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+      "due_date": "2023-10-03",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer and his start date",
+      "context": "John Doe is scheduled to start on July 10",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-25",
+      "assigned_to": "Slack Bot",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack Bot"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them about reviewing the vendor invoice",
+      "due_date": "2023-10-27",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "context": "John Doe will begin his position on July 10",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance of the offer",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Confirm John's start date with HR as July 10",
+      "due_date": "2025-07-10",
+      "time_slot": "2025-07-10T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-13",
+      "assigned_to": "Slack message sender",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack message sender"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+      "due_date": "2023-10-11",
+      "assigned_to": "@jve89",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-26",
+      "assigned_to": "Slack message sender",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack message sender"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a reminder message on Slack to @jve89 about reviewing the vendor invoice",
+      "due_date": "2023-10-19",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and his start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-12",
+      "assigned_to": "Slack Admin",
+      "context": "The reminder needs to be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack Admin"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-12",
+      "assigned_to": "@jve89",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the full content or document referenced to determine its applicability or necessary actions.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure all metadata such as project names, file paths, and identifiers are correct and relevant.",
+      "due_date": null,
+      "time_slot": "2025-05-29T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Clarify the purpose or content to ascertain if any specific tasks or follow-ups are required.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Verify the content of `test_hr_notification.txt` to ensure it contains the expected HR or vendor notification data.",
+      "due_date": null,
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Draft appropriate HR notification messages to include in `test_hr_notification.txt` if no content is available or it's incomplete.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure the file is correctly integrated within the job or vendor assistant system to facilitate intended operations.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and test the entire system workflow to confirm that notifications are processed and delivered as expected.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Address any system-specific or environmental metadata issues if they disrupt the normal operation of the file or system usage.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify HR about John Doe's acceptance and start date.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a reminder message on Slack to @jve89 regarding the vendor invoice review",
+      "due_date": "2023-10-25",
+      "assigned_to": "@jve89",
+      "context": "Reminder needed today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe\u2019s workspace and essential equipment",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-06",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder needs to be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure all necessary paperwork and systems access are ready",
+      "due_date": "2023-07-10",
+      "assigned_to": "IT and HR Teams",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT and HR Teams"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation or introductory meeting",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "context": "Meeting should be on or around July 10",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice today",
+      "assigned_to": "@jve89",
+      "due_date": "2023-10-19",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members of John Doe's start date",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workspace and necessary equipment",
+      "due_date": "2023-07-09",
+      "context": "Ensure everything is ready prior to July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-25",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder needs to be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and plan for John Doe's start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members about John Doe's start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Arrange necessary equipment and access for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a reminder Slack message to @jve89 about reviewing the vendor invoice",
+      "due_date": "2023-10-11",
+      "assigned_to": "Slack message sender",
+      "context": "The review needs to be done today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack message sender"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and processes for John Doe's start date",
+      "due_date": "2023-07-10",
+      "priority": "High",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform the relevant team members and departments about John Doe's commencement",
+      "priority": "Medium",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-18",
+      "assigned_to": "@jve89",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and schedule orientation for John Doe",
+      "due_date": "2023-07-09",
+      "priority": "High",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure all necessary workspace, equipment, and access are set up and ready for John Doe",
+      "due_date": "2023-07-10",
+      "priority": "High",
+      "assigned_to": "IT and Facilities Teams",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT and Facilities Teams"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack reminder to @jve89 regarding the review of the vendor invoice",
+      "due_date": "2023-10-31",
+      "assigned_to": "Slack Bot",
+      "context": "The reminder is needed today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack Bot"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": "2023-07-09",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": null,
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant departments of John Doe\u2019s start date",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+      "assigned_to": "@jve89",
+      "due_date": "2023-10-31",
+      "context": "Ensure the message is sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and orientation schedule for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members of John's start date",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John's workspace and access to necessary systems",
+      "due_date": "2023-07-09",
+      "assigned_to": "IT Department",
+      "context": "Ensure completion before John starts on July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+      "due_date": "2023-10-06",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder is for today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare necessary onboarding materials and orientation for John Doe's start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a reminder message to @jve89 on Slack regarding the review of the vendor invoice",
+      "due_date": "2023-10-13",
+      "assigned_to": "@jve89",
+      "context": "The vendor invoice requires review today.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workspace and company accounts",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "context": "On or shortly after July 10",
+      "time_slot": "2025-06-05T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify relevant departments about John Doe's start date",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-06",
+      "assigned_to": "Slack message sender",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack message sender"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify relevant teams and departments about John Doe's start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up necessary accounts and access for John Doe",
+      "due_date": "2023-07-09",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-13",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder needs to be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and process for John Doe's start",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send John Doe any necessary pre-employment documents and instructions",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+      "due_date": "2023-10-30",
+      "assigned_to": "Slack user @jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "context": "Session to start on July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify team members about John Doe\u2019s start date and role",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-31",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and necessary access credentials",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation meeting for John Doe's first day",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
+      "due_date": "2023-10-13",
+      "assigned_to": "Slack Admin",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack Admin"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": "2023-07-09",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and necessary accesses",
+      "due_date": "2023-07-09",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session or meeting for John Doe",
+      "due_date": "2023-07-10",
+      "context": "To be held on his first day",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-25",
+      "assigned_to": "Slack Bot",
+      "context": "The reminder should be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack Bot"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and necessary equipment",
+      "due_date": "2023-07-10",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule introductory meetings for John Doe with the team",
+      "due_date": "2023-07-10",
+      "assigned_to": "Team Manager",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Team Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure John Doe's access to company systems is ready by the start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-03",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder is for today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and access credentials",
+      "assigned_to": "IT Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation meeting for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "context": "Meeting to be held on John's start day",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform team members of John Doe's start date",
+      "assigned_to": "HR Team",
+      "context": "John's start date is July 10",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-30",
+      "assigned_to": "Slack message sender",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack message sender"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "context": "On or around July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members about John Doe's start date",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workspace and necessary equipment",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-14",
+      "assigned_to": "Slack bot or relevant team member",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack bot or relevant team member"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure all onboarding paperwork and processes are completed",
+      "due_date": "2023-07-10",
+      "priority": "High",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare John Doe's workspace and any necessary equipment",
+      "due_date": "2023-07-10",
+      "priority": "High",
+      "assigned_to": "Office Management",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Office Management"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation meeting for John Doe",
+      "due_date": "2023-07-10",
+      "priority": "Medium",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members about John Doe's arrival and role",
+      "priority": "Medium",
+      "assigned_to": "HR Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-13",
+      "assigned_to": "@jve89",
+      "context": "Reminder should be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule orientation and training sessions for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "context": "Sessions should start on July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant teams and departments of John Doe\u2019s start date",
+      "assigned_to": "HR Team",
+      "context": "John Doe starts on July 10",
+      "due_date": null,
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and necessary accounts",
+      "due_date": "2023-07-09",
+      "context": "Before July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation meeting for John Doe's first day",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify relevant team members of John Doe's start date",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-24",
+      "assigned_to": "Team member responsible for communication",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Team member responsible for communication"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Draft and send a Slack message to user @jve89",
+      "due_date": "2023-10-25",
+      "priority": "High",
+      "assigned_to": "@jve89",
+      "context": "Mention that the vendor invoice needs to be reviewed today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and schedule for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members of John Doe's start date",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up IT and workspace requirements for John Doe",
+      "due_date": "2023-07-09",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Include John Doe in any necessary training sessions scheduled after July 10",
+      "assigned_to": "Training Coordinator",
+      "due_date": null,
+      "time_slot": "2025-07-11T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Training Coordinator"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule any necessary training sessions for John Doe",
+      "context": "Training can be scheduled before or after his start date",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John's workspace and ensure all necessary equipment is ready",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform the team about John's start date and any introductory meetings",
+      "context": "John's start date is July 10",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 with the reminder to review the vendor invoice",
+      "due_date": "2023-10-17",
+      "assigned_to": "Slack user @jve89",
+      "context": "The reminder needs to be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-30",
+      "assigned_to": "Slack user sending the message",
+      "context": "The reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user sending the message"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "context": "Orientation session for John Doe",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure workspace and equipment are ready",
+      "due_date": "2023-07-10",
+      "assigned_to": "Office Manager",
+      "context": "For John Doe's first day",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Office Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and schedule for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure workstation and necessary equipment are ready",
+      "due_date": "2023-07-10",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members of John Doe's start date",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-20",
+      "assigned_to": "self",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "self"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+      "due_date": "2023-10-31",
+      "assigned_to": "self",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "self"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 requesting a review of the final report",
+      "due_date": "today",
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report",
+      "due_date": "2023-10-03",
+      "assigned_to": "self",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "self"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare new employee onboarding materials for John Doe.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workspace and IT equipment",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Coordinate John Doe's welcome orientation and introduction to the team",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare necessary onboarding documents and procedures for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up workspace and resources for John Doe",
+      "due_date": "2023-07-09",
+      "assigned_to": "Office Management Team",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Office Management Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule orientation and introductory meetings with team members",
+      "context": "Around John Doe's start date",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack reminder message to @jve89 about reviewing the vendor invoice",
+      "due_date": "2023-10-31",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-20",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report today.",
+      "due_date": "2023-10-11",
+      "assigned_to": "self",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "self"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 requesting a review of the final report",
+      "due_date": "2023-10-20",
+      "priority": "High",
+      "assigned_to": "Slack User @jve89",
+      "context": "The review needs to be completed within the day.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack User @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and schedule for John Doe",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure all necessary HR paperwork and processes are completed",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice today",
+      "assigned_to": "@jve89",
+      "due_date": "2023-10-01",
+      "context": "Reminder to review the vendor invoice",
+      "time_slot": "2025-05-29T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report",
+      "due_date": "2023-10-26",
+      "assigned_to": "self",
+      "context": "Request review of the final report",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "self"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials and schedule for John Doe's start date.",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Inform relevant team members and departments of John Doe's start date.",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-05",
+      "assigned_to": "Slack Bot",
+      "context": "The reminder needs to be sent today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack Bot"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report",
+      "due_date": "2023-10-04",
+      "assigned_to": "Yourself",
+      "context": "The review needs to be done today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Yourself"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe's start",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and necessary access to company systems",
+      "due_date": "2023-07-09",
+      "assigned_to": "IT Department",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an introductory meeting with John Doe and his team",
+      "due_date": "2023-07-14",
+      "assigned_to": "John Doe's Manager",
+      "context": "Meeting should be scheduled for his first week",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "John Doe's Manager"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure onboarding processes and documents are prepared for John Doe's start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule a welcome meeting or orientation for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Notify relevant team members or departments about John Doe's start date",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Department",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack reminder to @jve89 about reviewing the vendor invoice",
+      "due_date": "2023-10-23",
+      "assigned_to": "@jve89",
+      "context": "Ensure the reminder is sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-24",
+      "assigned_to": "@jve89",
+      "context": "Reminder to review the vendor invoice today",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 requesting a review of the final report",
+      "due_date": "2023-10-25",
+      "assigned_to": "Slack user @jve89",
+      "context": "The review needs to be done today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack user @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 requesting them to review the final report",
+      "due_date": "2023-10-03",
+      "assigned_to": "@jve89",
+      "context": "Ask for their review of the final report today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and necessary access permissions",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an introductory meeting for John Doe's first day",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding documents and resources for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "assigned_to": "HR Team",
+      "context": "Schedule on his start date or before",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John Doe's workstation and provide necessary equipment and access",
+      "assigned_to": "IT Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
+      "due_date": "2023-10-12",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack reminder to @jve89 to review the vendor invoice",
+      "due_date": "2023-10-30",
+      "assigned_to": "@jve89",
+      "context": "Reminder needs to be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report",
+      "due_date": "2023-10-30",
+      "assigned_to": "@jve89",
+      "context": "The review needs to be requested today.",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 requesting them to review the final report",
+      "due_date": "2023-10-13",
+      "assigned_to": "self",
+      "context": "The message should be sent today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "self"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "due_date": "2023-07-09",
+      "context": "Before his start date",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure work equipment and space are ready for John Doe",
+      "due_date": "2023-07-10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John Doe",
+      "due_date": "2023-07-10",
+      "context": "On or after his start date",
+      "time_slot": "2025-06-05T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Prepare onboarding materials for John Doe",
+      "assigned_to": "HR Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Set up John's workspace and equipment",
+      "due_date": "2023-07-09",
+      "assigned_to": "IT Department",
+      "context": "Ensure setup is complete before John starts on July 10",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "IT Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Schedule an orientation session for John's first day",
+      "assigned_to": "HR Team",
+      "context": "Orientation to be held on July 10",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "HR Team",
+        "email": "hr@example.com",
+        "slack": "@hr",
+        "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+      "due_date": "2023-10-10",
+      "assigned_to": "@jve89",
+      "context": "The invoice review is due today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "@jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
+      "due_date": "2023-10-18",
+      "assigned_to": "Slack User @jve89",
+      "context": "The vendor invoice needs to be reviewed today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Slack User @jve89"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report",
+      "due_date": "2023-10-11",
+      "assigned_to": "Yourself",
+      "context": "The review needs to be done today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Yourself"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 asking them to review the final report",
+      "due_date": "2023-10-13",
+      "assigned_to": "Yourself",
+      "context": "The review needs to be done today",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Yourself"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Arrange for the payment of the \u20ac4500 invoice for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review the terms of the current contract with ACME Ltd and prepare for its renewal or renegotiation.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Contract expires next month",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Process and settle the pending payment of \u20ac4500 for ACME Ltd.",
+      "priority": "High",
+      "assigned_to": "Finance Department",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Review and address renewal or termination of the contract with ACME Ltd.",
+      "due_date": "2023-11-30",
+      "priority": "High",
+      "assigned_to": "Legal Department",
+      "context": "Contract is expiring next month",
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Department"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 to remind them to review the invoice.",
+      "assigned_to": "You",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "You"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to @jve89 as a reminder to review the invoice.",
+      "due_date": null,
+      "time_slot": "2025-05-29T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
   }
 ]

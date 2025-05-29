@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Notify the HR department about John Doe's acceptance of the offer and his start date",
+    "due_date": null,
+    "assigned_to": "HR Coordinator",
+    "priority": "normal"
+  },
+  "result": "EMAIL_HR_SENT",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T09:45:59.640817"
+}

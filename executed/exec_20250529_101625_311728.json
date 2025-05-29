@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Prepare John Doe's workspace and any necessary equipment",
+    "due_date": "2023-07-10",
+    "assigned_to": "Office Management",
+    "priority": "High"
+  },
+  "result": "SLACK_FAILED",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:16:25.311705"
+}

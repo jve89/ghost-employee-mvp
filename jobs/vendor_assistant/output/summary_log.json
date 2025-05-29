@@ -1,584 +1,1384 @@
 [
   {
-    "timestamp": "2025-05-28T20:15:36.623796",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice from ACME Ltd has been received, with an outstanding amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the pending payment of \u20ac4500 to ACME Ltd.\n2. Review the terms and conditions of the current contract with ACME Ltd.\n3. Discuss and decide on the renewal of the contract with ACME Ltd before it expires.\n4. Contact ACME Ltd to negotiate any necessary contract adjustments or renewal terms.",
+    "timestamp": "2025-05-29T10:16:27.961517",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary**: John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items**: \n1. Ensure all onboarding paperwork and processes are completed before July 10.\n2. Prepare John Doe's workspace and any necessary equipment by his start date. \n3. Schedule an orientation meeting for John Doe on or shortly after July 10.\n4. Inform relevant team members about John Doe's arrival and role.",
     "tasks": [
       {
-        "description": "Process the pending payment of \u20ac4500 to ACME Ltd.",
+        "description": "Ensure all onboarding paperwork and processes are completed",
+        "due_date": "2023-07-10",
         "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T15:00:00+02:00",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Finance Team"
+          "name": "HR Department"
         }
       },
       {
-        "description": "Review the terms and conditions of the current contract with ACME Ltd.",
+        "description": "Prepare John Doe's workspace and any necessary equipment",
+        "due_date": "2023-07-10",
+        "priority": "High",
+        "assigned_to": "Office Management",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Office Management"
+        }
+      },
+      {
+        "description": "Schedule an orientation meeting for John Doe",
+        "due_date": "2023-07-10",
         "priority": "Medium",
-        "assigned_to": "Legal Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Legal Team"
+          "name": "HR Department"
         }
       },
       {
-        "description": "Discuss and decide on the renewal of the contract with ACME Ltd before it expires.",
-        "priority": "High",
-        "due_date": "2023-11-30",
-        "assigned_to": "Management Team",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Management Team"
-        }
-      },
-      {
-        "description": "Contact ACME Ltd to negotiate any necessary contract adjustments or renewal terms.",
-        "priority": "High",
-        "assigned_to": "Negotiation Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Negotiation Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:16:16.057251",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice has been received from ACME Ltd for the amount of \u20ac4500, which is currently pending payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment for the invoice of \u20ac4500 to ACME Ltd.\n2. Review and address the upcoming contract expiration with ACME Ltd, either for renewal or termination discussions.",
-    "tasks": [
-      {
-        "description": "Process the payment for the invoice of \u20ac4500 to ACME Ltd.",
-        "priority": "High",
-        "context": "Invoice is currently pending payment.",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and address the upcoming contract expiration with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Discuss options for renewal or termination.",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:16:53.621128",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice for \u20ac4500 from ACME Ltd is pending. Additionally, the current contract with ACME Ltd will expire next month.\n\n**Action Items:**\n1. Ensure the payment of the \u20ac4500 invoice to ACME Ltd is processed promptly.\n2. Review the existing contract with ACME Ltd to decide whether to renew or amend it before it expires next month.",
-    "tasks": [
-      {
-        "description": "Ensure the payment of the \u20ac4500 invoice to ACME Ltd is processed promptly.",
-        "priority": "High",
-        "context": "Pending invoice from ACME Ltd",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the existing contract with ACME Ltd to decide whether to renew or amend it.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:17:39.290146",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice amounting to \u20ac4500 has been received for ACME Ltd. Additionally, the contract with ACME Ltd is expiring next month.\n\nAction Items:\n1. Process and pay the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review and assess the contract terms with ACME Ltd, considering its upcoming expiration next month.\n3. Decide whether to renew the contract with ACME Ltd and initiate the renewal process if applicable.",
-    "tasks": [
-      {
-        "description": "Process and pay the pending invoice of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Department",
+        "description": "Inform relevant team members about John Doe's arrival and role",
+        "priority": "Medium",
+        "assigned_to": "HR Department",
         "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Finance Department"
+          "name": "HR Department"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:16:36.072678",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary: A Slack reminder message should be sent to @jve89 to review the vendor invoice today.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-13",
+        "assigned_to": "@jve89",
+        "context": "Reminder should be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:17:36.525830",
+    "filename": "test_hr_notification.txt",
+    "summary": "Summary:\nJohn Doe has agreed to join the company and will start his employment on July 10.\n\nAction Items:\n- Prepare onboarding materials for John Doe.\n- Schedule orientation and training sessions for John Doe starting on July 10.\n- Inform relevant teams and departments of John Doe\u2019s start date.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials for John Doe",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
         }
       },
       {
-        "description": "Review and assess the contract terms with ACME Ltd.",
-        "due_date": "Next month",
-        "priority": "Medium",
-        "context": "Contract is expiring next month",
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "description": "Schedule orientation and training sessions for John Doe",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Team",
+        "context": "Sessions should start on July 10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
       },
       {
-        "description": "Decide whether to renew the contract with ACME Ltd and initiate the renewal process if applicable.",
-        "due_date": "Next month",
-        "priority": "High",
-        "assigned_to": "Management Team",
-        "context": "Contract is expiring next month",
+        "description": "Inform relevant teams and departments of John Doe\u2019s start date",
+        "assigned_to": "HR Team",
+        "context": "John Doe starts on July 10",
+        "due_date": null,
         "time_slot": "2025-06-05T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Management Team"
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
         }
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-28T20:18:14.189295",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nACME Ltd has an outstanding invoice of \u20ac4500 that needs to be addressed. Additionally, their contract is due to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 for the invoice from ACME Ltd.\n2. Review and decide on the renewal or renegotiation of the contract with ACME Ltd before it expires next month.",
+    "timestamp": "2025-05-29T10:17:46.195661",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to remind a team member (@jve89) about reviewing a vendor invoice.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
     "tasks": [
       {
-        "description": "Process the payment of \u20ac4500 for the invoice from ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and decide on the renewal or renegotiation of the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:25:18.206813",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice has been received from ACME Ltd, with an outstanding amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Review and process the payment of \u20ac4500 to ACME Ltd.\n2. Initiate discussions with ACME Ltd regarding the renewal or termination of the contract before it expires next month.",
-    "tasks": [
-      {
-        "description": "Review and process the payment of \u20ac4500 to ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-24",
+        "assigned_to": "Team member responsible for communication",
+        "context": "The reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Initiate discussions with ACME Ltd regarding the renewal or termination of the contract.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Contracts Manager",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Contracts Manager"
+          "name": "Team member responsible for communication"
         }
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-28T20:25:31.925089",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice from ACME Ltd for \u20ac4500 is pending payment. The contract with ACME Ltd is due to expire next month.\n\n**Action Items:**\n1. Process and arrange payment for the \u20ac4500 invoice from ACME Ltd.\n2. Review the contract with ACME Ltd and take necessary steps before its expiration next month, such as renewal discussions or termination procedures.",
+    "timestamp": "2025-05-29T10:17:38.721724",
+    "filename": "test_hr_notification.txt",
+    "summary": "Summary: John Doe has accepted a job offer and is scheduled to start on July 10.\n\nAction Items:\n- Prepare onboarding materials for John Doe.\n- Set up John Doe's workstation and necessary accounts before July 10.\n- Schedule an orientation meeting for John Doe's first day.\n- Notify relevant team members of John Doe's start date.",
     "tasks": [
       {
-        "description": "Process and arrange payment for the \u20ac4500 invoice from ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
+        "description": "Prepare onboarding materials for John Doe",
         "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the contract with ACME Ltd and take necessary steps before its expiration next month.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Consider renewal discussions or termination procedures.",
-        "time_slot": "2025-06-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:26:36.622372",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary**: An invoice for ACME Ltd has been received with a pending amount of \u20ac4500. Additionally, their contract is set to expire next month.\n\n**Action Items**:\n1. Process the payment of \u20ac4500 for ACME Ltd's invoice.\n2. Review the ACME Ltd contract terms and prepare for renewal or renegotiation before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of \u20ac4500 for ACME Ltd's invoice",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-06-05T15:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Review the ACME Ltd contract terms and prepare for renewal or renegotiation",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-04T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:26:52.315584",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for \u20ac4500 from ACME Ltd is pending, and the contract with the company is expiring next month. \n\nAction Items:\n1. Process the payment for the \u20ac4500 invoice from ACME Ltd.\n2. Review and decide on the renewal or termination of the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "description": "Set up John Doe's workstation and necessary accounts",
+        "due_date": "2023-07-09",
+        "context": "Before July 10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "The contract expires next month.",
-        "time_slot": "2025-06-01T09:00:00+02:00",
+        "description": "Schedule an orientation meeting for John Doe's first day",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-06-02T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:27:53.137381",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd has been received with a pending amount of \u20ac4500. Additionally, the contract with ACME Ltd is expiring next month.\n\nAction Items:\n1. Review and process the pending invoice for \u20ac4500 from ACME Ltd.\n2. Prepare for contract renewal discussions or negotiations with ACME Ltd, as the current contract is expiring next month.",
-    "tasks": [
-      {
-        "description": "Review and process the pending invoice for \u20ac4500 from ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
       },
       {
-        "description": "Prepare for contract renewal discussions or negotiations with ACME Ltd.",
-        "due_date": "Next month",
-        "priority": "High",
-        "context": "The current contract is expiring next month.",
+        "description": "Notify relevant team members of John Doe's start date",
+        "due_date": null,
         "time_slot": "2025-06-02T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-28T20:28:13.176849",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nACME Ltd has an outstanding invoice of \u20ac4500. Additionally, their contract is set to expire next month.\n\nAction Items:\n1. Follow up on the payment of the \u20ac4500 invoice from ACME Ltd.\n2. Review and prepare for the upcoming contract renewal or termination with ACME Ltd, as it expires next month.",
+    "timestamp": "2025-05-29T10:17:46.716301",
+    "filename": "slack_test_001.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to remind user @jve89 that the vendor invoice requires review today.\n\n**Action Items:**\n1. Draft and send a Slack message to user @jve89.\n2. Mention that the vendor invoice needs to be reviewed today in the message.",
     "tasks": [
       {
-        "description": "Follow up on the payment of the \u20ac4500 invoice from ACME Ltd.",
+        "description": "Draft and send a Slack message to user @jve89",
+        "due_date": "2023-10-25",
         "priority": "High",
-        "assigned_to": "Accounts Receivable",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "assigned_to": "@jve89",
+        "context": "Mention that the vendor invoice needs to be reviewed today.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Accounts Receivable"
-        }
-      },
-      {
-        "description": "Review and prepare for the upcoming contract renewal or termination with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
+          "name": "@jve89"
         }
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-28T20:29:15.580502",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: ACME Ltd has an outstanding invoice of \u20ac4500, and their contract is expiring next month.\n\nAction Items:\n1. Follow up on the payment of the \u20ac4500 invoice with ACME Ltd.\n2. Review the terms of the expiring contract.\n3. Decide on whether to renew the contract with ACME Ltd and take necessary actions for renewal if applicable.",
+    "timestamp": "2025-05-29T10:18:33.908733",
+    "filename": "test_hr_notification.txt",
+    "summary": "Summary: John Doe has accepted a job offer and is scheduled to start on July 10.\n\nAction Items:\n1. Prepare onboarding materials and schedule for John Doe.\n2. Inform relevant team members of John Doe's start date.\n3. Set up IT and workspace requirements for John Doe prior to July 10.\n4. Include John Doe in any necessary training sessions scheduled after July 10.",
     "tasks": [
       {
-        "description": "Follow up on the payment of the \u20ac4500 invoice with ACME Ltd.",
+        "description": "Prepare onboarding materials and schedule for John Doe",
+        "assigned_to": "HR Team",
         "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Inform relevant team members of John Doe's start date",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Set up IT and workspace requirements for John Doe",
+        "due_date": "2023-07-09",
+        "assigned_to": "IT Department",
+        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "IT Department"
+        }
+      },
+      {
+        "description": "Include John Doe in any necessary training sessions scheduled after July 10",
+        "assigned_to": "Training Coordinator",
+        "due_date": null,
+        "time_slot": "2025-07-11T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Training Coordinator"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:18:42.554441",
+    "filename": "slack_test_001.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to user @jve89 to remind them about reviewing the vendor invoice today.\n\n**Action Items:**\n1. Send a Slack message to @jve89 with the reminder to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 with the reminder to review the vendor invoice",
+        "due_date": "2023-10-17",
+        "assigned_to": "Slack user @jve89",
+        "context": "The reminder needs to be sent today.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Slack user @jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:18:34.588399",
+    "filename": "test_hr_notification.txt",
+    "summary": "John Doe has confirmed his acceptance of the job offer and is scheduled to start work on July 10. \n\n**Action Items:**\n- Prepare onboarding materials for John Doe.\n- Schedule any necessary training sessions before or after his start date.\n- Set up John's workspace and ensure all necessary equipment is ready.\n- Inform the team about John's start date and any introductory meetings.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials for John Doe",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Review the terms of the expiring contract with ACME Ltd.",
+        "description": "Schedule any necessary training sessions for John Doe",
+        "context": "Training can be scheduled before or after his start date",
         "due_date": null,
-        "time_slot": "2025-06-01T10:00:00+02:00",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Decide on whether to renew the contract with ACME Ltd and take necessary actions for renewal if applicable.",
+        "description": "Set up John's workspace and ensure all necessary equipment is ready",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Inform the team about John's start date and any introductory meetings",
+        "context": "John's start date is July 10",
+        "due_date": null,
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "hr",
+    "tag_icon": "\ud83d\udc65"
+  },
+  {
+    "timestamp": "2025-05-29T10:18:43.014814",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary: A Slack message needs to be sent to user @jve89 to remind them to review the vendor invoice today.\n\nAction Item:\n- Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-30",
+        "assigned_to": "Slack user sending the message",
+        "context": "The reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Slack user sending the message"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:20:05.635172",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary:** John Doe has accepted a job offer and will start his new position on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials and schedule for John Doe.\n2. Ensure workstation and necessary equipment are ready by July 10.\n3. Inform relevant team members of John Doe's start date.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials and schedule for John Doe",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Ensure workstation and necessary equipment are ready",
+        "due_date": "2023-07-10",
+        "assigned_to": "IT Department",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "IT Department"
+        }
+      },
+      {
+        "description": "Inform relevant team members of John Doe's start date",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:20:11.924775",
+    "filename": "slack_test_001.txt",
+    "summary": "Action Item: Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-20",
+        "assigned_to": "self",
+        "context": "Reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "self"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:20:20.553100",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary:\nSend a Slack message to @jve89 requesting a review of the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 requesting a review of the final report",
+        "due_date": "today",
+        "time_slot": "2025-05-29T15:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:20:04.921412",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary:**\nJohn Doe has accepted a job offer and his start date is July 10.\n\n**Action Items:**\n- Prepare onboarding materials for John Doe.\n- Schedule an orientation session for July 10.\n- Ensure workspace and equipment are ready for John Doe's first day.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials for John Doe",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Schedule an orientation session",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Team",
+        "context": "Orientation session for John Doe",
+        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Ensure workspace and equipment are ready",
+        "due_date": "2023-07-10",
+        "assigned_to": "Office Manager",
+        "context": "For John Doe's first day",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Office Manager"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:20:13.214341",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary: Send a Slack message to @jve89 to remind them to review the vendor invoice today.\n\nAction Items:\n1. Send a Slack message to @jve89.\n2. Include a reminder to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
+        "due_date": "2023-10-31",
+        "assigned_to": "self",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "self"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:20:21.425510",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: A request is made to send a Slack message to @jve89 to review the final report today.\n\nAction Item: \n- Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 asking them to review the final report",
+        "due_date": "2023-10-03",
+        "assigned_to": "self",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "self"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:21:44.398222",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary:**\nJohn Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare new employee onboarding materials for John Doe.\n2. Set up John Doe's workspace and IT equipment before July 10.\n3. Coordinate John Doe's welcome orientation and introduction to the team on July 10.",
+    "tasks": [
+      {
+        "description": "Prepare new employee onboarding materials for John Doe.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Set up John Doe's workspace and IT equipment",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Coordinate John Doe's welcome orientation and introduction to the team",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:21:53.208247",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary:\nA reminder needs to be sent via Slack to user @jve89 about reviewing a vendor invoice today.\n\nAction Item:\n- Send a Slack message to @jve89 reminding them to review the vendor invoice.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-20",
+        "assigned_to": "@jve89",
+        "context": "Reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:21:58.987534",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: A request to send a Slack message to @jve89 regarding reviewing the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 asking them to review the final report today.",
+        "due_date": "2023-10-11",
+        "assigned_to": "self",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "self"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:21:44.792791",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary**: John Doe has accepted the job offer and will start work on July 10.\n\n**Action Items**:\n1. Prepare necessary onboarding documents and procedures for John Doe.\n2. Set up workspace and resources for John Doe prior to July 10.\n3. Schedule orientation and introductory meetings with team members around John Doe's start date.",
+    "tasks": [
+      {
+        "description": "Prepare necessary onboarding documents and procedures for John Doe",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Set up workspace and resources for John Doe",
+        "due_date": "2023-07-09",
+        "assigned_to": "Office Management Team",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Office Management Team"
+        }
+      },
+      {
+        "description": "Schedule orientation and introductory meetings with team members",
+        "context": "Around John Doe's start date",
+        "due_date": null,
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:21:51.219770",
+    "filename": "slack_test_001.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to remind @jve89 to review a vendor invoice today.\n\n**Action Items:**\n1. Send a Slack reminder message to @jve89 about reviewing the vendor invoice.",
+    "tasks": [
+      {
+        "description": "Send a Slack reminder message to @jve89 about reviewing the vendor invoice",
+        "due_date": "2023-10-31",
+        "assigned_to": "@jve89",
+        "context": "Reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:22:02.683491",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary:\nThe content is a request to send a Slack message to a user with the handle @jve89, asking them to review the final report within the day.\n\nAction Item:\n- Send a Slack message to @jve89 requesting a review of the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 requesting a review of the final report",
+        "due_date": "2023-10-20",
+        "priority": "High",
+        "assigned_to": "Slack User @jve89",
+        "context": "The review needs to be completed within the day.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Slack User @jve89"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:23:14.950381",
+    "filename": "test_hr_notification.txt",
+    "summary": "John Doe has accepted the job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials and schedule for John Doe by July 10.\n2. Ensure all necessary HR paperwork and processes are completed prior to his start date.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials and schedule for John Doe",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Ensure all necessary HR paperwork and processes are completed",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "hr",
+    "tag_icon": "\ud83d\udc65"
+  },
+  {
+    "timestamp": "2025-05-29T10:23:24.446639",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to remind @jve89 about reviewing the vendor invoice today.\n\nAction Items:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice today",
+        "assigned_to": "@jve89",
+        "due_date": "2023-10-01",
+        "context": "Reminder to review the vendor invoice",
+        "time_slot": "2025-05-29T15:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:23:32.100476",
+    "filename": "slack_test_final.txt",
+    "summary": "**Summary:** The task involves sending a Slack message to user @jve89 requesting them to review the final report.\n\n**Action Item:** \n- Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 asking them to review the final report",
+        "due_date": "2023-10-26",
+        "assigned_to": "self",
+        "context": "Request review of the final report",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "self"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:23:33.485182",
+    "filename": "test_hr_notification.txt",
+    "summary": "John Doe has accepted the job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials and schedule for John Doe's start date.\n2. Inform relevant team members and departments of John Doe's start date.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials and schedule for John Doe's start date.",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Department"
+        }
+      },
+      {
+        "description": "Inform relevant team members and departments of John Doe's start date.",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Department"
+        }
+      }
+    ],
+    "tag": "hr",
+    "tag_icon": "\ud83d\udc65"
+  },
+  {
+    "timestamp": "2025-05-29T10:23:41.792774",
+    "filename": "slack_test_001.txt",
+    "summary": "Content Summary:\nA request is made to send a Slack message reminding the user @jve89 to review the vendor invoice today.\n\nAction Items:\n- Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-05",
+        "assigned_to": "Slack Bot",
+        "context": "The reminder needs to be sent today.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Slack Bot"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:23:50.618224",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: A Slack message needs to be sent to @jve89 requesting them to review the final report today.\n\nAction Item:\n1. Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 asking them to review the final report",
+        "due_date": "2023-10-04",
+        "assigned_to": "Yourself",
+        "context": "The review needs to be done today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Yourself"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:25:00.501699",
+    "filename": "test_hr_notification.txt",
+    "summary": "Summary:\nJohn Doe has accepted a job offer and will start his new position on July 10.\n\nAction Items:\n- Prepare onboarding materials for John Doe's start on July 10.\n- Set up John Doe's workstation and necessary access to company systems before his start date.\n- Schedule an introductory meeting with John Doe and his team for his first week.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials for John Doe's start",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Team",
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Set up John Doe's workstation and necessary access to company systems",
+        "due_date": "2023-07-09",
+        "assigned_to": "IT Department",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "IT Department"
+        }
+      },
+      {
+        "description": "Schedule an introductory meeting with John Doe and his team",
+        "due_date": "2023-07-14",
+        "assigned_to": "John Doe's Manager",
+        "context": "Meeting should be scheduled for his first week",
+        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "John Doe's Manager"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:25:08.020862",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary: A Slack message needs to be sent to remind @jve89 to review the vendor invoice today.\n\nAction Item: \n- Send a Slack reminder to @jve89 about reviewing the vendor invoice.",
+    "tasks": [
+      {
+        "description": "Send a Slack reminder to @jve89 about reviewing the vendor invoice",
+        "due_date": "2023-10-23",
+        "assigned_to": "@jve89",
+        "context": "Ensure the reminder is sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:25:16.158213",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: A Slack message needs to be sent to @jve89 to review the final report today.\n\nAction Items:\n1. Send a Slack message to @jve89 requesting a review of the final report.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 requesting a review of the final report",
+        "due_date": "2023-10-25",
+        "assigned_to": "Slack user @jve89",
+        "context": "The review needs to be done today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Slack user @jve89"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:25:01.684930",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary:** John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Ensure onboarding processes and documents are prepared for John Doe's start date.\n2. Schedule a welcome meeting or orientation for John Doe on July 10.\n3. Notify relevant team members or departments about John Doe's start date.",
+    "tasks": [
+      {
+        "description": "Ensure onboarding processes and documents are prepared for John Doe's start date",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Department"
+        }
+      },
+      {
+        "description": "Schedule a welcome meeting or orientation for John Doe",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Department"
+        }
+      },
+      {
+        "description": "Notify relevant team members or departments about John Doe's start date",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Department",
+        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Department"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:25:10.810735",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary:\nThere is a need to remind a team member, @jve89, via Slack to review a vendor invoice today.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-24",
+        "assigned_to": "@jve89",
+        "context": "Reminder to review the vendor invoice today",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:25:17.963586",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: Send a Slack message to @jve89 requesting them to review the final report.\n\nAction Item: \n- Message @jve89 on Slack to ask for their review of the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 requesting them to review the final report",
+        "due_date": "2023-10-03",
+        "assigned_to": "@jve89",
+        "context": "Ask for their review of the final report today.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:26:38.734418",
+    "filename": "test_hr_notification.txt",
+    "summary": "John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials for John Doe.\n2. Set up John Doe's workstation and necessary access permissions by July 10.\n3. Schedule an introductory meeting for John Doe's first day.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials for John Doe",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Set up John Doe's workstation and necessary access permissions",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Schedule an introductory meeting for John Doe's first day",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "hr",
+    "tag_icon": "\ud83d\udc65"
+  },
+  {
+    "timestamp": "2025-05-29T10:26:46.884812",
+    "filename": "slack_test_001.txt",
+    "summary": "**Summary:** A reminder needs to be sent via Slack to @jve89 regarding the review of a vendor invoice today.\n\n**Action Items:**\n1. Send a Slack message to @jve89 as a reminder to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
+        "due_date": "2023-10-12",
+        "assigned_to": "@jve89",
+        "context": "Reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:27:08.742795",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to @jve89 requesting a review of the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 asking them to review the final report",
+        "due_date": "2023-10-30",
+        "assigned_to": "@jve89",
+        "context": "The review needs to be requested today.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:26:39.535623",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary:** John Doe has accepted a job offer and will start his new position on July 10.\n\n**Action Items:**\n1. Prepare onboarding documents and resources for John Doe.\n2. Schedule an orientation session for John Doe on his start date or before.\n3. Set up John Doe's workstation and provide necessary equipment and access.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding documents and resources for John Doe",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Schedule an orientation session for John Doe",
+        "due_date": "2023-07-10",
+        "assigned_to": "HR Team",
+        "context": "Schedule on his start date or before",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Set up John Doe's workstation and provide necessary equipment and access",
+        "assigned_to": "IT Department",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "IT Department"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:26:51.325027",
+    "filename": "slack_test_001.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to remind a specific user (@jve89) about reviewing the vendor invoice.\n\n**Action Items:**\n1. Send a Slack reminder to @jve89 to review the vendor invoice today.",
+    "tasks": [
+      {
+        "description": "Send a Slack reminder to @jve89 to review the vendor invoice",
+        "due_date": "2023-10-30",
+        "assigned_to": "@jve89",
+        "context": "Reminder needs to be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "@jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:27:09.196036",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary:\nA request is made to send a Slack message to @jve89 for reviewing the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 requesting them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 requesting them to review the final report",
+        "due_date": "2023-10-13",
+        "assigned_to": "self",
+        "context": "The message should be sent today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "self"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:28:33.809070",
+    "filename": "test_hr_notification.txt",
+    "summary": "John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials for John Doe.\n2. Set up John's workspace and equipment before July 10.\n3. Schedule an orientation session for John's first day.",
+    "tasks": [
+      {
+        "description": "Prepare onboarding materials for John Doe",
+        "assigned_to": "HR Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      },
+      {
+        "description": "Set up John's workspace and equipment",
+        "due_date": "2023-07-09",
+        "assigned_to": "IT Department",
+        "context": "Ensure setup is complete before John starts on July 10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "IT Department"
+        }
+      },
+      {
+        "description": "Schedule an orientation session for John's first day",
+        "assigned_to": "HR Team",
+        "context": "Orientation to be held on July 10",
+        "due_date": null,
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "HR Team",
+          "email": "hr@example.com",
+          "slack": "@hr",
+          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+        }
+      }
+    ],
+    "tag": "hr",
+    "tag_icon": "\ud83d\udc65"
+  },
+  {
+    "timestamp": "2025-05-29T10:28:40.277726",
+    "filename": "slack_test_001.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to @jve89 as a reminder to review the vendor invoice today.\n\n**Action Items:**\n1. Send a Slack message to @jve89.\n2. Include a reminder that the vendor invoice needs to be reviewed today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
+        "due_date": "2023-10-18",
+        "assigned_to": "Slack User @jve89",
+        "context": "The vendor invoice needs to be reviewed today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Slack User @jve89"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:28:49.934609",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: A request was made to send a Slack message to @jve89 for reviewing the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to @jve89 asking them to review the final report",
+        "due_date": "2023-10-13",
+        "assigned_to": "Yourself",
+        "context": "The review needs to be done today",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Yourself"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T10:29:07.593587",
+    "filename": "vendor_request_001.txt",
+    "summary": "**Summary:**\nAn invoice has been received for ACME Ltd amounting to \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process and settle the pending payment of \u20ac4500 for ACME Ltd.\n2. Review and address renewal or termination of the contract with ACME Ltd, as it is expiring next month.",
+    "tasks": [
+      {
+        "description": "Process and settle the pending payment of \u20ac4500 for ACME Ltd.",
+        "priority": "High",
+        "assigned_to": "Finance Department",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Department"
+        }
+      },
+      {
+        "description": "Review and address renewal or termination of the contract with ACME Ltd.",
+        "due_date": "2023-11-30",
+        "priority": "High",
+        "assigned_to": "Legal Department",
         "context": "Contract is expiring next month",
-        "due_date": null,
-        "time_slot": "2025-06-05T00:00:00+02:00",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Department"
+        }
       }
     ],
     "tag": "contract",
     "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-28T20:29:34.276073",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd amounting to \u20ac4500 has been received and is pending payment. Additionally, the contract with ACME Ltd is expiring next month.\n\nAction Items:\n1. Process and settle the pending invoice for \u20ac4500 from ACME Ltd.\n2. Review the contract with ACME Ltd and consider renewal or termination options before it expires next month.",
+    "timestamp": "2025-05-29T10:29:16.514507",
+    "filename": "slack_test_retry.txt",
+    "summary": "Summary:\nYou need to send a Slack message to the user @jve89 to remind them to review the invoice.\n\nAction Items:\n- Send a Slack message to @jve89.\n- Remind them to review the invoice.",
     "tasks": [
       {
-        "description": "Process and settle the pending invoice for \u20ac4500 from ACME Ltd.",
-        "priority": "High",
-        "context": "Invoice is pending payment.",
+        "description": "Send a Slack message to @jve89 to remind them to review the invoice.",
+        "assigned_to": "You",
         "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the contract with ACME Ltd and consider renewal or termination options.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract is expiring next month.",
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "You"
+        }
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-28T20:30:48.798009",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice for ACME Ltd amounting to \u20ac4500 is pending, and the contract with them is set to expire next month.\n\nAction Items:\n1. Process the payment for ACME Ltd's invoice of \u20ac4500.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
+    "timestamp": "2025-05-29T10:28:29.515160",
+    "filename": "test_hr_notification.txt",
+    "summary": "**Summary:**\nJohn Doe has accepted a job offer and is set to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials for John Doe before his start date.\n2. Ensure his work equipment and space are ready for July 10.\n3. Schedule an orientation session for John Doe on or after July 10.",
     "tasks": [
       {
-        "description": "Process the payment for ACME Ltd's invoice of \u20ac4500",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "description": "Prepare onboarding materials for John Doe",
+        "due_date": "2023-07-09",
+        "context": "Before his start date",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Review and renew the contract with ACME Ltd",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:30:53.956769",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice has been received for ACME Ltd, with a pending amount of \u20ac4500. Additionally, ACME Ltd's contract is set to expire next month.\n\n**Action Items:**\n1. Process or review the \u20ac4500 invoice for ACME Ltd.\n2. Review and renegotiate or renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process or review the \u20ac4500 invoice for ACME Ltd",
-        "priority": "High",
-        "context": "Invoice has been received with a pending amount",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "description": "Ensure work equipment and space are ready for John Doe",
+        "due_date": "2023-07-10",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Review and renegotiate or renew the contract with ACME Ltd",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract is set to expire next month",
-        "time_slot": "2025-06-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:32:14.425651",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd has been received, amounting to \u20ac4500, and payment is pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 for the received invoice from ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of \u20ac4500 for the received invoice from ACME Ltd.",
-        "priority": "High",
-        "context": "Payment is pending.",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month.",
+        "description": "Schedule an orientation session for John Doe",
+        "due_date": "2023-07-10",
+        "context": "On or after his start date",
         "time_slot": "2025-06-05T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-28T20:32:14.467027",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd amounting to \u20ac4500 is pending, and their contract is set to expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review the terms and conditions of the contract with ACME Ltd before it expires next month.\n3. Decide whether to renew or renegotiate the contract with ACME Ltd.",
+    "timestamp": "2025-05-29T10:28:36.737819",
+    "filename": "slack_test_001.txt",
+    "summary": "Summary: A reminder needs to be sent to @jve89 on Slack regarding the review of a vendor invoice that is due today.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
     "tasks": [
       {
-        "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the terms and conditions of the contract with ACME Ltd before it expires next month.",
-        "due_date": "2023-11-30",
-        "priority": "Medium",
-        "time_slot": "2025-06-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Decide whether to renew or renegotiate the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "time_slot": "2025-12-01T09:00:00+01:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:33:29.348772",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nACME Ltd has an outstanding invoice for \u20ac4500. Additionally, their contract is set to expire next month.\n\nAction Items:\n1. Follow up with ACME Ltd to ensure payment of the outstanding invoice of \u20ac4500.\n2. Review the terms of the expiring contract with ACME Ltd and prepare for renewal discussions.",
-    "tasks": [
-      {
-        "description": "Follow up with ACME Ltd to ensure payment of the outstanding invoice of \u20ac4500.",
-        "priority": "High",
-        "assigned_to": "Accounts Receivable",
-        "due_date": null,
+        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
+        "due_date": "2023-10-10",
+        "assigned_to": "@jve89",
+        "context": "The invoice review is due today",
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Accounts Receivable"
+          "name": "@jve89"
         }
-      },
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T10:28:47.143732",
+    "filename": "slack_test_final.txt",
+    "summary": "Summary: A Slack message needs to be sent to @jve89, requesting them to review the final report today.\n\nAction Item: \n1. Send a Slack message to @jve89 asking them to review the final report today.",
+    "tasks": [
       {
-        "description": "Review the terms of the expiring contract with ACME Ltd and prepare for renewal discussions.",
-        "due_date": "2023-11-30",
-        "priority": "Medium",
-        "assigned_to": "Legal Team",
+        "description": "Send a Slack message to @jve89 asking them to review the final report",
+        "due_date": "2023-10-11",
+        "assigned_to": "Yourself",
+        "context": "The review needs to be done today",
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Legal Team"
+          "name": "Yourself"
         }
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-28T20:33:51.175308",
+    "timestamp": "2025-05-29T10:29:07.037011",
     "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice for \u20ac4500 has been received from ACME Ltd, and there is a pending payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Arrange for the payment of the \u20ac4500 invoice from ACME Ltd.\n2. Review the contract with ACME Ltd to decide on renewal or termination.\n3. If renewing the contract, initiate negotiation or renewal processes in advance of the expiration date.\n4. Update records to reflect the pending invoice and upcoming contract expiration.",
+    "summary": "Summary: ACME Ltd has an outstanding invoice of \u20ac4500. Additionally, their contract is due to expire next month.\n\nAction Items:\n1. Arrange for the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review the terms of the current contract with ACME Ltd and prepare for its renewal or renegotiation before it expires next month.",
     "tasks": [
       {
-        "description": "Arrange for the payment of the \u20ac4500 invoice from ACME Ltd.",
+        "description": "Arrange for the payment of the \u20ac4500 invoice for ACME Ltd.",
         "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -586,103 +1386,11 @@
         }
       },
       {
-        "description": "Review the contract with ACME Ltd to decide on renewal or termination.",
-        "priority": "High",
-        "due_date": "2023-11-30",
-        "assigned_to": "Legal Team",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      },
-      {
-        "description": "If renewing the contract, initiate negotiation or renewal processes in advance of the expiration date.",
-        "priority": "Medium",
-        "assigned_to": "Legal Team",
-        "context": "Coordinate with ACME Ltd representatives",
-        "due_date": null,
-        "time_slot": "2025-05-30T10:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      },
-      {
-        "description": "Update records to reflect the pending invoice and upcoming contract expiration.",
-        "priority": "Medium",
-        "assigned_to": "Administrative Team",
-        "due_date": null,
-        "time_slot": "2025-06-01T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Administrative Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:34:45.253202",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nACME Ltd has an outstanding invoice amounting to \u20ac4500. Additionally, the contract with them is set to expire next month.\n\n**Action Items:**\n1. Process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review and consider renewing or renegotiating the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review and consider renewing or renegotiating the contract with ACME Ltd.",
-        "due_date": "Next month",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract is set to expire next month",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-28T20:35:21.392810",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice for ACME Ltd amounting to \u20ac4500 has been received and is currently pending payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process and complete the payment for the \u20ac4500 invoice.\n2. Review the contract with ACME Ltd and prepare for renewal discussions or termination, as appropriate, before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process and complete the payment for the \u20ac4500 invoice",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-28T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the contract with ACME Ltd and prepare for renewal discussions or termination",
+        "description": "Review the terms of the current contract with ACME Ltd and prepare for its renewal or renegotiation.",
         "due_date": "2023-11-30",
         "priority": "High",
         "assigned_to": "Legal Team",
-        "context": "The contract expires next month",
+        "context": "Contract expires next month",
         "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
@@ -695,844 +1403,19 @@
     "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T06:22:04.773280",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice of \u20ac4500 has been received from ACME Ltd, and the payment is pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 to ACME Ltd.\n2. Review the contract with ACME Ltd and decide on renewal or termination before it expires next month.",
+    "timestamp": "2025-05-29T10:29:16.532989",
+    "filename": "slack_test_retry.txt",
+    "summary": "**Summary:** The content involves sending a Slack message to a user with the handle @jve89, reminding them to review an invoice.\n\n**Action Item:**\n- Send a Slack message to @jve89 as a reminder to review the invoice.",
     "tasks": [
       {
-        "description": "Process the payment of \u20ac4500 to ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the contract with ACME Ltd and decide on renewal or termination.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:22:09.242603",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice of \u20ac4500 from ACME Ltd is pending payment, and their contract is set to expire next month. \n\nAction Items:\n1. Process the payment for the \u20ac4500 invoice from ACME Ltd.\n2. Review and decide on the renewal of ACME Ltd's contract before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and decide on the renewal of ACME Ltd's contract before it expires next month.",
-        "due_date": "Next month",
-        "priority": "High",
-        "time_slot": "2025-06-29T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:23:22.846490",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd amounting to \u20ac4500 is pending, and the contract with them is set to expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 pending invoice for ACME Ltd.\n2. Review and possibly renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of the \u20ac4500 pending invoice for ACME Ltd.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and possibly renew the contract with ACME Ltd before it expires next month.",
-        "due_date": "2023-11-30",
-        "time_slot": "2025-06-30T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:23:29.102484",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice has been received from ACME Ltd for an amount of \u20ac4500. The contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Arrange payment for the pending invoice amount of \u20ac4500 to ACME Ltd.\n2. Review the contract terms and conditions with ACME Ltd to decide on renewal or any necessary adjustments before expiration next month.",
-    "tasks": [
-      {
-        "description": "Arrange payment for the pending invoice amount of \u20ac4500 to ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Department",
-        "due_date": null,
-        "time_slot": "2025-05-29T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Department"
-        }
-      },
-      {
-        "description": "Review the contract terms and conditions with ACME Ltd to decide on renewal or any necessary adjustments.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:24:45.325794",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice has been received for ACME Ltd with a pending payment of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 for the invoice from ACME Ltd.\n2. Review the contract details for ACME Ltd and prepare for renewal or termination as it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of \u20ac4500 for the invoice from ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the contract details for ACME Ltd and prepare for renewal or termination.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract expires next month.",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:24:46.659504",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice has been received for ACME Ltd with a pending amount of \u20ac4500. The contract is set to expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review the contract details with ACME Ltd in preparation for its expiration next month.\n3. Consider renewal or renegotiation terms for the contract with ACME Ltd if necessary.",
-    "tasks": [
-      {
-        "description": "Process the payment of the \u20ac4500 invoice for ACME Ltd.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the contract details with ACME Ltd in preparation for its expiration next month.",
-        "due_date": "2025-06-30",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Consider renewal or renegotiation terms for the contract with ACME Ltd if necessary.",
-        "context": "The contract is set to expire next month.",
+        "description": "Send a Slack message to @jve89 as a reminder to review the invoice.",
         "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
     ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:26:03.434421",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for \u20ac4500 from ACME Ltd has been received, and the contract with them is set to expire next month.\n\nAction Items:\n1. Process and pay the \u20ac4500 invoice from ACME Ltd.\n2. Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process and pay the \u20ac4500 invoice from ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Department",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Department"
-        }
-      },
-      {
-        "description": "Review and renew or renegotiate the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:26:09.594267",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:** An invoice has been received from ACME Ltd, with a pending amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n\n1. Process and pay the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review the contract with ACME Ltd to determine if renewal is necessary.\n3. Initiate discussions regarding the potential renewal or termination of the contract before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process and pay the pending invoice of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the contract with ACME Ltd to determine if renewal is necessary.",
-        "priority": "Medium",
-        "assigned_to": "Legal Team",
-        "due_date": "2023-11-30",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      },
-      {
-        "description": "Initiate discussions regarding the potential renewal or termination of the contract with ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Management Team",
-        "due_date": "2023-11-30",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Management Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:27:19.435371",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for \u20ac4500 from ACME Ltd is pending for payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the pending payment of \u20ac4500 for ACME Ltd.\n2. Review and possibly renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the pending payment of \u20ac4500 for ACME Ltd",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and possibly renew the contract with ACME Ltd",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "The contract expires next month",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:27:31.923591",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nThe invoice from ACME Ltd has been received, with a pending amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Review and process the pending invoice of \u20ac4500 from ACME Ltd.\n2. Evaluate the terms and performance of the current contract with ACME Ltd.\n3. Decide on whether to renew, renegotiate, or terminate the contract before it expires next month.",
-    "tasks": [
-      {
-        "description": "Review and process the pending invoice of \u20ac4500 from ACME Ltd.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Evaluate the terms and performance of the current contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Decide on whether to renew, renegotiate, or terminate the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T12:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:28:37.776996",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice has been received for ACME Ltd with an outstanding amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process payment for the \u20ac4500 invoice due to ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process payment for the \u20ac4500 invoice due to ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew the contract with ACME Ltd before it expires next month.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:28:48.958551",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:** \nAn invoice has been received for ACME Ltd with a pending amount of \u20ac4500. The contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process and pay the \u20ac4500 invoice for ACME Ltd.\n2. Review and potentially renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process and pay the \u20ac4500 invoice for ACME Ltd",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and potentially renew the contract with ACME Ltd",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:29:42.370690",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice has been received from ACME Ltd for the amount of \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Review and process the pending invoice of \u20ac4500 for ACME Ltd.\n2. Check the details of the expiring contract with ACME Ltd and take necessary steps for renewal or termination.",
-    "tasks": [
-      {
-        "description": "Review and process the pending invoice of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Check the details of the expiring contract with ACME Ltd and take necessary steps for renewal or termination.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:29:59.925867",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: \nAn invoice from ACME Ltd has been received, with a pending amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Verify and process the payment for the \u20ac4500 invoice from ACME Ltd.\n2. Review the terms of the expiring contract with ACME Ltd and decide on renewal or termination.\n3. If renewing, negotiate new terms and conditions.\n4. If terminating, prepare necessary documentation and communicate the decision to ACME Ltd.",
-    "tasks": [
-      {
-        "description": "Verify and process the payment for the \u20ac4500 invoice from ACME Ltd.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the terms of the expiring contract with ACME Ltd and decide on renewal or termination.",
-        "due_date": "2023-11-30",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Negotiate new terms and conditions if renewing the contract with ACME Ltd.",
-        "context": "Only applicable if the decision is to renew the contract.",
-        "due_date": null,
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Prepare necessary documentation and communicate the decision to ACME Ltd if terminating the contract.",
-        "context": "Only applicable if the decision is to terminate the contract.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:30:59.148946",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice has been received from ACME Ltd for the amount of \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Arrange payment for the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Arrange payment for the pending invoice of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew the contract with ACME Ltd before it expires next month.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "time_slot": "2025-06-28T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:31:16.536518",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice of \u20ac4500 is pending payment for ACME Ltd, and the related contract is set to expire next month.\n\nAction Items:\n1. Process or schedule the payment for the \u20ac4500 invoice.\n2. Review the terms of the contract with ACME Ltd and prepare for renewal discussions or termination next month.",
-    "tasks": [
-      {
-        "description": "Process or schedule the payment for the \u20ac4500 invoice",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the terms of the contract with ACME Ltd",
-        "due_date": "next month",
-        "priority": "High",
-        "context": "Prepare for renewal discussions or termination",
-        "time_slot": "2025-06-05T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:32:14.042685",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nACME Ltd has an outstanding invoice of \u20ac4500. Additionally, their contract is due to expire next month.\n\nAction Items:\n1. Follow up with ACME Ltd on the payment of the \u20ac4500 invoice.\n2. Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Follow up with ACME Ltd on the payment of the \u20ac4500 invoice.",
-        "due_date": null,
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
-        "due_date": "2023-11-30",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:32:35.309993",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice has been received for ACME Ltd with an outstanding amount of \u20ac4500. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 for the invoice received from ACME Ltd.\n2. Review the contract terms with ACME Ltd and initiate discussions or negotiations for renewal, amendment, or termination prior to its expiry next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of \u20ac4500 for the invoice received from ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the contract terms with ACME Ltd and initiate discussions or negotiations for renewal, amendment, or termination.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract with ACME Ltd is set to expire next month.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:33:08.924808",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice for ACME Ltd amounting to \u20ac4500 has been received, and the payment is pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process and clear the pending payment of \u20ac4500 for ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process and clear the pending payment of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew the contract with ACME Ltd before it expires next month.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "time_slot": "2025-06-29T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:33:09.329849",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd amounting to \u20ac4500 is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of \u20ac4500 for the pending invoice from ACME Ltd.\n2. Review and renew or renegotiate the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of \u20ac4500 for the pending invoice from ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew or renegotiate the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:34:18.298485",
-    "filename": "vendor_request_001.txt",
-    "summary": "The content indicates that an invoice for \u20ac4500 has been received from ACME Ltd, and there is a pending payment. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the pending payment of \u20ac4500 to ACME Ltd.\n2. Review and decide on the renewal or termination of the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the pending payment of \u20ac4500 to ACME Ltd",
-        "priority": "High",
-        "context": "Invoice has been received from ACME Ltd",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and decide on the renewal or termination of the contract with ACME Ltd",
-        "due_date": "Next month",
-        "priority": "High",
-        "context": "Contract with ACME Ltd is set to expire next month",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:34:20.109155",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice has been received from ACME Ltd for the amount of \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process the payment for the \u20ac4500 invoice from ACME Ltd.\n2. Review and decide on the renewal or termination of the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment for the \u20ac4500 invoice from ACME Ltd.",
-        "priority": "High",
-        "context": "Invoice is currently pending.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and decide on the renewal or termination of the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month.",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:34:55.886145",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\n- An invoice for \u20ac4500 has been received from ACME Ltd.\n- The contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process payment for the \u20ac4500 invoice from ACME Ltd.\n2. Review the terms and decide on the renewal or termination of the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process payment for the \u20ac4500 invoice from ACME Ltd.",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review the terms and decide on the renewal or termination of the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:34:57.502988",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice for ACME Ltd amounting to \u20ac4500 is pending, and their contract is set to expire next month.\n\nAction Items:\n1. Process and settle the pending invoice payment of \u20ac4500 for ACME Ltd.\n2. Review and renew or negotiate the contract with ACME Ltd, as it is expiring next month.",
-    "tasks": [
-      {
-        "description": "Process and settle the pending invoice payment of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Review and renew or negotiate the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Contract Manager",
-        "context": "The contract is expiring next month.",
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Contract Manager"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:35:35.235137",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice for ACME Ltd in the amount of \u20ac4500 is pending. Additionally, the contract with ACME Ltd is expiring next month.\n\nAction Items:\n1. Pay the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review and address the upcoming contract expiration with ACME Ltd.",
-    "tasks": [
-      {
-        "description": "Pay the pending invoice of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and address the upcoming contract expiration with ACME Ltd.",
-        "priority": "High",
-        "due_date": "2023-11-30",
-        "context": "The contract with ACME Ltd is expiring next month.",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:35:35.910885",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nACME Ltd has an outstanding invoice of \u20ac4500. Additionally, their contract is set to expire next month.\n\nAction Items:\n1. Process the payment for the pending \u20ac4500 invoice.\n2. Review the contract details with ACME Ltd and decide on renewal or termination actions before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment for the pending \u20ac4500 invoice",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review the contract details with ACME Ltd and decide on renewal or termination actions",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:36:51.190923",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary:\nAn invoice of \u20ac4500 for ACME Ltd has been received and is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process and settle the pending invoice of \u20ac4500 for ACME Ltd.\n2. Review and renew the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process and settle the pending invoice of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "context": "Invoice is currently pending.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and renew the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract is set to expire next month.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:36:53.896690",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: ACME Ltd has an outstanding invoice amount of \u20ac4500. Additionally, their contract is set to expire next month.\n\nAction Items:\n1. Follow up with ACME Ltd regarding the payment of the \u20ac4500 invoice.\n2. Review and consider renewing or renegotiating the contract, which is expiring next month.",
-    "tasks": [
-      {
-        "description": "Follow up with ACME Ltd regarding the payment of the \u20ac4500 invoice.",
-        "due_date": null,
-        "time_slot": "2025-05-30T10:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and consider renewing or renegotiating the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "context": "The contract is expiring next month.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T06:38:11.709472",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: An invoice has been received from ACME Ltd for the amount of \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\nAction Items:\n1. Process the payment of the \u20ac4500 invoice to ACME Ltd.\n2. Review and discuss the renewal or termination of the contract with ACME Ltd before it expires next month.",
-    "tasks": [
-      {
-        "description": "Process the payment of the \u20ac4500 invoice to ACME Ltd.",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Review and discuss the renewal or termination of the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "context": "Contract expires next month",
-        "time_slot": "2025-06-03T10:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
   }
 ]

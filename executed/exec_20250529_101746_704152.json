@@ -1,0 +1,13 @@
+{
+  "task": {
+    "title": "Untitled Task",
+    "description": "Draft and send a Slack message to user @jve89",
+    "due_date": "2023-10-25",
+    "assigned_to": "@jve89",
+    "priority": "High"
+  },
+  "result": "NO_MESSAGE",
+  "mode": "REAL",
+  "source_file": null,
+  "timestamp": "2025-05-29T10:17:46.704123"
+}

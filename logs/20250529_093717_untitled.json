@@ -1,0 +1,16 @@
+{
+  "task": {
+    "description": "Communicate with ACME Ltd to discuss the contract status and any outstanding payments.",
+    "due_date": null,
+    "time_slot": "2025-05-29T09:00:00+02:00",
+    "time_slot_source": "gpt",
+    "time_slot_confidence": "medium"
+  },
+  "result": {
+    "task_id": "N/A",
+    "target": "sheets",
+    "status": "failed",
+    "timestamp": "2025-05-29T09:37:10.334109"
+  },
+  "timestamp": "20250529_093717"
+}
