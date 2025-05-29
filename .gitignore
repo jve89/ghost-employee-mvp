@@ -174,3 +174,11 @@ cython_debug/
 .pypirc
 .env
 service_account.json
+
+# Ignore runtime artifacts
+logs/
+executed/
+nohup.out
+*.log
+*.out
+test/assets/
