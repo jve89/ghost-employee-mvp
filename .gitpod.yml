@@ -4,11 +4,6 @@ image:
 
 tasks:
   - init: |
-      # Add these lines to update package lists and install tree
-      sudo apt-get update && \
-      sudo apt-get install -y tree
-
-      # Your existing Python setup
       export PIPENV_VENV_IN_PROJECT=1
       pipenv install --dev
     command: pipenv run python3 -m src.main

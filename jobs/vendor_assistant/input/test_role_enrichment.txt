@@ -1,0 +1,2 @@
+Notify the finance team that the Q2 report has been finalised and uploaded to Drive.
+This task is assigned to finance and should be prioritised as high.

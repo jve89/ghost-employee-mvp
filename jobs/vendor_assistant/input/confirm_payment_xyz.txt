@@ -1,0 +1,1 @@
+Payment has been completed for invoice #789 to XYZ Ltd. Please update the system and notify the Vendor.

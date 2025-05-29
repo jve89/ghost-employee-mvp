@@ -1,7 +1,0 @@
-{
-  "task": "Review the numbers from the previous day's briefing due to a mismatch in projections.",
-  "result": "SIMULATED_FALLBACK_ACTION",
-  "mode": "SIMULATED",
-  "source_file": "structured_20250520_104917.json",
-  "timestamp": "2025-05-20T10:49:17.101507"
-}

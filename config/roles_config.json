@@ -1,0 +1,26 @@
+{
+  "Finance Team": {
+    "slack_channel": "C02Q7QYFR8X",
+    "slack_id": "U02RC5WG3HN",
+    "notion_id": "1fed8de4f8a3806481c0ced3399fbe54",
+    "email": "finance@example.com"
+  },
+  "HR Team": {
+    "slack_channel": "C02Q7QYFR8X",
+    "slack_id": "U02RC5WG3HN",
+    "notion_id": "placeholder-hr",
+    "email": "hr@example.com"
+  },
+  "Account Manager": {
+    "slack_channel": "C02Q7QYFR8X",
+    "slack_id": "U02RC5WG3HN",
+    "notion_id": "placeholder-sales",
+    "email": "sales@example.com"
+  },
+  "Vendor Assistant": {
+    "slack_channel": "C02Q7QYFR8X",
+    "slack_id": "U02RC5WG3HN",
+    "notion_id": "1fed8de4f8a3806481c0ced3399fbe54",
+    "email": "vendor@example.com"
+  }
+}

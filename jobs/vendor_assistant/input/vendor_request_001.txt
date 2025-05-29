@@ -1,1 +1,0 @@
-Invoice received for ACME Ltd, €4500 pending. Contract expiring next month.

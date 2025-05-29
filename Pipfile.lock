@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a7103490688683a73c5ff942ad6a412b520357b29062fe8ffa114cb434c38951"
+            "sha256": "5edc44d695c8b03571cf430b2efef619ce7afd7b5af65f5ba9d8f171fa231673"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -410,6 +410,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==1.70.0"
+        },
+        "gspread": {
+            "hashes": [
+                "sha256:2c7c99f7c32ebea6ec0d36f2d5cbe8a2be5e8f2a48bde87ad1ea203eff32bd03",
+                "sha256:6d4ec9f1c23ae3c704a9219026dac01f2b328ac70b96f1495055d453c4c184db"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==6.2.1"
         },
         "h11": {
             "hashes": [
@@ -1538,6 +1547,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.67.1"
+        },
+        "tree-cli": {
+            "hashes": [
+                "sha256:eb733b2b5f9e4e6713373c3cfb352b7141c33e6aee8a4fed36cf97fff8734c63",
+                "sha256:ee19fa0c40370ee92ba4e4e0d3935f9561d1c4fbe5128fca8391fe903e8b51cf"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.1.1"
         },
         "typing-extensions": {
             "hashes": [

@@ -1,269 +1,87 @@
 [
   {
-    "timestamp": "2025-05-29T10:16:27.961517",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary**: John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items**: \n1. Ensure all onboarding paperwork and processes are completed before July 10.\n2. Prepare John Doe's workspace and any necessary equipment by his start date. \n3. Schedule an orientation meeting for John Doe on or shortly after July 10.\n4. Inform relevant team members about John Doe's arrival and role.",
+    "timestamp": "2025-05-29T16:51:58.479186",
+    "filename": "fallback_test.txt",
+    "summary": "Summary:\nThe ACME invoice has been reviewed.\n\nAction Items:\n1. Inform the Finance Team about the reviewed ACME invoice.",
     "tasks": [
       {
-        "description": "Ensure all onboarding paperwork and processes are completed",
-        "due_date": "2023-07-10",
-        "priority": "High",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      },
-      {
-        "description": "Prepare John Doe's workspace and any necessary equipment",
-        "due_date": "2023-07-10",
-        "priority": "High",
-        "assigned_to": "Office Management",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Office Management"
-        }
-      },
-      {
-        "description": "Schedule an orientation meeting for John Doe",
-        "due_date": "2023-07-10",
-        "priority": "Medium",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      },
-      {
-        "description": "Inform relevant team members about John Doe's arrival and role",
-        "priority": "Medium",
-        "assigned_to": "HR Department",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:16:36.072678",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary: A Slack reminder message should be sent to @jve89 to review the vendor invoice today.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-13",
-        "assigned_to": "@jve89",
-        "context": "Reminder should be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:17:36.525830",
-    "filename": "test_hr_notification.txt",
-    "summary": "Summary:\nJohn Doe has agreed to join the company and will start his employment on July 10.\n\nAction Items:\n- Prepare onboarding materials for John Doe.\n- Schedule orientation and training sessions for John Doe starting on July 10.\n- Inform relevant teams and departments of John Doe\u2019s start date.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe",
-        "assigned_to": "HR Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Schedule orientation and training sessions for John Doe",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Team",
-        "context": "Sessions should start on July 10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Inform relevant teams and departments of John Doe\u2019s start date",
-        "assigned_to": "HR Team",
-        "context": "John Doe starts on July 10",
-        "due_date": null,
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:17:46.195661",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to remind a team member (@jve89) about reviewing a vendor invoice.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-24",
-        "assigned_to": "Team member responsible for communication",
-        "context": "The reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Team member responsible for communication"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:17:38.721724",
-    "filename": "test_hr_notification.txt",
-    "summary": "Summary: John Doe has accepted a job offer and is scheduled to start on July 10.\n\nAction Items:\n- Prepare onboarding materials for John Doe.\n- Set up John Doe's workstation and necessary accounts before July 10.\n- Schedule an orientation meeting for John Doe's first day.\n- Notify relevant team members of John Doe's start date.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe",
+        "description": "Inform the Finance Team about the reviewed ACME invoice.",
+        "assigned_to": "Finance Team",
         "due_date": null,
         "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:52:06.509474",
+    "filename": "test_notion.txt",
+    "summary": "To summarize, the task involves sending the monthly sales data to the Notion database. \n\nAction Item:\n- Transfer the monthly sales data to the Notion database.",
+    "tasks": [
       {
-        "description": "Set up John Doe's workstation and necessary accounts",
-        "due_date": "2023-07-09",
-        "context": "Before July 10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Schedule an orientation meeting for John Doe's first day",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Notify relevant team members of John Doe's start date",
+        "description": "Transfer the monthly sales data to the Notion database.",
         "due_date": null,
-        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot": "2025-06-01T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
     ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
+    "tag": "uncategorised",
+    "tag_icon": "\ud83d\udcc1"
   },
   {
-    "timestamp": "2025-05-29T10:17:46.716301",
-    "filename": "slack_test_001.txt",
-    "summary": "**Summary:**\nA Slack message needs to be sent to remind user @jve89 that the vendor invoice requires review today.\n\n**Action Items:**\n1. Draft and send a Slack message to user @jve89.\n2. Mention that the vendor invoice needs to be reviewed today in the message.",
+    "timestamp": "2025-05-29T16:52:12.936946",
+    "filename": "notion_test.txt",
+    "summary": "Summary:\nThe annual compliance review has been completed and documented.\n\nAction Items:\n1. Create a new Notion entry titled \"Annual Compliance Review.\"\n2. Assign the entry to the Legal Team.\n3. Set the priority of the task to High.\n4. Add a note indicating that the documentation is saved in Drive.\n5. Set the due date for the task to July 5th.",
     "tasks": [
       {
-        "description": "Draft and send a Slack message to user @jve89",
-        "due_date": "2023-10-25",
+        "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+        "due_date": "2023-07-05",
         "priority": "High",
-        "assigned_to": "@jve89",
-        "context": "Mention that the vendor invoice needs to be reviewed today.",
+        "assigned_to": "Legal Team",
+        "context": "Documentation is saved in Drive.",
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "@jve89"
+          "name": "Legal Team"
         }
       }
     ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
+    "tag": "reminder",
+    "tag_icon": "\u23f0"
   },
   {
-    "timestamp": "2025-05-29T10:18:33.908733",
-    "filename": "test_hr_notification.txt",
-    "summary": "Summary: John Doe has accepted a job offer and is scheduled to start on July 10.\n\nAction Items:\n1. Prepare onboarding materials and schedule for John Doe.\n2. Inform relevant team members of John Doe's start date.\n3. Set up IT and workspace requirements for John Doe prior to July 10.\n4. Include John Doe in any necessary training sessions scheduled after July 10.",
+    "timestamp": "2025-05-29T16:52:27.563841",
+    "filename": "test_slack_fallback.txt",
+    "summary": "**Summary:**\n\n- A Slack message needs to be sent to the Finance Team.\n\n**Action Items:**\n\n1. Draft a message confirming the new quarterly budget approval.\n2. Send the message to the Finance Team on Slack.",
     "tasks": [
       {
-        "description": "Prepare onboarding materials and schedule for John Doe",
-        "assigned_to": "HR Team",
+        "description": "Draft a message confirming the new quarterly budget approval",
+        "assigned_to": "Finance Team",
         "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
+          "name": "Finance Team"
         }
       },
       {
-        "description": "Inform relevant team members of John Doe's start date",
-        "assigned_to": "HR Team",
+        "description": "Send the message to the Finance Team on Slack",
+        "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Set up IT and workspace requirements for John Doe",
-        "due_date": "2023-07-09",
-        "assigned_to": "IT Department",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "IT Department"
-        }
-      },
-      {
-        "description": "Include John Doe in any necessary training sessions scheduled after July 10",
-        "assigned_to": "Training Coordinator",
-        "due_date": null,
-        "time_slot": "2025-07-11T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Training Coordinator"
+          "name": "Finance Team"
         }
       }
     ],
@@ -271,1003 +89,26 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T10:18:42.554441",
-    "filename": "slack_test_001.txt",
-    "summary": "**Summary:**\nA Slack message needs to be sent to user @jve89 to remind them about reviewing the vendor invoice today.\n\n**Action Items:**\n1. Send a Slack message to @jve89 with the reminder to review the vendor invoice today.",
+    "timestamp": "2025-05-29T16:52:44.758092",
+    "filename": "invoice_acme.txt",
+    "summary": "**Summary:** The ACME invoice for April 2025 has been received. It needs to be logged for review and assigned to the Finance Team.\n\n**Action Items:**\n1. Log the ACME invoice for April 2025.\n2. Assign the logged invoice to the Finance Team for further review.",
     "tasks": [
       {
-        "description": "Send a Slack message to @jve89 with the reminder to review the vendor invoice",
-        "due_date": "2023-10-17",
-        "assigned_to": "Slack user @jve89",
-        "context": "The reminder needs to be sent today.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Slack user @jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:18:34.588399",
-    "filename": "test_hr_notification.txt",
-    "summary": "John Doe has confirmed his acceptance of the job offer and is scheduled to start work on July 10. \n\n**Action Items:**\n- Prepare onboarding materials for John Doe.\n- Schedule any necessary training sessions before or after his start date.\n- Set up John's workspace and ensure all necessary equipment is ready.\n- Inform the team about John's start date and any introductory meetings.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "description": "Log the ACME invoice for April 2025.",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Schedule any necessary training sessions for John Doe",
-        "context": "Training can be scheduled before or after his start date",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Set up John's workspace and ensure all necessary equipment is ready",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Inform the team about John's start date and any introductory meetings",
-        "context": "John's start date is July 10",
-        "due_date": null,
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "hr",
-    "tag_icon": "\ud83d\udc65"
-  },
-  {
-    "timestamp": "2025-05-29T10:18:43.014814",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary: A Slack message needs to be sent to user @jve89 to remind them to review the vendor invoice today.\n\nAction Item:\n- Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-30",
-        "assigned_to": "Slack user sending the message",
-        "context": "The reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Slack user sending the message"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:20:05.635172",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary:** John Doe has accepted a job offer and will start his new position on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials and schedule for John Doe.\n2. Ensure workstation and necessary equipment are ready by July 10.\n3. Inform relevant team members of John Doe's start date.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials and schedule for John Doe",
-        "assigned_to": "HR Team",
+        "description": "Assign the logged invoice to the Finance Team for further review.",
+        "assigned_to": "Finance Team",
         "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Ensure workstation and necessary equipment are ready",
-        "due_date": "2023-07-10",
-        "assigned_to": "IT Department",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "IT Department"
-        }
-      },
-      {
-        "description": "Inform relevant team members of John Doe's start date",
-        "assigned_to": "HR Team",
-        "due_date": null,
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:20:11.924775",
-    "filename": "slack_test_001.txt",
-    "summary": "Action Item: Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-20",
-        "assigned_to": "self",
-        "context": "Reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "self"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:20:20.553100",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary:\nSend a Slack message to @jve89 requesting a review of the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 requesting a review of the final report",
-        "due_date": "today",
-        "time_slot": "2025-05-29T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:20:04.921412",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary:**\nJohn Doe has accepted a job offer and his start date is July 10.\n\n**Action Items:**\n- Prepare onboarding materials for John Doe.\n- Schedule an orientation session for July 10.\n- Ensure workspace and equipment are ready for John Doe's first day.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Schedule an orientation session",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Team",
-        "context": "Orientation session for John Doe",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Ensure workspace and equipment are ready",
-        "due_date": "2023-07-10",
-        "assigned_to": "Office Manager",
-        "context": "For John Doe's first day",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Office Manager"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:20:13.214341",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary: Send a Slack message to @jve89 to remind them to review the vendor invoice today.\n\nAction Items:\n1. Send a Slack message to @jve89.\n2. Include a reminder to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 to remind them to review the vendor invoice",
-        "due_date": "2023-10-31",
-        "assigned_to": "self",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "self"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:20:21.425510",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: A request is made to send a Slack message to @jve89 to review the final report today.\n\nAction Item: \n- Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 asking them to review the final report",
-        "due_date": "2023-10-03",
-        "assigned_to": "self",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "self"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:21:44.398222",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary:**\nJohn Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare new employee onboarding materials for John Doe.\n2. Set up John Doe's workspace and IT equipment before July 10.\n3. Coordinate John Doe's welcome orientation and introduction to the team on July 10.",
-    "tasks": [
-      {
-        "description": "Prepare new employee onboarding materials for John Doe.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Set up John Doe's workspace and IT equipment",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Coordinate John Doe's welcome orientation and introduction to the team",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:21:53.208247",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary:\nA reminder needs to be sent via Slack to user @jve89 about reviewing a vendor invoice today.\n\nAction Item:\n- Send a Slack message to @jve89 reminding them to review the vendor invoice.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-20",
-        "assigned_to": "@jve89",
-        "context": "Reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:21:58.987534",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: A request to send a Slack message to @jve89 regarding reviewing the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 asking them to review the final report today.",
-        "due_date": "2023-10-11",
-        "assigned_to": "self",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "self"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:21:44.792791",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary**: John Doe has accepted the job offer and will start work on July 10.\n\n**Action Items**:\n1. Prepare necessary onboarding documents and procedures for John Doe.\n2. Set up workspace and resources for John Doe prior to July 10.\n3. Schedule orientation and introductory meetings with team members around John Doe's start date.",
-    "tasks": [
-      {
-        "description": "Prepare necessary onboarding documents and procedures for John Doe",
-        "assigned_to": "HR Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Set up workspace and resources for John Doe",
-        "due_date": "2023-07-09",
-        "assigned_to": "Office Management Team",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Office Management Team"
-        }
-      },
-      {
-        "description": "Schedule orientation and introductory meetings with team members",
-        "context": "Around John Doe's start date",
-        "due_date": null,
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:21:51.219770",
-    "filename": "slack_test_001.txt",
-    "summary": "**Summary:**\nA Slack message needs to be sent to remind @jve89 to review a vendor invoice today.\n\n**Action Items:**\n1. Send a Slack reminder message to @jve89 about reviewing the vendor invoice.",
-    "tasks": [
-      {
-        "description": "Send a Slack reminder message to @jve89 about reviewing the vendor invoice",
-        "due_date": "2023-10-31",
-        "assigned_to": "@jve89",
-        "context": "Reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:22:02.683491",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary:\nThe content is a request to send a Slack message to a user with the handle @jve89, asking them to review the final report within the day.\n\nAction Item:\n- Send a Slack message to @jve89 requesting a review of the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 requesting a review of the final report",
-        "due_date": "2023-10-20",
-        "priority": "High",
-        "assigned_to": "Slack User @jve89",
-        "context": "The review needs to be completed within the day.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Slack User @jve89"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:23:14.950381",
-    "filename": "test_hr_notification.txt",
-    "summary": "John Doe has accepted the job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials and schedule for John Doe by July 10.\n2. Ensure all necessary HR paperwork and processes are completed prior to his start date.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials and schedule for John Doe",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Ensure all necessary HR paperwork and processes are completed",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "hr",
-    "tag_icon": "\ud83d\udc65"
-  },
-  {
-    "timestamp": "2025-05-29T10:23:24.446639",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to remind @jve89 about reviewing the vendor invoice today.\n\nAction Items:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice today",
-        "assigned_to": "@jve89",
-        "due_date": "2023-10-01",
-        "context": "Reminder to review the vendor invoice",
-        "time_slot": "2025-05-29T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:23:32.100476",
-    "filename": "slack_test_final.txt",
-    "summary": "**Summary:** The task involves sending a Slack message to user @jve89 requesting them to review the final report.\n\n**Action Item:** \n- Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 asking them to review the final report",
-        "due_date": "2023-10-26",
-        "assigned_to": "self",
-        "context": "Request review of the final report",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "self"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:23:33.485182",
-    "filename": "test_hr_notification.txt",
-    "summary": "John Doe has accepted the job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials and schedule for John Doe's start date.\n2. Inform relevant team members and departments of John Doe's start date.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials and schedule for John Doe's start date.",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      },
-      {
-        "description": "Inform relevant team members and departments of John Doe's start date.",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      }
-    ],
-    "tag": "hr",
-    "tag_icon": "\ud83d\udc65"
-  },
-  {
-    "timestamp": "2025-05-29T10:23:41.792774",
-    "filename": "slack_test_001.txt",
-    "summary": "Content Summary:\nA request is made to send a Slack message reminding the user @jve89 to review the vendor invoice today.\n\nAction Items:\n- Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-05",
-        "assigned_to": "Slack Bot",
-        "context": "The reminder needs to be sent today.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Slack Bot"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:23:50.618224",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: A Slack message needs to be sent to @jve89 requesting them to review the final report today.\n\nAction Item:\n1. Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 asking them to review the final report",
-        "due_date": "2023-10-04",
-        "assigned_to": "Yourself",
-        "context": "The review needs to be done today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Yourself"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:25:00.501699",
-    "filename": "test_hr_notification.txt",
-    "summary": "Summary:\nJohn Doe has accepted a job offer and will start his new position on July 10.\n\nAction Items:\n- Prepare onboarding materials for John Doe's start on July 10.\n- Set up John Doe's workstation and necessary access to company systems before his start date.\n- Schedule an introductory meeting with John Doe and his team for his first week.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe's start",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Team",
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Set up John Doe's workstation and necessary access to company systems",
-        "due_date": "2023-07-09",
-        "assigned_to": "IT Department",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "IT Department"
-        }
-      },
-      {
-        "description": "Schedule an introductory meeting with John Doe and his team",
-        "due_date": "2023-07-14",
-        "assigned_to": "John Doe's Manager",
-        "context": "Meeting should be scheduled for his first week",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "John Doe's Manager"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:25:08.020862",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary: A Slack message needs to be sent to remind @jve89 to review the vendor invoice today.\n\nAction Item: \n- Send a Slack reminder to @jve89 about reviewing the vendor invoice.",
-    "tasks": [
-      {
-        "description": "Send a Slack reminder to @jve89 about reviewing the vendor invoice",
-        "due_date": "2023-10-23",
-        "assigned_to": "@jve89",
-        "context": "Ensure the reminder is sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:25:16.158213",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: A Slack message needs to be sent to @jve89 to review the final report today.\n\nAction Items:\n1. Send a Slack message to @jve89 requesting a review of the final report.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 requesting a review of the final report",
-        "due_date": "2023-10-25",
-        "assigned_to": "Slack user @jve89",
-        "context": "The review needs to be done today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Slack user @jve89"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:25:01.684930",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary:** John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Ensure onboarding processes and documents are prepared for John Doe's start date.\n2. Schedule a welcome meeting or orientation for John Doe on July 10.\n3. Notify relevant team members or departments about John Doe's start date.",
-    "tasks": [
-      {
-        "description": "Ensure onboarding processes and documents are prepared for John Doe's start date",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      },
-      {
-        "description": "Schedule a welcome meeting or orientation for John Doe",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      },
-      {
-        "description": "Notify relevant team members or departments about John Doe's start date",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Department",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Department"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:25:10.810735",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary:\nThere is a need to remind a team member, @jve89, via Slack to review a vendor invoice today.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-24",
-        "assigned_to": "@jve89",
-        "context": "Reminder to review the vendor invoice today",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:25:17.963586",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: Send a Slack message to @jve89 requesting them to review the final report.\n\nAction Item: \n- Message @jve89 on Slack to ask for their review of the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 requesting them to review the final report",
-        "due_date": "2023-10-03",
-        "assigned_to": "@jve89",
-        "context": "Ask for their review of the final report today.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:26:38.734418",
-    "filename": "test_hr_notification.txt",
-    "summary": "John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials for John Doe.\n2. Set up John Doe's workstation and necessary access permissions by July 10.\n3. Schedule an introductory meeting for John Doe's first day.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Set up John Doe's workstation and necessary access permissions",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-06-05T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Schedule an introductory meeting for John Doe's first day",
-        "due_date": "2023-07-10",
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "hr",
-    "tag_icon": "\ud83d\udc65"
-  },
-  {
-    "timestamp": "2025-05-29T10:26:46.884812",
-    "filename": "slack_test_001.txt",
-    "summary": "**Summary:** A reminder needs to be sent via Slack to @jve89 regarding the review of a vendor invoice today.\n\n**Action Items:**\n1. Send a Slack message to @jve89 as a reminder to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
-        "due_date": "2023-10-12",
-        "assigned_to": "@jve89",
-        "context": "Reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:27:08.742795",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to @jve89 requesting a review of the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 asking them to review the final report",
-        "due_date": "2023-10-30",
-        "assigned_to": "@jve89",
-        "context": "The review needs to be requested today.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:26:39.535623",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary:** John Doe has accepted a job offer and will start his new position on July 10.\n\n**Action Items:**\n1. Prepare onboarding documents and resources for John Doe.\n2. Schedule an orientation session for John Doe on his start date or before.\n3. Set up John Doe's workstation and provide necessary equipment and access.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding documents and resources for John Doe",
-        "assigned_to": "HR Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Schedule an orientation session for John Doe",
-        "due_date": "2023-07-10",
-        "assigned_to": "HR Team",
-        "context": "Schedule on his start date or before",
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Set up John Doe's workstation and provide necessary equipment and access",
-        "assigned_to": "IT Department",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "IT Department"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:26:51.325027",
-    "filename": "slack_test_001.txt",
-    "summary": "**Summary:**\nA Slack message needs to be sent to remind a specific user (@jve89) about reviewing the vendor invoice.\n\n**Action Items:**\n1. Send a Slack reminder to @jve89 to review the vendor invoice today.",
-    "tasks": [
-      {
-        "description": "Send a Slack reminder to @jve89 to review the vendor invoice",
-        "due_date": "2023-10-30",
-        "assigned_to": "@jve89",
-        "context": "Reminder needs to be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "@jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:27:09.196036",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary:\nA request is made to send a Slack message to @jve89 for reviewing the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 requesting them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 requesting them to review the final report",
-        "due_date": "2023-10-13",
-        "assigned_to": "self",
-        "context": "The message should be sent today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "self"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:28:33.809070",
-    "filename": "test_hr_notification.txt",
-    "summary": "John Doe has accepted a job offer and is scheduled to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials for John Doe.\n2. Set up John's workspace and equipment before July 10.\n3. Schedule an orientation session for John's first day.",
-    "tasks": [
-      {
-        "description": "Prepare onboarding materials for John Doe",
-        "assigned_to": "HR Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      },
-      {
-        "description": "Set up John's workspace and equipment",
-        "due_date": "2023-07-09",
-        "assigned_to": "IT Department",
-        "context": "Ensure setup is complete before John starts on July 10",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "IT Department"
-        }
-      },
-      {
-        "description": "Schedule an orientation session for John's first day",
-        "assigned_to": "HR Team",
-        "context": "Orientation to be held on July 10",
-        "due_date": null,
-        "time_slot": "2025-06-02T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "HR Team",
-          "email": "hr@example.com",
-          "slack": "@hr",
-          "notion_id": "5a2e3241-2f1d-4b8f-b44c-d63528c2ac1b"
-        }
-      }
-    ],
-    "tag": "hr",
-    "tag_icon": "\ud83d\udc65"
-  },
-  {
-    "timestamp": "2025-05-29T10:28:40.277726",
-    "filename": "slack_test_001.txt",
-    "summary": "**Summary:**\nA Slack message needs to be sent to @jve89 as a reminder to review the vendor invoice today.\n\n**Action Items:**\n1. Send a Slack message to @jve89.\n2. Include a reminder that the vendor invoice needs to be reviewed today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 as a reminder to review the vendor invoice",
-        "due_date": "2023-10-18",
-        "assigned_to": "Slack User @jve89",
-        "context": "The vendor invoice needs to be reviewed today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Slack User @jve89"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T10:28:49.934609",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: A request was made to send a Slack message to @jve89 for reviewing the final report today.\n\nAction Item:\n- Send a Slack message to @jve89 asking them to review the final report today.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to @jve89 asking them to review the final report",
-        "due_date": "2023-10-13",
-        "assigned_to": "Yourself",
-        "context": "The review needs to be done today",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Yourself"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:29:07.593587",
-    "filename": "vendor_request_001.txt",
-    "summary": "**Summary:**\nAn invoice has been received for ACME Ltd amounting to \u20ac4500, which is currently pending. Additionally, the contract with ACME Ltd is set to expire next month.\n\n**Action Items:**\n1. Process and settle the pending payment of \u20ac4500 for ACME Ltd.\n2. Review and address renewal or termination of the contract with ACME Ltd, as it is expiring next month.",
-    "tasks": [
-      {
-        "description": "Process and settle the pending payment of \u20ac4500 for ACME Ltd.",
-        "priority": "High",
-        "assigned_to": "Finance Department",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Department"
-        }
-      },
-      {
-        "description": "Review and address renewal or termination of the contract with ACME Ltd.",
-        "due_date": "2023-11-30",
-        "priority": "High",
-        "assigned_to": "Legal Department",
-        "context": "Contract is expiring next month",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Department"
+          "name": "Finance Team"
         }
       }
     ],
@@ -1275,19 +116,19 @@
     "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T10:29:16.514507",
-    "filename": "slack_test_retry.txt",
-    "summary": "Summary:\nYou need to send a Slack message to the user @jve89 to remind them to review the invoice.\n\nAction Items:\n- Send a Slack message to @jve89.\n- Remind them to review the invoice.",
+    "timestamp": "2025-05-29T16:52:55.764532",
+    "filename": "reminder_payment.txt",
+    "summary": "Summary: The payment for invoice #456 from GlobeTech is overdue.\n\nAction Item: Notify the Finance Team about the overdue payment.",
     "tasks": [
       {
-        "description": "Send a Slack message to @jve89 to remind them to review the invoice.",
-        "assigned_to": "You",
+        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech",
+        "assigned_to": "Finance Team",
         "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "You"
+          "name": "Finance Team"
         }
       }
     ],
@@ -1295,52 +136,293 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T10:28:29.515160",
-    "filename": "test_hr_notification.txt",
-    "summary": "**Summary:**\nJohn Doe has accepted a job offer and is set to start on July 10.\n\n**Action Items:**\n1. Prepare onboarding materials for John Doe before his start date.\n2. Ensure his work equipment and space are ready for July 10.\n3. Schedule an orientation session for John Doe on or after July 10.",
+    "timestamp": "2025-05-29T16:53:14.725763",
+    "filename": "confirm_payment_xyz.txt",
+    "summary": "Summary:\nThe payment for invoice #789 to XYZ Ltd. has been completed. The next steps involve updating the system and notifying the vendor.\n\nAction Items:\n1. Update the financial system to reflect the payment for invoice #789.\n2. Notify XYZ Ltd. that the payment has been completed.",
     "tasks": [
       {
-        "description": "Prepare onboarding materials for John Doe",
-        "due_date": "2023-07-09",
-        "context": "Before his start date",
+        "description": "Update the financial system to reflect the payment for invoice #789.",
+        "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Ensure work equipment and space are ready for John Doe",
-        "due_date": "2023-07-10",
+        "description": "Notify XYZ Ltd. that the payment has been completed.",
+        "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:53:22.453604",
+    "filename": "request_approval.txt",
+    "summary": "**Summary:**\nA request needs to be sent to the Finance Team for approval of invoice #1034 from BrightIdeas Inc.\n\n**Action Items:**\n- Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:53:37.130932",
+    "filename": "monthly_report.txt",
+    "summary": "**Summary:**\nThe task involves creating a monthly vendor transaction report for May 2025 and exporting all related invoice entries to Google Sheets.\n\n**Action Items:**\n1. Generate the vendor transaction report covering May 2025.\n2. Export all invoice entries from the report to Google Sheets.",
+    "tasks": [
+      {
+        "description": "Generate the vendor transaction report covering May 2025.",
+        "due_date": "2025-06-30",
+        "time_slot": "2025-06-01T00:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Schedule an orientation session for John Doe",
-        "due_date": "2023-07-10",
-        "context": "On or after his start date",
+        "description": "Export all invoice entries from the report to Google Sheets.",
+        "due_date": "2025-06-30",
+        "time_slot": "2025-05-29T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:53:45.628890",
+    "filename": "notion_update_test.txt",
+    "summary": "Summary:\n- An invoice from AlphaTech dated May 28, 2025, needs to be logged.\n- The invoice is urgent and should be assigned to the Finance Team.\n\nAction Items:\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
+        "due_date": "2025-05-28",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "time_slot": "2025-05-28T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-29T16:53:52.284779",
+    "filename": "slack_test_message.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to confirm that the new quarterly budget has been approved.\n\nAction Item:\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:52:02.094649",
+    "filename": "test_role_enrichment.txt",
+    "summary": "The Q2 report has been finalised and uploaded to Drive. The finance team needs to be notified about this completion. \n\n**Action Items:**\n1. Notify the finance team about the finalisation and upload of the Q2 report.\n2. Assign the task to the finance team with high priority.",
+    "tasks": [
+      {
+        "description": "Notify the finance team about the finalisation and upload of the Q2 report.",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-07-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:52:10.424262",
+    "filename": "test_role_slack.txt",
+    "summary": "The content is a reminder to send a Slack message to the Finance Team with the message: \"Final test from role-aware config!\"\n\n**Action Items:**\n1. Send the specified Slack message to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team with the message: 'Final test from role-aware config!'",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "reminder",
+    "tag_icon": "\u23f0"
+  },
+  {
+    "timestamp": "2025-05-29T16:52:26.706934",
+    "filename": "fallback_test.txt",
+    "summary": "Summary: The ACME invoice has been reviewed and the Finance Team needs to be informed.\n\nAction Items:\n1. Notify the Finance Team about the reviewed ACME invoice.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the reviewed ACME invoice",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:52:49.190230",
+    "filename": "test_notion.txt",
+    "summary": "The task is to send the monthly sales data to the Notion database.\n\n**Action Items:**\n1. Compile the monthly sales data.\n2. Ensure access to the Notion database.\n3. Upload or integrate the sales data with the Notion database.",
+    "tasks": [
+      {
+        "description": "Compile the monthly sales data",
+        "due_date": null,
+        "time_slot": "2025-05-31T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Ensure access to the Notion database",
+        "due_date": null,
         "time_slot": "2025-06-05T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Upload or integrate the sales data with the Notion database",
+        "due_date": null,
+        "time_slot": "2025-06-05T15:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "uncategorised",
+    "tag_icon": "\ud83d\udcc1"
+  },
+  {
+    "timestamp": "2025-05-29T16:52:57.711080",
+    "filename": "notion_test.txt",
+    "summary": "Summary: \nThe annual compliance review has been successfully completed and documented.\n\nAction Items:\n- Create a new Notion entry titled \"Annual Compliance Review.\"\n- Assign the task to the Legal Team.\n- Set the priority level to High.\n- Include a note indicating that the documentation is saved in Drive.\n- Ensure the task is completed by July 5th.",
+    "tasks": [
+      {
+        "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+        "due_date": "2024-07-05",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "context": "Documentation is saved in Drive.",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
       }
     ],
     "tag": "report",
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T10:28:36.737819",
-    "filename": "slack_test_001.txt",
-    "summary": "Summary: A reminder needs to be sent to @jve89 on Slack regarding the review of a vendor invoice that is due today.\n\nAction Item:\n1. Send a Slack message to @jve89 reminding them to review the vendor invoice today.",
+    "timestamp": "2025-05-29T16:53:09.521161",
+    "filename": "test_slack_fallback.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Items:\n1. Draft a Slack message regarding the new quarterly budget approval.\n2. Send the message to the Finance Team on Slack.",
     "tasks": [
       {
-        "description": "Send a Slack message to @jve89 reminding them to review the vendor invoice",
-        "due_date": "2023-10-10",
-        "assigned_to": "@jve89",
-        "context": "The invoice review is due today",
+        "description": "Draft a Slack message regarding the new quarterly budget approval",
+        "assigned_to": "Finance Team",
+        "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "@jve89"
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Send the message to the Finance Team on Slack",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:53:27.953463",
+    "filename": "invoice_acme.txt",
+    "summary": "The ACME invoice for April 2025 has been received. It needs to be logged for review and assigned to the Finance Team.\n\n**Action Items:**\n1. Log the ACME invoice for April 2025.\n2. Assign the invoice to the Finance Team for review.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice for April 2025",
+        "assigned_to": "Finance Team",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Assign the ACME invoice for April 2025 to the Finance Team for review",
+        "assigned_to": "Finance Team",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-29T16:53:38.607310",
+    "filename": "reminder_payment.txt",
+    "summary": "**Summary:** Payment for invoice #456 from GlobeTech is overdue.\n\n**Action Items:**\n1. Notify the Finance Team about the overdue payment for invoice #456.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the overdue payment for invoice #456",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
         }
       }
     ],
@@ -1348,33 +430,96 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T10:28:47.143732",
-    "filename": "slack_test_final.txt",
-    "summary": "Summary: A Slack message needs to be sent to @jve89, requesting them to review the final report today.\n\nAction Item: \n1. Send a Slack message to @jve89 asking them to review the final report today.",
+    "timestamp": "2025-05-29T16:53:54.923937",
+    "filename": "confirm_payment_xyz.txt",
+    "summary": "Payment for invoice #789 to XYZ Ltd. has been completed. \n\nAction Items:\n1. Update the system to reflect the payment completion for invoice #789.\n2. Notify XYZ Ltd. that the payment has been completed.",
     "tasks": [
       {
-        "description": "Send a Slack message to @jve89 asking them to review the final report",
-        "due_date": "2023-10-11",
-        "assigned_to": "Yourself",
-        "context": "The review needs to be done today",
+        "description": "Update the system to reflect the payment completion for invoice #789.",
+        "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Notify XYZ Ltd. that the payment has been completed.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:54:11.352575",
+    "filename": "request_approval.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.\n\nAction Items:\n1. Draft a Slack message to the Finance Team.\n2. Request approval for invoice #1034.\n3. Ensure the message specifies that the invoice is from BrightIdeas Inc.",
+    "tasks": [
+      {
+        "description": "Draft a Slack message to the Finance Team",
+        "context": "The message should request approval for invoice #1034 from BrightIdeas Inc.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Request approval for invoice #1034",
+        "context": "Ensure the message specifies that the invoice is from BrightIdeas Inc.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:54:29.632137",
+    "filename": "monthly_report.txt",
+    "summary": "Summary:\nThe task involves generating a vendor transaction report for May 2025 and exporting all invoice entries to Google Sheets.\n\nAction Items:\n1. Generate the vendor transaction report for May 2025.\n2. Export all invoice entries from the report to Google Sheets.",
+    "tasks": [
+      {
+        "description": "Generate the vendor transaction report for May 2025",
+        "due_date": "2025-05-31",
+        "time_slot": "2025-05-31T15:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Export all invoice entries from the report to Google Sheets",
+        "context": "Ensure all data is accurately transferred",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:54:56.397221",
+    "filename": "notion_update_test.txt",
+    "summary": "**Summary**: A vendor invoice from AlphaTech, dated 28 May 2025, needs to be logged and marked as urgent. It should be assigned to the Finance Team.\n\n**Action Items**:\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
+        "due_date": "2025-05-28",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "time_slot": "2025-05-28T00:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
-          "name": "Yourself"
+          "name": "Finance Team"
         }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T10:29:07.037011",
-    "filename": "vendor_request_001.txt",
-    "summary": "Summary: ACME Ltd has an outstanding invoice of \u20ac4500. Additionally, their contract is due to expire next month.\n\nAction Items:\n1. Arrange for the payment of the \u20ac4500 invoice for ACME Ltd.\n2. Review the terms of the current contract with ACME Ltd and prepare for its renewal or renegotiation before it expires next month.",
-    "tasks": [
+      },
       {
-        "description": "Arrange for the payment of the \u20ac4500 invoice for ACME Ltd.",
+        "description": "Mark the invoice as urgent",
         "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
@@ -1386,29 +531,81 @@
         }
       },
       {
-        "description": "Review the terms of the current contract with ACME Ltd and prepare for its renewal or renegotiation.",
-        "due_date": "2023-11-30",
+        "description": "Assign the invoice to the Finance Team",
         "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "Contract expires next month",
-        "time_slot": "2025-05-30T09:00:00+02:00",
+        "due_date": null,
+        "time_slot": "2025-06-05T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
+        "time_slot_confidence": "medium"
       }
     ],
     "tag": "contract",
     "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T10:29:16.532989",
-    "filename": "slack_test_retry.txt",
-    "summary": "**Summary:** The content involves sending a Slack message to a user with the handle @jve89, reminding them to review an invoice.\n\n**Action Item:**\n- Send a Slack message to @jve89 as a reminder to review the invoice.",
+    "timestamp": "2025-05-29T16:55:04.037321",
+    "filename": "slack_test_message.txt",
+    "summary": "Summary:\nThe new quarterly budget has been approved, and a Slack message needs to be sent to the Finance Team to confirm this.\n\nAction Item:\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
     "tasks": [
       {
-        "description": "Send a Slack message to @jve89 as a reminder to review the invoice.",
+        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:55:01.506923",
+    "filename": "test_role_enrichment.txt",
+    "summary": "**Summary:** The Q2 financial report has been completed and uploaded to Drive. The finance team needs to be notified about it.\n\n**Action Items:**\n1. Notify the finance team about the completion and upload of the Q2 report.\n2. Ensure that the finance team prioritizes this notification as high.",
+    "tasks": [
+      {
+        "description": "Notify the finance team about the completion and upload of the Q2 report",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-07-15T10:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:55:10.520067",
+    "filename": "test_role_slack.txt",
+    "summary": "Summary: A message needs to be sent to the Finance Team on Slack as a final test from the role-aware configuration.\n\nAction Item:\n1. Send a Slack message to the Finance Team with the content: \"Final test from role-aware config!\"",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team with the content: 'Final test from role-aware config!'",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:55:20.109443",
+    "filename": "fallback_test.txt",
+    "summary": "Summary:\nThe ACME invoice has already been reviewed.\n\nAction Item:\n- Inform the Finance Team that the ACME invoice has been reviewed.",
+    "tasks": [
+      {
+        "description": "Inform the Finance Team that the ACME invoice has been reviewed.",
         "due_date": null,
         "time_slot": "2025-05-29T09:00:00+02:00",
         "time_slot_source": "gpt",
@@ -1417,5 +614,563 @@
     ],
     "tag": "invoice",
     "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:55:27.056439",
+    "filename": "test_notion.txt",
+    "summary": "Summary: The task involves sending the monthly sales data to a Notion database.\n\nAction Item:\n- Transfer the monthly sales data into the Notion database.",
+    "tasks": [
+      {
+        "description": "Transfer the monthly sales data into the Notion database",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:55:38.319319",
+    "filename": "notion_test.txt",
+    "summary": "Summary:\nThe annual compliance review has been completed and documented.\n\nAction Items:\n- Create a new Notion entry titled \"Annual Compliance Review.\"\n- Assign the entry to the Legal Team.\n- Set the task priority to High.\n- Include a note that the documentation is saved in Drive.\n- Ensure completion by July 5th.",
+    "tasks": [
+      {
+        "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "context": "The documentation is saved in Drive.",
+        "due_date": "2023-07-05",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:55:52.330210",
+    "filename": "test_slack_fallback.txt",
+    "summary": "**Summary:**\nA message needs to be sent via Slack to the Finance Team regarding the confirmation of the new quarterly budget approval.\n\n**Action Items:**\n1. Compose a message that confirms the new quarterly budget approval.\n2. Send the composed message to the Finance Team on Slack.",
+    "tasks": [
+      {
+        "description": "Compose a message that confirms the new quarterly budget approval",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Send the composed message to the Finance Team on Slack",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:56:12.724748",
+    "filename": "invoice_acme.txt",
+    "summary": "The ACME invoice for April 2025 has been received and needs to be logged for review. It should be assigned to the Finance Team.\n\nAction Items:\n1. Log the ACME invoice for April 2025.\n2. Assign the invoice to the Finance Team for review.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice for April 2025",
+        "assigned_to": "Finance Team",
+        "context": "The invoice has been received and needs to be logged for review.",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Assign the ACME invoice for April 2025 to the Finance Team for review",
+        "assigned_to": "Finance Team",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-29T16:56:21.151601",
+    "filename": "reminder_payment.txt",
+    "summary": "Summary:\nThe payment for invoice #456 from GlobeTech is overdue.\n\nAction Items:\n1. Notify the Finance Team about the overdue payment for invoice #456.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the overdue payment for invoice #456",
+        "assigned_to": "Finance Team",
+        "context": "The payment for invoice #456 from GlobeTech is overdue.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:56:37.074926",
+    "filename": "confirm_payment_xyz.txt",
+    "summary": "The payment for invoice #789 to XYZ Ltd. has been completed. \n\nAction Items:\n1. Update the system to reflect the payment status.\n2. Notify the vendor, XYZ Ltd., about the payment.",
+    "tasks": [
+      {
+        "description": "Update the system to reflect the payment status",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Notify the vendor, XYZ Ltd., about the payment",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:04.636004",
+    "filename": "request_approval.txt",
+    "summary": "**Summary:** A Slack message needs to be sent to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.\n\n**Action Items:**\n1. Draft a Slack message addressing the Finance Team.\n2. Request approval for invoice #1034 from BrightIdeas Inc.\n3. Send the message to the Finance Team via Slack.",
+    "tasks": [
+      {
+        "description": "Draft a Slack message addressing the Finance Team.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Request approval for invoice #1034 from BrightIdeas Inc.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Send the message to the Finance Team via Slack.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:21.316518",
+    "filename": "monthly_report.txt",
+    "summary": "Summary: The task involves generating a vendor transaction report for May 2025 and exporting the related invoice entries to Google Sheets.\n\nAction Items:\n1. Generate the monthly vendor transaction report for May 2025.\n2. Export all invoice entries from this report to Google Sheets.",
+    "tasks": [
+      {
+        "description": "Generate the monthly vendor transaction report for May 2025.",
+        "due_date": "2025-05-01",
+        "time_slot": "2025-05-31T23:59:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Export all invoice entries from the May 2025 vendor transaction report to Google Sheets.",
+        "due_date": "2025-05-01",
+        "time_slot": "2025-05-31T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:54.299342",
+    "filename": "notion_update_test.txt",
+    "summary": "**Summary:**\nAn invoice from AlphaTech, dated 28 May 2025, needs to be logged, marked as urgent, and assigned to the Finance Team.\n\n**Action Items:**\n1. Log the AlphaTech invoice dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the AlphaTech invoice dated 28 May 2025",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": "2025-05-28",
+        "time_slot": "2025-05-28T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Mark the AlphaTech invoice as urgent",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Assign the AlphaTech invoice to the Finance Team",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-29T16:58:02.277347",
+    "filename": "slack_test_message.txt",
+    "summary": "**Summary:**\nThe new quarterly budget has been approved, and a confirmation needs to be communicated to the Finance Team.\n\n**Action Item:**\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+        "due_date": null,
+        "time_slot": "2025-05-29T10:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:56:13.908074",
+    "filename": "test_role_enrichment.txt",
+    "summary": "**Summary:**\nThe Q2 report has been completed and uploaded to Drive. The finance team needs to be notified.\n\n**Action Items:**\n1. Notify the finance team about the finalized Q2 report.\n2. Ensure the task is prioritized as high within the finance team.",
+    "tasks": [
+      {
+        "description": "Notify the finance team about the finalized Q2 report",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-06-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:56:35.403825",
+    "filename": "test_role_slack.txt",
+    "summary": "Summary:\nA Slack message should be sent to the Finance Team with the content \"Final test from role-aware config!\"\n\nAction Items:\n1. Compose the message: \"Final test from role-aware config!\"\n2. Send the composed message to the Finance Team via Slack.",
+    "tasks": [
+      {
+        "description": "Compose the message: 'Final test from role-aware config!'",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Send the composed message to the Finance Team via Slack",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:56:52.915324",
+    "filename": "fallback_test.txt",
+    "summary": "Summary:\nThe ACME invoice has been reviewed.\n\nAction Item:\nInform the Finance Team about the review of the ACME invoice.",
+    "tasks": [
+      {
+        "description": "Inform the Finance Team about the review of the ACME invoice",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:00.219002",
+    "filename": "test_notion.txt",
+    "summary": "**Summary:** The task involves sending the monthly sales data to the Notion database.\n\n**Action Item:** \n1. Send the monthly sales data to the Notion database.",
+    "tasks": [
+      {
+        "description": "Send the monthly sales data to the Notion database",
+        "due_date": null,
+        "time_slot": "2025-05-29T10:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:06.688968",
+    "filename": "notion_test.txt",
+    "summary": "Summary:\nThe annual compliance review has been completed and documented.\n\nAction Items:\n1. Create a new Notion entry titled \"Annual Compliance Review\"\n2. Assign the entry to the Legal Team\n3. Set the priority of the entry to High\n4. Include a note that the documentation is saved in Drive\n5. Ensure completion by July 5th",
+    "tasks": [
+      {
+        "description": "Create a new Notion entry titled 'Annual Compliance Review'",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "due_date": "2023-07-05",
+        "context": "Include a note that the documentation is saved in Drive",
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:16.580533",
+    "filename": "test_slack_fallback.txt",
+    "summary": "Summary: A Slack message needs to be sent to the Finance Team for confirmation of the new quarterly budget approval.\n\nAction Item: Send a Slack message to the Finance Team for budget approval confirmation.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team for budget approval confirmation.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:32.217213",
+    "filename": "invoice_acme.txt",
+    "summary": "**Summary:**\nThe invoice from ACME for April 2025 has been received and requires action.\n\n**Action Items:**\n1. Log the ACME invoice for April 2025 for review.\n2. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice for April 2025 for review.",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-30T10:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Assign the invoice to the Finance Team.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:43.915242",
+    "filename": "reminder_payment.txt",
+    "summary": "The payment for invoice #456 from GlobeTech is overdue. \n\n**Action Item:** Notify the Finance Team about the overdue payment.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:57:59.257724",
+    "filename": "confirm_payment_xyz.txt",
+    "summary": "**Summary:** \nPayment has been successfully completed for invoice #789 to XYZ Ltd.\n\n**Action Items:**\n1. Update the system to reflect the payment for invoice #789.\n2. Notify the Vendor, XYZ Ltd, that the payment has been completed.",
+    "tasks": [
+      {
+        "description": "Update the system to reflect the payment for invoice #789.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Notify the Vendor, XYZ Ltd, that the payment has been completed.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:58:07.024909",
+    "filename": "request_approval.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.\n\n**Action Item:**\n- Send a Slack message to the Finance Team requesting their approval for invoice #1034 from BrightIdeas Inc.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team requesting their approval for invoice #1034 from BrightIdeas Inc.",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:58:23.864854",
+    "filename": "monthly_report.txt",
+    "summary": "**Summary:**\n\nYou need to generate a monthly vendor transaction report for May 2025 and export all invoice entries to Google Sheets.\n\n**Action Items:**\n1. Create the vendor transaction report for May 2025.\n2. Export the invoice entries to Google Sheets.",
+    "tasks": [
+      {
+        "description": "Create the vendor transaction report for May 2025",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-31T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Export the invoice entries to Google Sheets",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-29T16:58:47.803043",
+    "filename": "notion_update_test.txt",
+    "summary": "Summary:\nA vendor invoice from AlphaTech dated 28 May 2025 needs to be logged, marked as urgent, and assigned to the Finance Team.\n\nAction Items:\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
+        "due_date": "2025-05-28",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "context": "Invoice needs to be marked as urgent",
+        "time_slot": "2025-05-28T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Mark the invoice as urgent",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "context": "Invoice from AlphaTech dated 28 May 2025",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Assign the invoice to the Finance Team",
+        "priority": "High",
+        "context": "Invoice from AlphaTech dated 28 May 2025",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-29T16:58:55.078959",
+    "filename": "slack_test_message.txt",
+    "summary": "**Summary:**\nA message needs to be sent to the Finance Team via Slack to confirm that the new quarterly budget has been approved.\n\n**Action Item:**\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
   }
 ]

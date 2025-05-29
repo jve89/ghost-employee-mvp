@@ -1,5 +1,0 @@
-File: watched/test_data.csv
-Processed at: 20250519_113830
-
-⚠️ 2 delayed items found in 'Status' column.
-⚠️ 2 unhappy clients detected.

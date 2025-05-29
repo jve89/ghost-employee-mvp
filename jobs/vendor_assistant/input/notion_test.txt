@@ -1,0 +1,9 @@
+Summary:
+The annual compliance review has been completed and documented.
+
+Action Items:
+- Create a new Notion entry titled "Annual Compliance Review"
+- Assign it to the Legal Team
+- Set the priority to High
+- Include a note that the documentation is saved in Drive
+- Due by July 5th

@@ -28,6 +28,8 @@ boto3 = "*"
 slack-sdk = "*"
 fastapi = "*"
 uvicorn = "*"
+gspread = "*"
+tree-cli = "*"
 
 [dev-packages]
 black = "*"

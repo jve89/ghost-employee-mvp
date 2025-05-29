@@ -1,0 +1,15 @@
+{
+  "job_name": "Vendor Assistant",
+  "input_path": "jobs/vendor_assistant/input",
+  "assigned_role": "Vendor Assistant",
+  "export_target": "notion",
+  "priority_rules": {
+    "invoice": "high",
+    "payment": "medium"
+  },
+  "auto_run": true,
+  "slack_alerts_enabled": true,
+  "notion_enabled": true,
+  "sheets_enabled": true,
+  "retry_on_fail": true
+}

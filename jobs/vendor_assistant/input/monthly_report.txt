@@ -1,0 +1,1 @@
+Generate the monthly vendor transaction report for May 2025. Export all invoice entries to Google Sheets.
