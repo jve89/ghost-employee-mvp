@@ -1,639 +1,11 @@
 [
   {
-    "timestamp": "2025-05-29T18:43:33.802988",
+    "timestamp": "2025-05-30T06:38:15.183471",
     "filename": "notion_update_test.txt",
-    "summary": "**Summary:**\nA vendor invoice from AlphaTech dated 28 May 2025 needs to be logged. It is marked as urgent and should be assigned to the Finance Team.\n\n**Action Items:**\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "summary": "**Summary:**\nA vendor invoice from AlphaTech dated May 28, 2025, needs to be logged. The invoice is marked as urgent and should be assigned to the Finance Team.\n\n**Action Items:**\n1. Log the vendor invoice from AlphaTech dated May 28, 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
     "tasks": [
       {
-        "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
-        "due_date": "2025-05-28",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "context": "Invoice is marked as urgent",
-        "time_slot": "2025-05-28T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T18:43:47.017144",
-    "filename": "reminder_payment.txt",
-    "summary": "Summary: The payment for invoice #456 from GlobeTech is overdue and requires attention.\n\nAction Item:\n1. Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
-    "tasks": [
-      {
-        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "context": "The payment for invoice #456 from GlobeTech is overdue and requires attention.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:43:59.626629",
-    "filename": "request_approval.txt",
-    "summary": "**Summary:**\nA Slack message needs to be sent to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.\n\n**Action Items:**\n1. Compose a Slack message to the Finance Team.\n2. Request approval for invoice #1034 from BrightIdeas Inc.",
-    "tasks": [
-      {
-        "description": "Compose a Slack message to the Finance Team",
-        "context": "Request approval for invoice #1034 from BrightIdeas Inc.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:44:08.991035",
-    "filename": "slack_test_message.txt",
-    "summary": "Summary: A message needs to be sent to the Finance Team via Slack to confirm the approval of the new quarterly budget.\n\nAction Item: \n- Send a Slack message to the Finance Team confirming the new quarterly budget approval.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to the Finance Team confirming the new quarterly budget approval.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:44:45.421465",
-    "filename": "test_notion.txt",
-    "summary": "Summary: The task involves sending the monthly sales data to the Notion database.\n\nAction Items:\n1. Collect and organize the monthly sales data.\n2. Upload or enter the data into the Notion database.\n3. Verify that the data has been accurately transferred and is accessible.",
-    "tasks": [
-      {
-        "description": "Collect and organize the monthly sales data",
-        "due_date": null,
-        "time_slot": "2025-05-31T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Upload or enter the data into the Notion database",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Verify that the data has been accurately transferred and is accessible",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:45:01.883107",
-    "filename": "test_role_enrichment.txt",
-    "summary": "**Summary:**\nThe Q2 report has been finalised and uploaded to Drive. The finance team needs to be notified about this.\n\n**Action Items:**\n1. Notify the finance team that the Q2 report is finalised and available on Drive.\n2. Prioritize this task as high for the finance team.",
-    "tasks": [
-      {
-        "description": "Notify the finance team that the Q2 report is finalised and available on Drive.",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-06-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:45:14.426388",
-    "filename": "test_role_slack.txt",
-    "summary": "Summary: A Slack message needs to be sent to the Finance Team as a final test related to role-aware configuration.\n\nAction Item:\n- Send a Slack message to the Finance Team with the content: \"Final test from role-aware config!\"",
-    "tasks": [
-      {
-        "description": "Send a Slack message to the Finance Team with the content: 'Final test from role-aware config!'",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:45:25.101358",
-    "filename": "test_slack_fallback.txt",
-    "summary": "Summary:\nThe task requires sending a message via Slack to the Finance Team to confirm that the new quarterly budget has been approved.\n\nAction Item:\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:42:03.970356",
-    "filename": "confirm_payment_xyz.txt",
-    "summary": "The payment for invoice #789 to XYZ Ltd. has been completed. \n\nAction Items:\n1. Update the system to reflect the payment status for invoice #789.\n2. Notify the vendor, XYZ Ltd., that the payment has been processed.",
-    "tasks": [
-      {
-        "description": "Update the system to reflect the payment status for invoice #789.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Notify the vendor, XYZ Ltd., that the payment has been processed.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:42:15.139990",
-    "filename": "fallback_test.txt",
-    "summary": "**Summary:** The ACME invoice has been reviewed.\n\n**Action Item:** Inform the Finance Team about the review of the ACME invoice.",
-    "tasks": [
-      {
-        "description": "Inform the Finance Team about the review of the ACME invoice.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:42:36.883473",
-    "filename": "infer_test_vendor.txt",
-    "summary": "Summary: The ACME invoice requires logging and assignment to the finance team for processing.\n\nAction Items:\n1. Log the ACME invoice.\n2. Assign the invoice to the finance team for processing.",
-    "tasks": [
-      {
-        "description": "Log the ACME invoice",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Assign the ACME invoice to the finance team for processing",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:42:59.748422",
-    "filename": "invoice_acme.txt",
-    "summary": "The ACME invoice for April 2025 has been received. Action Items: 1. Log the invoice for review. 2. Assign the invoice to the Finance Team.",
-    "tasks": [
-      {
-        "description": "Log the ACME invoice for April 2025 for review",
-        "due_date": null,
-        "time_slot": "2025-04-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Assign the ACME invoice for April 2025 to the Finance Team",
-        "assigned_to": "Finance Team",
-        "due_date": "2025-04-01",
-        "time_slot": "2025-04-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:43:18.706347",
-    "filename": "monthly_report.txt",
-    "summary": "Summary:\nThe task involves generating a monthly vendor transaction report for May 2025 and exporting all invoice entries into Google Sheets.\n\nAction Items:\n1. Generate the vendor transaction report for May 2025.\n2. Export all invoice entries related to the report into a Google Sheets document.",
-    "tasks": [
-      {
-        "description": "Generate the vendor transaction report for May 2025",
-        "due_date": "2025-06-01",
-        "time_slot": "2025-05-31T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Export all invoice entries related to the report into a Google Sheets document",
-        "due_date": "2025-06-01",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:43:29.033205",
-    "filename": "notion_test.txt",
-    "summary": "Summary:\nThe annual compliance review has been completed.\n\nAction Items:\n- Create a new Notion entry titled \"Annual Compliance Review.\"\n- Assign it to the Legal Team.\n- Set the priority to High.\n- Include a note that the documentation is saved in Drive.\n- Ensure completion by July 5th.",
-    "tasks": [
-      {
-        "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
-        "due_date": "2023-07-05",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "The documentation is saved in Drive.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:44:03.313395",
-    "filename": "notion_update_test.txt",
-    "summary": "Summary:\nA vendor invoice received from AlphaTech, dated 28 May 2025, needs to be logged. It is marked as urgent and should be assigned to the Finance Team.\n\nAction Items:\n1. Log the vendor invoice from AlphaTech.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
-    "tasks": [
-      {
-        "description": "Log the vendor invoice from AlphaTech",
-        "due_date": "2025-05-28",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Mark the invoice as urgent",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      },
-      {
-        "description": "Assign the invoice to the Finance Team",
-        "priority": "High",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "contract",
-    "tag_icon": "\ud83d\udcbc"
-  },
-  {
-    "timestamp": "2025-05-29T18:44:17.629300",
-    "filename": "reminder_payment.txt",
-    "summary": "**Summary:** \nThe payment for invoice #456 from GlobeTech is overdue.\n\n**Action Items:**\n1. Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
-    "tasks": [
-      {
-        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:44:28.588987",
-    "filename": "request_approval.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.\n\nAction Item:\n- Send a Slack message to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:44:45.976560",
-    "filename": "slack_test_message.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Item:\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
-    "tasks": [
-      {
-        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:45:29.882140",
-    "filename": "test_notion.txt",
-    "summary": "Summary: The task involves updating the Notion database with the monthly sales data.\n\nAction Items:\n1. Compile the monthly sales data.\n2. Access the Notion database.\n3. Enter or upload the sales data into the appropriate section of the Notion database.",
-    "tasks": [
-      {
-        "description": "Compile the monthly sales data.",
-        "due_date": null,
-        "time_slot": "2025-05-31T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Access the Notion database.",
-        "due_date": null,
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Enter or upload the sales data into the appropriate section of the Notion database.",
-        "due_date": null,
-        "time_slot": "2025-05-29T15:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:45:50.674859",
-    "filename": "test_role_enrichment.txt",
-    "summary": "**Summary:** The Q2 report has been finalised and uploaded to Drive. The finance team needs to be notified about this.\n\n**Action Item:** \n- Notify the finance team that the Q2 report is finalised and uploaded to Drive, and ensure that this task is prioritised as high.",
-    "tasks": [
-      {
-        "description": "Notify the finance team that the Q2 report is finalised and uploaded to Drive",
-        "priority": "High",
-        "due_date": null,
-        "time_slot": "2025-06-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:46:02.078547",
-    "filename": "test_role_slack.txt",
-    "summary": "Summary: A message is to be sent to the Finance Team via Slack to conduct a final test for role-aware configuration.\n\nAction Item:\n1. Send a message to the Finance Team on Slack with the content: \"Final test from role-aware config!\"",
-    "tasks": [
-      {
-        "description": "Send a message to the Finance Team on Slack with the content: 'Final test from role-aware config!'",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:46:13.139990",
-    "filename": "test_slack_fallback.txt",
-    "summary": "Summary:\nThe task is to send a Slack message to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Item:\n1. Draft and send a message via Slack to the Finance Team confirming the approval of the new quarterly budget.",
-    "tasks": [
-      {
-        "description": "Draft and send a message via Slack to the Finance Team confirming the approval of the new quarterly budget.",
-        "due_date": null,
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:46:42.621894",
-    "filename": "confirm_payment_xyz.txt",
-    "summary": "The payment for invoice #789 to XYZ Ltd. has been completed. \n\n**Action Items:**\n1. Update the system to reflect the payment.\n2. Notify XYZ Ltd. about the payment completion.",
-    "tasks": [
-      {
-        "description": "Update the system to reflect the payment.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Notify XYZ Ltd. about the payment completion.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:46:52.479653",
-    "filename": "fallback_test.txt",
-    "summary": "**Summary:**\nThe ACME invoice has been reviewed.\n\n**Action Items:**\n- Inform the Finance Team about the reviewed ACME invoice.",
-    "tasks": [
-      {
-        "description": "Inform the Finance Team about the reviewed ACME invoice.",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:47:08.918788",
-    "filename": "infer_test_vendor.txt",
-    "summary": "Summary:\nThe ACME invoice requires logging and assignment to the finance team for processing.\n\nAction Items:\n1. Log the ACME invoice.\n2. Assign the ACME invoice to the finance team for processing.",
-    "tasks": [
-      {
-        "description": "Log the ACME invoice",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Assign the ACME invoice to the finance team for processing",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:47:28.435787",
-    "filename": "invoice_acme.txt",
-    "summary": "**Summary:**\nAn ACME invoice for April 2025 has been received and needs to be processed.\n\n**Action Items:**\n1. Log the ACME invoice for review.\n2. Assign the invoice to the Finance Team for further action.",
-    "tasks": [
-      {
-        "description": "Log the ACME invoice for review",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Assign the invoice to the Finance Team for further action",
-        "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-30T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:47:43.356106",
-    "filename": "monthly_report.txt",
-    "summary": "Summary:\nThe task is to generate a monthly vendor transaction report for May 2025 and export all invoice entries to Google Sheets.\n\nAction Items:\n1. Generate the vendor transaction report for May 2025.\n2. Export all invoice entries to a Google Sheets document.",
-    "tasks": [
-      {
-        "description": "Generate the vendor transaction report for May 2025",
-        "due_date": "2025-06-01",
-        "time_slot": "2025-05-31T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Export all invoice entries to a Google Sheets document",
-        "due_date": "2025-06-01",
-        "time_slot": "2025-05-29T00:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      }
-    ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
-  },
-  {
-    "timestamp": "2025-05-29T18:47:57.022980",
-    "filename": "notion_test.txt",
-    "summary": "Summary:\nThe annual compliance review has been completed and documented.\n\nAction Items:\n- Create a new Notion entry titled \"Annual Compliance Review.\"\n- Assign the task to the Legal Team.\n- Set the priority level to High.\n- Include a note stating that the documentation is saved in Drive.\n- Ensure completion by July 5th.",
-    "tasks": [
-      {
-        "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
-        "due_date": "2024-07-05",
-        "priority": "High",
-        "assigned_to": "Legal Team",
-        "context": "The documentation is saved in Drive.",
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Legal Team"
-        }
-      }
-    ],
-    "tag": "report",
-    "tag_icon": "\ud83d\udcca"
-  },
-  {
-    "timestamp": "2025-05-29T18:48:24.048996",
-    "filename": "notion_update_test.txt",
-    "summary": "Summary: There is a vendor invoice from AlphaTech dated 28 May 2025 that needs to be logged, marked as urgent, and assigned to the Finance Team.\n\nAction Items:\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
-    "tasks": [
-      {
-        "description": "Log the vendor invoice from AlphaTech dated 28 May 2025.",
+        "description": "Log the vendor invoice from AlphaTech dated May 28, 2025.",
         "due_date": "2025-05-28",
         "priority": "High",
         "assigned_to": "Finance Team",
@@ -649,7 +21,7 @@
         "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -659,25 +31,29 @@
       {
         "description": "Assign the invoice to the Finance Team.",
         "priority": "High",
+        "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
       }
     ],
     "tag": "contract",
     "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T18:48:37.953643",
+    "timestamp": "2025-05-30T06:38:23.780740",
     "filename": "reminder_payment.txt",
-    "summary": "**Summary**: The payment for invoice #456 from GlobeTech is overdue.\n\n**Action Items**:\n1. Notify the Finance Team about the overdue payment for invoice #456.",
+    "summary": "**Summary:**\nThe payment for invoice #456 from GlobeTech is overdue.\n\n**Action Item:**\n- Notify the Finance Team about the overdue payment for invoice #456.",
     "tasks": [
       {
         "description": "Notify the Finance Team about the overdue payment for invoice #456",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -689,16 +65,15 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:48:47.950948",
+    "timestamp": "2025-05-30T06:38:31.570360",
     "filename": "request_approval.txt",
-    "summary": "Summary: A request needs to be sent to the Finance Team for their approval on invoice #1034 from BrightIdeas Inc. via Slack.\n\nAction Item:\n- Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
+    "summary": "**Summary:**\nA Slack message needs to be sent to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.\n\n**Action Items:**\n1. Compose and send a Slack message to the Finance Team.\n2. Include a request for approval of invoice #1034 from BrightIdeas Inc. in the message.",
     "tasks": [
       {
-        "description": "Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
+        "description": "Compose and send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
         "assigned_to": "Finance Team",
-        "context": "Approval needed for invoice #1034",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -710,15 +85,37 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:49:00.568253",
+    "timestamp": "2025-05-30T06:38:50.375577",
     "filename": "slack_test_message.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team confirming the approval of the new quarterly budget.\n\nAction Items:\n1. Draft and send a Slack message to the Finance Team.\n2. Confirm in the message that the new quarterly budget has been approved.",
+    "summary": "Content Summary:\nThe task involves sending a Slack message to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Items:\n1. Draft a Slack message addressed to the Finance Team.\n2. Confirm the approval of the new quarterly budget in the message.\n3. Send the message through the appropriate Slack channel or direct message.",
     "tasks": [
       {
-        "description": "Draft and send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+        "description": "Draft a Slack message addressed to the Finance Team",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Confirm the approval of the new quarterly budget in the message",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-06-02T12:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Send the message through the appropriate Slack channel or direct message",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -730,39 +127,32 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:49:24.244580",
+    "timestamp": "2025-05-30T06:39:04.667334",
     "filename": "test_notion.txt",
-    "summary": "Summary:\nThe task involves sending the monthly sales data to the Notion database.\n\nAction Items:\n1. Gather the monthly sales data.\n2. Update or send the collected sales data to the Notion database.",
+    "summary": "**Summary:**\nThere is a request to send the monthly sales data to the Notion database.\n\n**Action Item:**\n1. Transfer the monthly sales data to the Notion database.",
     "tasks": [
       {
-        "description": "Gather the monthly sales data",
+        "description": "Transfer the monthly sales data to the Notion database.",
         "due_date": null,
         "time_slot": "2025-06-01T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Update or send the collected sales data to the Notion database",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
       }
     ],
     "tag": "report",
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:49:34.762932",
+    "timestamp": "2025-05-30T06:39:14.702984",
     "filename": "test_role_enrichment.txt",
-    "summary": "**Summary:**\nThe Q2 report has been finalized and is available on Drive. The finance team needs to be notified of this update.\n\n**Action Item:**\n- Notify the finance team that the Q2 report is finalized and uploaded to Drive. This task is prioritized as high.",
+    "summary": "Summary: The Q2 financial report has been finalised and uploaded to Drive. \n\nAction Item:\n- Notify the finance team about the completion and upload of the Q2 report on Drive, prioritising this task as high.",
     "tasks": [
       {
-        "description": "Notify the finance team that the Q2 report is finalized and uploaded to Drive.",
+        "description": "Notify the finance team about the completion and upload of the Q2 report on Drive",
         "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-06-30T09:00:00+02:00",
+        "time_slot": "2025-07-01T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -774,52 +164,43 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:49:55.950623",
+    "timestamp": "2025-05-30T06:39:23.192520",
     "filename": "test_role_slack.txt",
-    "summary": "**Summary:** A Slack message needs to be sent to the Finance Team regarding a final test from a role-aware configuration.\n\n**Action Items:**\n1. Draft a Slack message for the Finance Team.\n2. Include details about the final test from the role-aware configuration.\n3. Send the message to the Finance Team on Slack.",
+    "summary": "Summary:\nA Slack message is to be sent to the Finance Team with the content \"Final test from role-aware config!\"\n\nAction Item:\n- Send the specified message to the Finance Team on Slack.",
     "tasks": [
       {
-        "description": "Draft a Slack message for the Finance Team",
-        "context": "Include details about the final test from the role-aware configuration",
+        "description": "Send the message 'Final test from role-aware config!' to the Finance Team on Slack",
+        "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Send the message to the Finance Team on Slack",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
       }
     ],
     "tag": "report",
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:50:20.776812",
+    "timestamp": "2025-05-30T06:39:38.049285",
     "filename": "test_slack_fallback.txt",
-    "summary": "**Summary:**\nYou need to send a Slack message to the Finance Team regarding the confirmation of the new quarterly budget approval.\n\n**Action Items:**\n- Draft a message for the Finance Team.\n- Confirm the approval of the new quarterly budget.\n- Send the message via Slack to the Finance Team.",
+    "summary": "**Summary:**\n\nA Slack message needs to be sent to the Finance Team to confirm the approval of the new quarterly budget.\n\n**Action Items:**\n\n1. Draft a Slack message.\n2. Send the message to the Finance Team confirming the approval of the new quarterly budget.",
     "tasks": [
       {
-        "description": "Draft a message for the Finance Team regarding the new quarterly budget approval.",
+        "description": "Draft a Slack message for the Finance Team",
+        "context": "The message should confirm the approval of the new quarterly budget",
         "due_date": null,
         "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Confirm the approval of the new quarterly budget.",
+        "description": "Send the Slack message to the Finance Team",
+        "context": "The message should confirm the approval of the new quarterly budget",
         "due_date": null,
-        "time_slot": "2025-06-01T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Send the message via Slack to the Finance Team.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
@@ -828,21 +209,21 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:47:35.785998",
+    "timestamp": "2025-05-30T06:46:08.302514",
     "filename": "confirm_payment_xyz.txt",
-    "summary": "The payment for invoice #789 to XYZ Ltd. has been completed. \n\n**Action Items:**\n1. Update the system to reflect the payment for invoice #789.\n2. Notify XYZ Ltd. about the payment completion.",
+    "summary": "**Summary:**\nThe payment for invoice #789 to XYZ Ltd. has been completed.\n\n**Action Items:**\n1. Update the system to reflect the payment status for invoice #789.\n2. Notify the vendor, XYZ Ltd., that the payment for their invoice has been completed.",
     "tasks": [
       {
-        "description": "Update the system to reflect the payment for invoice #789.",
+        "description": "Update the system to reflect the payment status for invoice #789.",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Notify XYZ Ltd. about the payment completion.",
+        "description": "Notify the vendor, XYZ Ltd., that the payment for their invoice has been completed.",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
@@ -851,42 +232,38 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:47:44.824910",
+    "timestamp": "2025-05-30T06:46:16.716296",
     "filename": "fallback_test.txt",
-    "summary": "**Summary:** The ACME invoice has been reviewed.\n\n**Action Items:**\n1. Inform the Finance Team about the completion of the ACME invoice review.",
+    "summary": "Summary:\nThe ACME invoice has been reviewed.\n\nAction Item:\n- Notify the Finance Team about the completion of the ACME invoice review.",
     "tasks": [
       {
-        "description": "Inform the Finance Team about the completion of the ACME invoice review",
-        "assigned_to": "Finance Team",
+        "description": "Notify the Finance Team about the completion of the ACME invoice review.",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
+        "time_slot_confidence": "medium"
       }
     ],
     "tag": "invoice",
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:48:04.153499",
+    "timestamp": "2025-05-30T06:46:31.697740",
     "filename": "infer_test_vendor.txt",
-    "summary": "**Summary:**\nThe ACME invoice requires logging and assignment to the finance team for further processing.\n\n**Action Items:**\n1. Log the ACME invoice.\n2. Assign the invoice to the finance team for processing.",
+    "summary": "**Summary:** \nThe ACME invoice requires logging and should be assigned to the finance team for processing.\n\n**Action Items:**\n1. Log the ACME invoice.\n2. Assign the invoice to the finance team for processing.",
     "tasks": [
       {
         "description": "Log the ACME invoice",
         "due_date": null,
-        "time_slot": "2025-06-05T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Assign the invoice to the finance team for processing",
+        "description": "Assign the ACME invoice to the finance team for processing",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -894,13 +271,13 @@
         }
       }
     ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T18:48:25.308889",
+    "timestamp": "2025-05-30T06:46:50.939947",
     "filename": "invoice_acme.txt",
-    "summary": "Summary:\nAn invoice from ACME for April 2025 has been received and needs to be processed.\n\nAction Items:\n1. Log the ACME invoice for April 2025 for review.\n2. Assign the invoice to the Finance Team.",
+    "summary": "**Summary:**\nThe ACME invoice for April 2025 has been received and requires logging for further review. It needs to be assigned to the Finance Team.\n\n**Action Items:**\n1. Log the ACME invoice for April 2025 for review.\n2. Assign the invoice to the Finance Team.",
     "tasks": [
       {
         "description": "Log the ACME invoice for April 2025 for review.",
@@ -910,10 +287,10 @@
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Assign the invoice to the Finance Team.",
+        "description": "Assign the ACME invoice for April 2025 to the Finance Team.",
         "assigned_to": "Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -921,27 +298,39 @@
         }
       }
     ],
-    "tag": "invoice",
-    "tag_icon": "\ud83d\udcb0"
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T18:48:48.928395",
+    "timestamp": "2025-05-30T06:47:17.513986",
     "filename": "monthly_report.txt",
-    "summary": "To complete the task, you need to:\n\n1. **Generate the Monthly Vendor Transaction Report**:\n   - Focus on transactions occurring in May 2025.\n   - Ensure all relevant data is accurately captured and compiled.\n\n2. **Export Invoice Entries to Google Sheets**:\n   - Extract all invoice entries related to the transactions of May 2025.\n   - Use appropriate tools or integrations to export the data into a Google Sheets document.\n   - Verify the accuracy and completeness of the exported entries.",
+    "summary": "**Summary:**\nThe task involves generating a monthly vendor transaction report for May 2025 and exporting all invoice entries to a Google Sheets document.\n\n**Action Items:**\n1. Compile the vendor transaction report for May 2025.\n2. Ensure all relevant invoice entries are included in the report.\n3. Export the compiled invoice entries to a Google Sheets file.\n4. Verify that the exported data in Google Sheets is accurate and complete.",
     "tasks": [
       {
-        "description": "Generate the Monthly Vendor Transaction Report for May 2025",
-        "context": "Ensure all relevant data is accurately captured and compiled",
-        "due_date": null,
-        "time_slot": "2025-05-31T00:00:00+02:00",
+        "description": "Compile the vendor transaction report for May 2025.",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-31T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Export Invoice Entries to Google Sheets for May 2025 transactions",
-        "context": "Use appropriate tools or integrations to export the data and verify accuracy and completeness",
-        "due_date": null,
-        "time_slot": "2025-05-31T15:00:00+02:00",
+        "description": "Ensure all relevant invoice entries are included in the report.",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Export the compiled invoice entries to a Google Sheets file.",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Verify that the exported data in Google Sheets is accurate and complete.",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
@@ -950,17 +339,17 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:48:57.545786",
+    "timestamp": "2025-05-30T06:47:27.267962",
     "filename": "notion_test.txt",
-    "summary": "Summary:\nThe annual compliance review has been successfully completed and documented.\n\nAction Items:\n- Create a new Notion entry titled \"Annual Compliance Review\"\n- Assign this entry to the Legal Team\n- Set the priority level to High\n- Add a note indicating that the documentation is saved in Drive\n- Ensure this is completed by July 5th",
+    "summary": "Summary:\nThe annual compliance review process has been concluded, and the details have been documented.\n\nAction Items:\n1. Create a Notion entry named \"Annual Compliance Review.\"\n2. Assign the entry to the Legal Team.\n3. Set the priority level to High.\n4. Add a note indicating that the documentation is saved in Drive.\n5. Ensure the task is completed by July 5th.",
     "tasks": [
       {
-        "description": "Create a new Notion entry titled 'Annual Compliance Review'",
-        "due_date": "2023-07-05",
+        "description": "Create a Notion entry named 'Annual Compliance Review.'",
         "priority": "High",
         "assigned_to": "Legal Team",
-        "context": "Documentation is saved in Drive",
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "context": "The documentation is saved in Drive.",
+        "due_date": "2023-07-05",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -972,9 +361,653 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:49:25.513563",
+    "timestamp": "2025-05-30T06:47:40.135046",
     "filename": "notion_update_test.txt",
-    "summary": "Summary:\nA vendor invoice from AlphaTech dated 28 May 2025 needs to be logged. It is marked as urgent and should be assigned to the Finance Team.\n\nAction Items:\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "summary": "A vendor invoice from AlphaTech dated 28 May 2025 needs to be logged. It should be marked as urgent and assigned to the Finance Team.\n\n**Action Items:**\n1. Log the invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the invoice from AlphaTech dated 28 May 2025",
+        "due_date": "2025-05-28",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "context": "Invoice needs to be marked as urgent",
+        "time_slot": "2025-05-28T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-30T06:47:51.209837",
+    "filename": "reminder_payment.txt",
+    "summary": "Summary: The payment for invoice #456 from GlobeTech is overdue.\n\nAction Items:\n1. Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:00.124331",
+    "filename": "request_approval.txt",
+    "summary": "Summary: A Slack message needs to be sent to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.\n\nAction Item:\n- Send a Slack message to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:15.322446",
+    "filename": "slack_test_message.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to inform them that the new quarterly budget has been approved.\n\nAction Items:\n1. Draft a message confirming the approval of the new quarterly budget.\n2. Send the message to the Finance Team on Slack.",
+    "tasks": [
+      {
+        "description": "Draft a message confirming the approval of the new quarterly budget.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Send the message to the Finance Team on Slack.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:28.667807",
+    "filename": "test_notion.txt",
+    "summary": "Summary: The task involves sending the monthly sales data to the Notion database.\n\nAction Items:\n1. Export the monthly sales data.\n2. Import or send the sales data to the Notion database.",
+    "tasks": [
+      {
+        "description": "Export the monthly sales data",
+        "due_date": null,
+        "time_slot": "2025-05-31T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Import or send the sales data to the Notion database",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:38.334890",
+    "filename": "test_role_enrichment.txt",
+    "summary": "The Q2 report has been finalised and uploaded to Drive. The finance team should be notified immediately. \n\n**Action Items:**\n1. Notify the finance team about the completion and availability of the Q2 report on Drive.\n2. Ensure the notification is marked as a high priority task for the finance team.",
+    "tasks": [
+      {
+        "description": "Notify the finance team about the completion and availability of the Q2 report on Drive",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-07-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:47.090728",
+    "filename": "test_role_slack.txt",
+    "summary": "Summary: A Slack message needs to be sent to the Finance Team as a final test for the role-aware configuration. \n\nAction Item:\n- Send a Slack message to the Finance Team with the content: \"Final test from role-aware config!\"",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team with the content: 'Final test from role-aware config!'",
+        "assigned_to": "Finance Team",
+        "context": "This is a final test for the role-aware configuration.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:49:16.659327",
+    "filename": "test_slack_fallback.txt",
+    "summary": "**Summary:**\nA Slack message needs to be sent to the Finance Team to confirm the approval of the new quarterly budget.\n\n**Action Items:**\n1. Draft a Slack message addressed to the Finance Team.\n2. Include confirmation details of the new quarterly budget approval.\n3. Send the message to the Finance Team on Slack.",
+    "tasks": [
+      {
+        "description": "Draft a Slack message addressed to the Finance Team",
+        "context": "Include confirmation details of the new quarterly budget approval",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Send the message to the Finance Team on Slack",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:46:12.595003",
+    "filename": "confirm_payment_xyz.txt",
+    "summary": "Summary: The payment for invoice #789 to XYZ Ltd. has been completed. \n\nAction Items:\n1. Update the system to reflect the payment status of invoice #789.\n2. Notify XYZ Ltd. about the payment completion.",
+    "tasks": [
+      {
+        "description": "Update the system to reflect the payment status of invoice #789.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Notify XYZ Ltd. about the payment completion.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:46:21.795388",
+    "filename": "fallback_test.txt",
+    "summary": "**Summary:** The ACME invoice has been reviewed.\n\n**Action Item:** \n1. Inform the Finance Team about the review of the ACME invoice.",
+    "tasks": [
+      {
+        "description": "Inform the Finance Team about the review of the ACME invoice",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-06-02T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:46:37.226628",
+    "filename": "infer_test_vendor.txt",
+    "summary": "Summary:\nThe ACME invoice requires logging and assignment to the finance team for further processing.\n\nAction Items:\n1. Log the ACME invoice.\n2. Assign the invoice to the finance team for processing.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Assign the invoice to the finance team for processing",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:46:55.488264",
+    "filename": "invoice_acme.txt",
+    "summary": "### Summary:\nAn ACME invoice for April 2025 has been received and needs to be logged and reviewed by the Finance Team.\n\n### Action Items:\n1. Log the ACME invoice for April 2025.\n2. Assign the invoice to the Finance Team for review.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice for April 2025",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-30T15:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Review the ACME invoice for April 2025",
+        "assigned_to": "Finance Team",
+        "due_date": "2025-04-01",
+        "time_slot": "2025-04-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:47:16.414498",
+    "filename": "monthly_report.txt",
+    "summary": "Summary:\nThe task involves generating the monthly vendor transaction report for May 2025 and exporting all invoice entries to Google Sheets.\n\nAction Items:\n1. Compile the vendor transaction data for May 2025.\n2. Generate the corresponding transaction report.\n3. Export the invoice entries to a Google Sheets file.",
+    "tasks": [
+      {
+        "description": "Compile the vendor transaction data for May 2025",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-31T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Generate the corresponding transaction report for May 2025",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-31T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Export the invoice entries to a Google Sheets file",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:47:24.172602",
+    "filename": "notion_test.txt",
+    "summary": "Summary:\nThe annual compliance review has been concluded and documented.\n\nAction Items:\n1. Create a new Notion entry titled \"Annual Compliance Review.\"\n2. Assign the entry to the Legal Team.\n3. Set the priority of the entry to High.\n4. Include a note indicating that the documentation is saved in Drive.\n5. Ensure completion by July 5th.",
+    "tasks": [
+      {
+        "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+        "assigned_to": "Legal Team",
+        "priority": "High",
+        "context": "Documentation is saved in Drive",
+        "due_date": "2023-07-05",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:47:46.626283",
+    "filename": "notion_update_test.txt",
+    "summary": "The vendor invoice from AlphaTech dated 28 May 2025 needs to be logged. It should be marked as urgent and assigned to the Finance Team. \n\n**Action Items:**\n1. Log the AlphaTech vendor invoice dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the AlphaTech vendor invoice dated 28 May 2025",
+        "due_date": "2025-05-28",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "context": "Invoice needs to be marked as urgent",
+        "time_slot": "2025-05-28T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "contract",
+    "tag_icon": "\ud83d\udcbc"
+  },
+  {
+    "timestamp": "2025-05-30T06:47:56.553556",
+    "filename": "reminder_payment.txt",
+    "summary": "Summary: The payment for invoice #456 from GlobeTech is overdue. The Finance Team needs to be notified.\n\nAction Items:\n1. Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:17.870348",
+    "filename": "request_approval.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to request approval for invoice #1034 from BrightIdeas Inc.\n\nAction Items:\n1. Compose a Slack message.\n2. Send the message to the Finance Team requesting approval for invoice #1034.",
+    "tasks": [
+      {
+        "description": "Compose a Slack message requesting approval for invoice #1034 from BrightIdeas Inc.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Send the Slack message to the Finance Team requesting approval for invoice #1034.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:26.647486",
+    "filename": "slack_test_message.txt",
+    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Items:\n1. Send a Slack message to the Finance Team.\n2. Confirm the approval of the new quarterly budget in the message.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team to confirm the approval of the new quarterly budget.",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:40.620248",
+    "filename": "test_notion.txt",
+    "summary": "Summary:\nThe content instructs to send the monthly sales data to the Notion database.\n\nAction Items:\n1. Gather the monthly sales data.\n2. Upload or send the gathered sales data to the Notion database.",
+    "tasks": [
+      {
+        "description": "Gather the monthly sales data",
+        "due_date": null,
+        "time_slot": "2025-06-01T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Upload or send the gathered sales data to the Notion database",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:48:56.606240",
+    "filename": "test_role_enrichment.txt",
+    "summary": "**Summary:** The Q2 report is finalized and uploaded to Drive. The finance team needs to be informed. This task is a high priority. \n\n**Action Items:**\n1. Notify the finance team about the finalization and upload of the Q2 report.\n2. Ensure that the task is treated with high priority by the finance team.",
+    "tasks": [
+      {
+        "description": "Notify the finance team about the finalization and upload of the Q2 report",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-06-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      },
+      {
+        "description": "Ensure that the task is treated with high priority by the finance team",
+        "priority": "High",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:49:22.902120",
+    "filename": "test_role_slack.txt",
+    "summary": "**Summary:** A Slack message needs to be sent to the Finance Team. The message is a \"final test from role-aware config.\"\n\n**Action Item:**\n1. Send the specified Slack message to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Send a Slack message to the Finance Team",
+        "context": "The message is a 'final test from role-aware config.'",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:49:30.150815",
+    "filename": "test_slack_fallback.txt",
+    "summary": "Summary:\nThe task involves communicating with the Finance Team via Slack to confirm the approval of the new quarterly budget.\n\nAction Item:\n1. Draft and send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+    "tasks": [
+      {
+        "description": "Draft and send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+        "assigned_to": "Finance Team",
+        "context": "Communicate via Slack",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:57:19.385830",
+    "filename": "confirm_payment_xyz.txt",
+    "summary": "**Summary:**\nPayment for invoice #789 to XYZ Ltd has been completed.\n\n**Action Items:**\n1. Update the system to reflect the completion of payment for invoice #789.\n2. Notify XYZ Ltd. about the payment completion.",
+    "tasks": [
+      {
+        "description": "Update the system to reflect the completion of payment for invoice #789.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Notify XYZ Ltd. about the payment completion.",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:57:31.257158",
+    "filename": "fallback_test.txt",
+    "summary": "Summary: The ACME invoice has been reviewed and the Finance Team needs to be informed.\n\nAction Item:\n1. Notify the Finance Team about the review of the ACME invoice.",
+    "tasks": [
+      {
+        "description": "Notify the Finance Team about the review of the ACME invoice",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:57:46.143746",
+    "filename": "infer_test_vendor.txt",
+    "summary": "Summary: The ACME invoice requires logging and assignment to the finance team for processing.\n\nAction Items:\n1. Log the ACME invoice.\n2. Assign the invoice to the finance team for processing.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Assign the ACME invoice to the finance team for processing",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:58:02.822626",
+    "filename": "invoice_acme.txt",
+    "summary": "**Summary:** We have received the ACME invoice for April 2025. \n\n**Action Items:**\n1. Log the ACME invoice for review.\n2. Assign the invoice to the Finance Team.",
+    "tasks": [
+      {
+        "description": "Log the ACME invoice for review",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Assign the invoice to the Finance Team",
+        "assigned_to": "Finance Team",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:58:16.764708",
+    "filename": "monthly_report.txt",
+    "summary": "Summary: Instruction to generate a vendor transaction report for May 2025, and export all related invoice entries to Google Sheets.\n\nAction Items:\n1. Generate the vendor transaction report for May 2025.\n2. Export all invoice entries related to the May 2025 transactions to Google Sheets.",
+    "tasks": [
+      {
+        "description": "Generate the vendor transaction report for May 2025.",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-31T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Export all invoice entries related to the May 2025 transactions to Google Sheets.",
+        "due_date": "2025-06-01",
+        "time_slot": "2025-05-31T00:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      }
+    ],
+    "tag": "invoice",
+    "tag_icon": "\ud83d\udcb0"
+  },
+  {
+    "timestamp": "2025-05-30T06:58:24.677113",
+    "filename": "notion_test.txt",
+    "summary": "Summary:\nThe annual compliance review has been completed and documented.\n\nAction Items:\n- Create a new Notion entry titled \"Annual Compliance Review\"\n- Assign the entry to the Legal Team\n- Set the priority to High for this task\n- Include a note indicating that the documentation is saved in Drive\n- Complete this task by July 5th",
+    "tasks": [
+      {
+        "description": "Create a new Notion entry titled 'Annual Compliance Review'",
+        "due_date": "2023-07-05",
+        "priority": "High",
+        "assigned_to": "Legal Team",
+        "context": "Documentation is saved in Drive",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Legal Team"
+        }
+      }
+    ],
+    "tag": "report",
+    "tag_icon": "\ud83d\udcca"
+  },
+  {
+    "timestamp": "2025-05-30T06:58:47.323971",
+    "filename": "notion_update_test.txt",
+    "summary": "Summary:\nA vendor invoice from AlphaTech dated 28 May 2025 needs to be logged. It should be marked as urgent and assigned to the Finance Team.\n\nAction Items:\n1. Log the vendor invoice from AlphaTech dated 28 May 2025.\n2. Mark the invoice as urgent.\n3. Assign the invoice to the Finance Team.",
     "tasks": [
       {
         "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
@@ -993,7 +1026,7 @@
         "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -1002,10 +1035,9 @@
       },
       {
         "description": "Assign the invoice to the Finance Team",
-        "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium",
         "assigned_user": {
@@ -1017,14 +1049,13 @@
     "tag_icon": "\ud83d\udcbc"
   },
   {
-    "timestamp": "2025-05-29T18:49:36.016954",
+    "timestamp": "2025-05-30T06:58:55.235181",
     "filename": "reminder_payment.txt",
-    "summary": "Summary: The payment for invoice #456 from GlobeTech is overdue. \n\nAction Item:\n1. Notify the Finance Team about the overdue payment for invoice #456.",
+    "summary": "Summary: The payment for invoice #456 from GlobeTech is overdue.\n\nAction Items:\n1. Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
     "tasks": [
       {
-        "description": "Notify the Finance Team about the overdue payment for invoice #456",
+        "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
         "assigned_to": "Finance Team",
-        "context": "The payment for invoice #456 from GlobeTech is overdue.",
         "due_date": null,
         "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
@@ -1038,46 +1069,34 @@
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:49:52.544306",
+    "timestamp": "2025-05-30T06:59:04.232041",
     "filename": "request_approval.txt",
-    "summary": "**Summary:**\nThere is a request to send a Slack message to the Finance Team to seek approval for invoice #1034 from BrightIdeas Inc.\n\n**Action Items:**\n1. Draft a message for the Finance Team on Slack.\n2. Mention the need for approval for invoice #1034 from BrightIdeas Inc.\n3. Send the message to the Finance Team on Slack.",
+    "summary": "Summary: A Slack message needs to be sent to the Finance Team for approval of invoice #1034 from BrightIdeas Inc.\n\nAction Item:\n- Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
     "tasks": [
       {
-        "description": "Draft a message for the Finance Team on Slack.",
-        "context": "Mention the need for approval for invoice #1034 from BrightIdeas Inc.",
+        "description": "Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
+        "assigned_to": "Finance Team",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Send the message to the Finance Team on Slack.",
-        "context": "Ensure the message includes the request for approval for invoice #1034 from BrightIdeas Inc.",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
+        "time_slot_confidence": "medium",
+        "assigned_user": {
+          "name": "Finance Team"
+        }
       }
     ],
     "tag": "invoice",
     "tag_icon": "\ud83d\udcb0"
   },
   {
-    "timestamp": "2025-05-29T18:50:11.373706",
+    "timestamp": "2025-05-30T06:59:13.542889",
     "filename": "slack_test_message.txt",
-    "summary": "Summary: A Slack message needs to be sent to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Items:\n1. Craft a message for the Finance Team about the budget approval.\n2. Send the message via Slack to the Finance Team.",
+    "summary": "Summary: A Slack message needs to be sent to the Finance Team to confirm that the new quarterly budget is approved.\n\nAction Item:\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
     "tasks": [
       {
-        "description": "Craft a message for the Finance Team about the budget approval",
+        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Send the message via Slack to the Finance Team",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
@@ -1086,21 +1105,28 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:50:31.512459",
+    "timestamp": "2025-05-30T06:59:34.779196",
     "filename": "test_notion.txt",
-    "summary": "Summary:\nThe task involves sending the monthly sales data to the Notion database.\n\nAction Items:\n1. Gather the monthly sales data.\n2. Upload or enter the data into the Notion database.",
+    "summary": "Summary:\nThe task requires the monthly sales data to be sent to the Notion database.\n\nAction Items:\n1. Gather monthly sales data.\n2. Export or format the data as required for Notion.\n3. Transfer the data to the Notion database.",
     "tasks": [
       {
-        "description": "Gather the monthly sales data",
+        "description": "Gather monthly sales data",
         "due_date": null,
-        "time_slot": "2025-06-01T09:00:00+02:00",
+        "time_slot": "2025-06-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       },
       {
-        "description": "Upload or enter the monthly sales data into the Notion database",
+        "description": "Export or format the data as required for Notion",
         "due_date": null,
-        "time_slot": "2025-05-31T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
+        "time_slot_source": "gpt",
+        "time_slot_confidence": "medium"
+      },
+      {
+        "description": "Transfer the data to the Notion database",
+        "due_date": null,
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
@@ -1109,12 +1135,12 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:50:43.757913",
+    "timestamp": "2025-05-30T06:59:44.301650",
     "filename": "test_role_enrichment.txt",
-    "summary": "**Summary:**\nThe Q2 report has been finalized and uploaded to Drive. The finance team needs to be notified of this update.\n\n**Action Items:**\n1. Notify the finance team about the finalization and upload of the Q2 report.\n2. Ensure the finance team prioritizes this notification as high.",
+    "summary": "**Summary:**\nThe Q2 financial report has been completed and uploaded to Drive. The finance team needs to be notified about this update.\n\n**Action Items:**\n1. Notify the finance team that the Q2 report is finalised and uploaded.\n2. Ensure the finance team prioritises this task as high.",
     "tasks": [
       {
-        "description": "Notify the finance team about the finalization and upload of the Q2 report",
+        "description": "Notify the finance team that the Q2 report is finalised and uploaded",
         "priority": "High",
         "assigned_to": "Finance Team",
         "due_date": null,
@@ -1130,22 +1156,14 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:50:58.242812",
+    "timestamp": "2025-05-30T06:59:52.487737",
     "filename": "test_role_slack.txt",
-    "summary": "**Summary:** A Slack message is to be sent to the Finance Team as a final test from role-aware configurations.\n\n**Action Items:**\n1. Compose a Slack message for the Finance Team.\n2. Include the message: \"Final test from role-aware config!\"\n3. Send the message to the Finance Team channel on Slack.",
+    "summary": "Summary: A Slack message needs to be sent to the Finance Team with the content \"Final test from role-aware config.\"\n\nAction Item:\n1. Send a Slack message to the Finance Team with the specified content.",
     "tasks": [
       {
-        "description": "Compose a Slack message for the Finance Team",
-        "context": "Include the message: 'Final test from role-aware config!'",
+        "description": "Send a Slack message to the Finance Team with the content 'Final test from role-aware config.'",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
-        "time_slot_source": "gpt",
-        "time_slot_confidence": "medium"
-      },
-      {
-        "description": "Send the message to the Finance Team channel on Slack",
-        "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
         "time_slot_confidence": "medium"
       }
@@ -1154,20 +1172,16 @@
     "tag_icon": "\ud83d\udcca"
   },
   {
-    "timestamp": "2025-05-29T18:51:08.300982",
+    "timestamp": "2025-05-30T07:00:05.748603",
     "filename": "test_slack_fallback.txt",
-    "summary": "Summary:\nA Slack message needs to be sent to the Finance Team to confirm approval of the new quarterly budget.\n\nAction Items:\n1. Send a Slack message to the Finance Team.\n2. Confirm the approval of the new quarterly budget in the message.",
+    "summary": "Summary:\nThe task involves sending a Slack message to the Finance Team to confirm the approval of the new quarterly budget.\n\nAction Item:\n- Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
     "tasks": [
       {
-        "description": "Send a Slack message to the Finance Team to confirm approval of the new quarterly budget",
-        "assigned_to": "Finance Team",
+        "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
         "due_date": null,
-        "time_slot": "2025-05-29T09:00:00+02:00",
+        "time_slot": "2025-05-30T09:00:00+02:00",
         "time_slot_source": "gpt",
-        "time_slot_confidence": "medium",
-        "assigned_user": {
-          "name": "Finance Team"
-        }
+        "time_slot_confidence": "medium"
       }
     ],
     "tag": "report",

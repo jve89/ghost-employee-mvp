@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+import uuid
 from api import retry_controls
 
 import os
@@ -77,13 +78,19 @@ def load_retry_queue():
             try:
                 queue = json.load(f)
                 for entry in queue:
+                    # Ensure required fields
                     entry.setdefault("retry_result", "-")
                     entry.setdefault("result_timestamp", None)
+                    # 🆔 Ensure permanent ID
+                    if "id" not in entry["task"]:
+                        entry["task"]["id"] = f"auto-{uuid.uuid4().hex[:8]}"
+                save_retry_queue(queue)  # ✅ Write back with IDs
                 return queue
-            except Exception:
+            except Exception as e:
+                print(f"[ERROR] Failed to load retry queue: {e}")
                 return []
     return []
-
+    
 def save_retry_queue(queue):
     with open(RETRY_QUEUE_PATH, "w") as f:
         json.dump(queue, f, indent=2)

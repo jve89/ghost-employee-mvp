@@ -188,24 +188,40 @@
     }
 
     async function fetchQueue() {
-      const response = await fetch('/api/retry-queue');
+      const response = await fetch('/retries/vendor_assistant');
       const queue = await response.json();
       const tbody = document.getElementById('queue-table-body');
       tbody.innerHTML = "";
       queue.forEach((entry, index) => {
         const row = document.createElement('tr');
         row.innerHTML = `
-          <td>${entry.task.title || '[No Title]'}</td>
+          <td>${entry.task.description || '[No Description]'}</td>
           <td>${entry.target}</td>
           <td>${entry.attempts}</td>
           <td>${entry.last_attempt ? new Date(entry.last_attempt * 1000).toLocaleString() : '-'}</td>
           <td>${entry.retry_result || '-'}</td>
           <td>${entry.result_timestamp ? new Date(entry.result_timestamp * 1000).toLocaleString() : '-'}</td>
-          <td><button onclick="retry(${index})">Retry</button></td>
+          <td>
+            <button onclick="retry(${index})">Retry</button>
+            <button onclick="resolveRetry('vendor_assistant', '${entry.task?.id ?? `index-${index}`}')">✅ Resolve</button>
+          </td>
         `;
         tbody.appendChild(row);
       });
       fetchTileData();
+    }
+
+    async function resolveRetry(jobId, taskId) {
+      const btn = event.target;
+      btn.disabled = true;
+      btn.textContent = 'Resolving...';
+      try {
+        await fetch(`/retries/${jobId}/${taskId}/resolve`, { method: "POST" });
+        await fetchQueue();
+      } catch (e) {
+        console.error("Failed to resolve task:", e);
+        btn.textContent = 'Failed';
+      }
     }
 
     async function retry(index) {
