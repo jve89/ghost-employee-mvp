@@ -1,0 +1,142 @@
+.
+├── api
+│   └── retry_controls.py
+├── app_main.py
+├── archived_attachments
+├── auto_scheduler.py
+├── config
+├── dashboard
+│   ├── add_job_ui.py
+│   ├── __init__.py
+│   ├── job_config_api.py
+│   ├── job_logs_api.py
+│   ├── job_manager_api.py
+│   ├── routes
+│   │   ├── job_dashboard.py
+│   │   └── timeline.py
+│   └── tiles
+│       ├── dead_tasks.py
+│       ├── export_summary.py
+│       ├── __init__.py
+│       ├── job_performance.py
+│       ├── job_stats.py
+│       ├── job_status.py
+│       ├── recent_activity.py
+│       ├── retry_delays.py
+│       ├── stale_tasks.py
+│       └── target_breakdown.py
+├── executed
+├── generated_docs
+├── generate_sample_docx.py
+├── generate_sample_pdf.py
+├── generate_sample_xlsx.py
+├── ideas
+├── jobs
+│   └── vendor_assistant
+│       ├── archive
+│       ├── input
+│       └── task_templates
+├── legacy
+│   └── legacy_email_listener.py
+├── logs
+├── logstore
+│   └── history_logger.py
+├── modules
+│   ├── __init__.py
+│   └── role_inferencer.py
+├── patch_retry_ids.py
+├── queue_utils.py
+├── retry_worker.py
+├── run_job_once.py
+├── run_test_save.py
+├── sample_inputs
+├── scripts
+│   ├── list_notion_users.py
+│   └── revive_dead_tasks.py
+├── slack_debug_channels.py
+├── slack_debug.py
+├── src
+│   ├── controller.py
+│   ├── core_runner.py
+│   ├── __init__.py
+│   ├── inputs
+│   │   ├── archiver.py
+│   │   ├── attachment_processor.py
+│   │   ├── csv_listener.py
+│   │   ├── email_listener.py
+│   │   ├── email_listener_runner.py
+│   │   ├── file_monitor.py
+│   │   └── file_parser.py
+│   ├── job_loader.py
+│   ├── job_runner.py
+│   ├── main.py
+│   ├── outputs
+│   │   ├── dashboard_updater.py
+│   │   ├── dashboard_viewer.py
+│   │   ├── email_sender.py
+│   │   ├── export_manager.py
+│   │   ├── job_alerts.py
+│   │   ├── log_manager.py
+│   │   ├── log_watcher.py
+│   │   ├── notion_exporter.py
+│   │   ├── review_dashboard.py
+│   │   └── sheets_exporter.py
+│   └── processing
+│       ├── actions.py
+│       ├── csv_analyser.py
+│       ├── due_date_extractor.py
+│       ├── email_responder.py
+│       ├── gpt_classifier.py
+│       ├── report_generator.py
+│       ├── structured_saver.py
+│       ├── summary_analyser.py
+│       ├── task_executor.py
+│       ├── task_extractor.py
+│       ├── template_filler.py
+│       ├── time_slot_parser.py
+│       ├── user_mapper.py
+│       └── utils.py
+├── summaries
+├── templates
+├── test
+│   ├── assets
+│   ├── test_attachment_pipeline.py
+│   ├── test_due_date_fallback.py
+│   ├── test_due_date_phrasing.py
+│   ├── test_due_dates.py
+│   ├── test_export_trigger.py
+│   ├── test_gpt_fallback.py
+│   ├── test_grouping.py
+│   ├── test_notion_export_new_fields.py
+│   ├── test_notion_export.py
+│   ├── test_notion_export_source_file.py
+│   ├── test_s3_upload.py
+│   ├── test_sheets_export.py
+│   ├── test_slack.py
+│   ├── test_structured_summary.py
+│   ├── test_task_extractor.py
+│   ├── test_template.py
+│   ├── test_time_parser.py
+│   ├── test_time_slot_extraction.py
+│   ├── test_time_slot_phrasing.py
+│   └── test_user_mapping.py
+├── test_sheets.py
+├── tools
+│   ├── check_models.py
+│   └── check_structured_vs_executed.py
+├── tree.py
+├── .venv
+│   ├── bin
+│   │   ├── activate_this.py
+│   │   ├── dumppdf.py
+│   │   ├── jp.py
+│   │   └── pdf2txt.py
+│   ├── lib
+│   │   └── python3.12
+│   │       └── site-packages
+│   └── src
+├── .vscode
+├── watched
+└── workforce_engine.py
+
+37 directories, 102 files
