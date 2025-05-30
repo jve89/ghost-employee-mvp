@@ -11,7 +11,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from src.processing.structured_saver import save_structured_summary  # ✅ added
+from ghost_employee.ai_modules.structured_saver import save_structured_summary  # ✅ added
 
 # Load environment variables
 load_dotenv()

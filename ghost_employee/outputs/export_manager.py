@@ -6,8 +6,8 @@ import time
 import random
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
-from src.outputs import notion_exporter, sheets_exporter
-from queue_utils import load_retry_queue, save_retry_queue
+from ghost_employee.outputs import notion_exporter, sheets_exporter
+from ghost_employee.queue.queue_utils import load_retry_queue, save_retry_queue
 from dotenv import load_dotenv
 from datetime import datetime
 import os

@@ -4,9 +4,9 @@ import time
 import random
 import logging
 from pathlib import Path
-from queue_utils import load_retry_queue, save_retry_queue
-from src.outputs import export_manager
-from logstore.history_logger import log_export_result
+from ghost_employee.queue.queue_utils import load_retry_queue, save_retry_queue
+from ghost_employee.outputs import export_manager
+from ghost_employee.logstore.history_logger import log_export_result
 
 logging.basicConfig(
     level=logging.INFO,

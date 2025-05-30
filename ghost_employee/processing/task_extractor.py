@@ -4,10 +4,10 @@ import os
 import json
 from dotenv import load_dotenv
 from openai import OpenAI
-from src.processing.due_date_extractor import extract_due_date
-from src.processing.time_slot_parser import extract_time_slot
-from src.processing.user_mapper import resolve_assigned_user
-from src.processing.gpt_classifier import classify_task_with_gpt
+from ghost_employee.ai_modules.due_date_extractor import extract_due_date
+from ghost_employee.ai_modules.time_slot_parser import extract_time_slot
+from ghost_employee.ai_modules.user_mapper import resolve_assigned_user
+from ghost_employee.ai_modules.gpt_classifier import classify_task_with_gpt
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))

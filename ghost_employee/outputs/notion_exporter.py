@@ -1,6 +1,6 @@
 from notion_client import Client
 import os
-from src.processing.user_mapper import resolve_assigned_user
+from ghost_employee.ai_modules.user_mapper import resolve_assigned_user
 
 notion = Client(auth=os.getenv("NOTION_TOKEN"))
 NOTION_DB_ID = os.getenv("NOTION_DATABASE_ID")

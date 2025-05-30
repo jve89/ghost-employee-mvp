@@ -1,9 +1,9 @@
 # /src/inputs/attachment_processor.py
 
 import os
-from src.inputs.file_parser import parse_attachment
-from src.processing.task_extractor import extract_tasks
-from src.inputs.archiver import archive_attachment
+from ghost_employee.inputs.file_parser import parse_attachment
+from ghost_employee.ai_modules.task_extractor import extract_tasks
+from ghost_employee.inputs.archiver import archive_attachment
 
 def process_attachments(attachment_paths):
     """

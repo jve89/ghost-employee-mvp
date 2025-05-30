@@ -4,8 +4,8 @@ import traceback
 import os
 from datetime import datetime
 from run_job_once import run_job_once
-from src.job_loader import get_all_job_names
-from src.processing.utils import load_json
+from ghost_employee.job_loader import get_all_job_names
+from ghost_employee.ai_modules.utils import load_json
 
 def run_job_periodically(job_name):
     while True:

@@ -2,7 +2,7 @@ import os
 import json
 from datetime import datetime
 from openai import OpenAI
-from modules.role_inferencer import infer_role_from_description
+from ghost_employee.ai_modules.role_inferencer import infer_role_from_description
 from .actions import (
     send_slack_message,
     update_crm_case,

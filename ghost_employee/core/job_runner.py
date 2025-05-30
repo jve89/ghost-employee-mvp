@@ -1,6 +1,6 @@
 # src/job_runner.py
 
-from src.core_runner import run_job_for_folder
+from ghost_employee.core_runner import run_job_for_folder
 import os
 
 def run_job_once(job_name, test_mode=False):

@@ -1,9 +1,9 @@
 import os
 import time
 from dotenv import load_dotenv
-from src.inputs import email_listener
-from src.processing import summary_analyser, task_extractor, structured_saver
-from src.processing.task_executor import execute_tasks_from_log
+from ghost_employee.inputs import email_listener
+from ghost_employee.ai_modules.import summary_analyser, task_extractor, structured_saver
+from ghost_employee.ai_modules.task_executor import execute_tasks_from_log
 
 load_dotenv()  # Load .env file
 

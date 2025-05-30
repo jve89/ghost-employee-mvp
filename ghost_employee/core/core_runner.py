@@ -1,15 +1,15 @@
 import json
 import os
 from datetime import datetime
-from src.inputs.file_monitor import get_new_files
-from src.processing.summary_analyser import summarise_file, tag_summary
-from src.processing.task_extractor import extract_tasks
-from src.processing.due_date_extractor import recognise_due_dates
-from src.processing.task_executor import execute_tasks
-from src.outputs.log_manager import log_task_result
-from src.outputs.export_manager import export_to_targets
-from src.outputs.job_alerts import maybe_alert_on_failure
-from retry_worker import handle_retries
+from ghost_employee.inputs.file_monitor import get_new_files
+from ghost_employee.ai_modules.summary_analyser import summarise_file, tag_summary
+from ghost_employee.ai_modules.task_extractor import extract_tasks
+from ghost_employee.ai_modules.due_date_extractor import recognise_due_dates
+from ghost_employee.ai_modules.task_executor import execute_tasks
+from ghost_employee.outputs.log_manager import log_task_result
+from ghost_employee.outputs.export_manager import export_to_targets
+from ghost_employee.outputs.job_alerts import maybe_alert_on_failure
+from ghost_employee.retry.retry_worker import handle_retries
 
 
 def run_job_for_folder(folder, test_mode=False):

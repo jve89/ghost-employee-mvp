@@ -1,6 +1,6 @@
 from openai import OpenAI
 import os
-from src.processing.task_extractor import extract_tasks  # ✅ Import from your task extractor module
+from ghost_employee.ai_modules.task_extractor import extract_tasks  # ✅ Import from your task extractor module
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 

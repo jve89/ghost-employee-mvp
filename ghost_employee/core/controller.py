@@ -1,9 +1,9 @@
 # /src/controller.py
 
-from src.processing.task_extractor import extract_tasks
-from src.processing.task_executor import execute_task
-from src.outputs.export_manager import export_task
-from src.outputs.log_manager import log_task_result
+from ghost_employee.ai_modules.task_extractor import extract_tasks
+from ghost_employee.ai_modules.task_executor import execute_task
+from ghost_employee.outputs.export_manager import export_task
+from ghost_employee.outputs.log_manager import log_task_result
 from datetime import datetime
 import os
 import shutil

@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, HTTPException
 from pathlib import Path
-from queue_utils import load_retry_queue, save_retry_queue
+from ghost_employee.queue.queue_utils import load_retry_queue, save_retry_queue
 import json
 import uuid
 
