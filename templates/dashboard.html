@@ -103,6 +103,7 @@
   <button onclick="clearQueue()" style="margin-bottom: 1rem;">Clear All</button>
   <button onclick="reviveDead()" style="margin-left: 1rem;">Revive All Dead Tasks</button>
   <button onclick="downloadDeadTasks()" style="margin-left: 0.5rem;">Download Dead Tasks</button>
+  <button onclick="retryAllFailed()" style="margin-left: 1rem;">🔁 Retry All Failed</button>
 
   <table>
     <thead>
@@ -120,6 +121,7 @@
   </table>
 
   <script>
+    document.addEventListener("DOMContentLoaded", function () {
     async function fetchTileData() {
       try {
         const [summary, delay, breakdown, stale, recent, dead, jobs] = await Promise.all([
@@ -221,6 +223,19 @@
       } catch (e) {
         console.error("Failed to resolve task:", e);
         btn.textContent = 'Failed';
+      }
+    }
+
+    async function retryAllFailed() {
+      if (!confirm("Retry all failed tasks in the queue?")) return;
+      try {
+        const response = await fetch("/api/retry-all", { method: "POST" });
+        const result = await response.json();
+        alert(`🔁 Retried ${result.retried} task(s).`);
+        await fetchQueue(); // refresh table
+      } catch (e) {
+        console.error("Retry all failed failed:", e);
+        alert("❌ Something went wrong while retrying.");
       }
     }
 
@@ -431,7 +446,9 @@
 
     fetchQueue();
     setInterval(fetchQueue, 10000);
+    });
   </script>
+
   <!-- Modal for Logs -->
   <div id="log-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;">
     <div style="background:white; margin:5% auto; padding:1rem; width:80%; max-height:80%; overflow:auto; position:relative;">
@@ -442,5 +459,49 @@
       <pre id="log-content" style="white-space:pre-wrap;"></pre>
     </div>
   </div>
+<script>
+  window.retry = async function(index) {
+    const btn = event.target;
+    btn.disabled = true;
+    btn.textContent = 'Retrying...';
+    try {
+      await fetch(`/api/retry/${index}`, { method: "POST" });
+      await fetchQueue();
+    } catch (e) {
+      console.error("Failed to retry task:", e);
+      btn.textContent = 'Failed';
+    }
+  };
+
+  window.resolveRetry = async function(jobId, taskId) {
+    const btn = event.target;
+    btn.disabled = true;
+    btn.textContent = 'Resolving...';
+    try {
+      await fetch(`/retries/${jobId}/${taskId}/resolve`, { method: "POST" });
+      await fetchQueue();
+    } catch (e) {
+      console.error("Failed to resolve task:", e);
+      btn.textContent = 'Failed';
+    }
+  };
+</script>
+<script>
+  async function retryAllFailed() {
+    if (!confirm("Retry all failed tasks in the queue?")) return;
+    try {
+      const response = await fetch("/api/retry-all", { method: "POST" });
+      const result = await response.json();
+      alert(`🔁 Retried ${result.retried} task(s).`);
+      await fetchQueue(); // refresh table
+    } catch (e) {
+      console.error("Retry all failed failed:", e);
+      alert("❌ Something went wrong while retrying.");
+    }
+  }
+
+  // ✅ Make it globally available
+  window.retryAllFailed = retryAllFailed;
+</script>
 </body>
 </html>

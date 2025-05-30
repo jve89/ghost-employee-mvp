@@ -1,8 +1,10 @@
 import json
+import os
 import time
 import random
 import logging
 from pathlib import Path
+from queue_utils import load_retry_queue, save_retry_queue
 from src.outputs import export_manager
 from logstore.history_logger import log_export_result
 
@@ -33,20 +35,6 @@ def load_dead_tasks():
 def save_dead_tasks(tasks):
     with open(DEAD_LETTER_PATH, "w") as f:
         json.dump(tasks, f, indent=2)
-
-def load_retry_queue():
-    try:
-        with open(RETRY_QUEUE_PATH, "r") as f:
-            return json.load(f)
-    except Exception:
-        logger.error("Failed to load retry queue, starting empty.")
-        return []
-
-
-def save_retry_queue(queue):
-    with open(RETRY_QUEUE_PATH, "w") as f:
-        json.dump(queue, f, indent=2)
-
 
 def exponential_backoff(attempt):
     delay = min(BASE_DELAY * (2 ** (attempt - 1)), MAX_DELAY)

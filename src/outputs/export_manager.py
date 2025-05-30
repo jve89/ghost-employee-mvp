@@ -7,6 +7,7 @@ import random
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 from src.outputs import notion_exporter, sheets_exporter
+from queue_utils import load_retry_queue, save_retry_queue
 from dotenv import load_dotenv
 from datetime import datetime
 import os
@@ -56,23 +57,6 @@ def passes_filters(task: dict) -> bool:
         return False
 
     return True
-
-
-def load_retry_queue():
-    if os.path.exists(RETRY_QUEUE_PATH):
-        with open(RETRY_QUEUE_PATH, "r") as f:
-            try:
-                return json.load(f)
-            except Exception:
-                logger.error("Failed to load retry queue, starting empty.")
-                return []
-    return []
-
-
-def save_retry_queue(queue):
-    with open(RETRY_QUEUE_PATH, "w") as f:
-        json.dump(queue, f, indent=2)
-
 
 def add_to_retry_queue(task, target):
     queue = load_retry_queue()

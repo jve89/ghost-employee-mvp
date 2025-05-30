@@ -1,9 +1,11 @@
 from fastapi import FastAPI, Request
+from src.outputs import export_manager
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import uuid
 from api import retry_controls
+from retry_worker import load_retry_queue
 
 import os
 import json
@@ -14,6 +16,7 @@ import threading
 from auto_scheduler import run_job_periodically
 from auto_scheduler import start_background_jobs
 from src.job_loader import get_all_job_names
+from queue_utils import load_retry_queue, save_retry_queue
 
 from src.outputs import export_manager
 
@@ -65,6 +68,11 @@ app.include_router(retry_controls.router)
 
 RETRY_QUEUE_PATH = "retry_queue.json"
 
+@app.get("/debug/path")
+def debug_path():
+    import os
+    return {"file": __file__, "cwd": os.getcwd()}
+
 def start_background_jobs():
     jobs = get_all_job_names()
     for job in jobs:
@@ -72,32 +80,14 @@ def start_background_jobs():
         t.start()
         print(f"[AUTO] Launched background thread for {job}")
 
-def load_retry_queue():
-    if os.path.exists(RETRY_QUEUE_PATH):
-        with open(RETRY_QUEUE_PATH, "r") as f:
-            try:
-                queue = json.load(f)
-                for entry in queue:
-                    # Ensure required fields
-                    entry.setdefault("retry_result", "-")
-                    entry.setdefault("result_timestamp", None)
-                    # 🆔 Ensure permanent ID
-                    if "id" not in entry["task"]:
-                        entry["task"]["id"] = f"auto-{uuid.uuid4().hex[:8]}"
-                save_retry_queue(queue)  # ✅ Write back with IDs
-                return queue
-            except Exception as e:
-                print(f"[ERROR] Failed to load retry queue: {e}")
-                return []
-    return []
-    
-def save_retry_queue(queue):
-    with open(RETRY_QUEUE_PATH, "w") as f:
-        json.dump(queue, f, indent=2)
-
 @app.on_event("startup")
 async def startup_event():
     start_background_jobs()
+
+@app.get("/retries/vendor_assistant")
+async def get_vendor_assistant_retries():
+    queue = load_retry_queue(job_id="vendor_assistant")  # Pass job_id so it loads from the correct folder
+    return {"entries": queue}
 
 @app.get("/", response_class=HTMLResponse)
 async def dashboard(request: Request):
@@ -174,6 +164,33 @@ async def revive_dead_tasks():
 
     return {"revived": revived_count}
 
+@app.post("/api/retry-all")
+async def retry_all_failed():
+    job_id = "vendor_assistant"  # ✅ hardcoded for now — adjust here if needed
+    queue = load_retry_queue(job_id)
+
+    failed = [
+        entry for entry in queue
+        if entry.get("retry_result") not in [True, "resolved", "success"]
+    ]
+
+    retried_count = 0
+
+    for entry in failed:
+        success = export_manager.export_to_target(entry["task"], entry["target"])
+        entry["attempts"] = entry.get("attempts", 0) + 1
+        entry["retry_result"] = success
+        entry["result_timestamp"] = time.time()
+        retried_count += 1
+
+    save_retry_queue(queue, job_id)
+    return {"status": "ok", "retried": retried_count}
+
+@app.get("/retries/vendor_assistant")
+async def get_queue():
+    queue = load_retry_queue("vendor_assistant")
+    return {"entries": queue}
+
 @app.get("/api/download-dead-tasks")
 async def download_dead_tasks():
     return FileResponse("dead_tasks.json", media_type="application/json", filename="dead_tasks.json")
@@ -226,6 +243,33 @@ async def get_global_timeline():
 @app.on_event("startup")
 async def startup_message():
     print("✅ Dashboard server is running!")
+
+@app.get("/debug/export-test")
+def test_export_debug():
+    from modules import export_manager  # make sure this path is correct
+    dummy_task = {
+        "description": "Test task for export",
+        "id": "debug-task-001"
+    }
+    try:
+        result = export_manager.export_to_target(dummy_task, "sheets")
+        return {"status": "ok", "result": result}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+@app.get("/api/debug/retry-entries")
+async def debug_retry_entries():
+    queue = load_retry_queue()
+    raw = []
+    for i, entry in enumerate(queue):
+        raw.append({
+            "index": i,
+            "description": entry["task"].get("description", "[no desc]"),
+            "retry_result": entry.get("retry_result"),
+            "attempts": entry.get("attempts"),
+            "target": entry.get("target"),
+        })
+    return {"entries": raw}
 
 # 🧠 This should be at the bottom
 if __name__ == "__main__":

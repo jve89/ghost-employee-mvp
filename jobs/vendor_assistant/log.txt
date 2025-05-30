@@ -1236,3 +1236,340 @@
 [2025-05-30 07:00:27] 🔁 Job execution started
 [2025-05-30 07:00:27] 📂 Found 14 new file(s).
 [2025-05-30 07:00:27] 📂 Found 14 new file(s).
+[2025-05-30 07:03:42] ✅ Job finished successfully
+[2025-05-30 07:04:01] ✅ Job finished successfully
+[2025-05-30 07:04:42] 🔁 Job execution started
+[2025-05-30 07:04:42] 📂 Found 14 new file(s).
+[2025-05-30 07:05:01] 🔁 Job execution started
+[2025-05-30 07:05:01] 📂 Found 14 new file(s).
+[2025-05-30 07:28:03] ✅ Job finished successfully
+[2025-05-30 07:28:11] ✅ Job finished successfully
+[2025-05-30 07:29:03] 🔁 Job execution started
+[2025-05-30 07:29:03] 📂 Found 14 new file(s).
+[2025-05-30 07:29:11] 🔁 Job execution started
+[2025-05-30 07:29:11] 📂 Found 14 new file(s).
+[2025-05-30 11:11:33] 🔁 Job execution started
+[2025-05-30 11:11:33] 🔁 Job execution started
+[2025-05-30 11:11:33] 📂 Found 14 new file(s).
+[2025-05-30 11:11:33] 📂 Found 14 new file(s).
+[2025-05-30 11:14:31] ✅ Job finished successfully
+[2025-05-30 11:14:32] ✅ Job finished successfully
+[2025-05-30 11:15:53] 🔁 Job execution started
+[2025-05-30 11:15:53] 🔁 Job execution started
+[2025-05-30 11:15:53] 📂 Found 14 new file(s).
+[2025-05-30 11:15:53] 📂 Found 14 new file(s).
+[2025-05-30 11:18:51] 🔁 Job execution started
+[2025-05-30 11:18:51] 🔁 Job execution started
+[2025-05-30 11:18:51] 📂 Found 14 new file(s).
+[2025-05-30 11:18:51] 📂 Found 14 new file(s).
+[2025-05-30 11:19:36] 🔁 Job execution started
+[2025-05-30 11:19:36] 🔁 Job execution started
+[2025-05-30 11:19:36] 📂 Found 14 new file(s).
+[2025-05-30 11:19:36] 📂 Found 14 new file(s).
+[2025-05-30 11:22:31] 🔁 Job execution started
+[2025-05-30 11:22:35] 🔁 Job execution started
+[2025-05-30 11:22:35] 🔁 Job execution started
+[2025-05-30 11:22:35] 📂 Found 14 new file(s).
+[2025-05-30 11:22:35] 📂 Found 14 new file(s).
+[2025-05-30 11:23:51] 🔁 Job execution started
+[2025-05-30 11:23:51] 🔁 Job execution started
+[2025-05-30 11:23:51] 📂 Found 14 new file(s).
+[2025-05-30 11:23:51] 📂 Found 14 new file(s).
+[2025-05-30 11:24:26] 🔁 Job execution started
+[2025-05-30 11:24:26] 🔁 Job execution started
+[2025-05-30 11:24:26] 📂 Found 14 new file(s).
+[2025-05-30 11:24:26] 📂 Found 14 new file(s).
+[2025-05-30 11:26:47] 🔁 Job execution started
+[2025-05-30 11:26:47] 📂 Found 14 new file(s).
+[2025-05-30 11:26:47] 🔁 Job execution started
+[2025-05-30 11:26:47] 📂 Found 14 new file(s).
+[2025-05-30 11:26:52] 🔁 Job execution started
+[2025-05-30 11:26:52] 📂 Found 14 new file(s).
+[2025-05-30 11:26:52] 🔁 Job execution started
+[2025-05-30 11:26:52] 📂 Found 14 new file(s).
+[2025-05-30 11:27:00] 🔁 Job execution started
+[2025-05-30 11:27:00] 🔁 Job execution started
+[2025-05-30 11:27:00] 📂 Found 14 new file(s).
+[2025-05-30 11:27:00] 📂 Found 14 new file(s).
+[2025-05-30 11:27:27] 🔁 Job execution started
+[2025-05-30 11:27:27] 🔁 Job execution started
+[2025-05-30 11:27:27] 📂 Found 14 new file(s).
+[2025-05-30 11:27:27] 📂 Found 14 new file(s).
+[2025-05-30 11:28:44] 🔁 Job execution started
+[2025-05-30 11:28:47] 🔁 Job execution started
+[2025-05-30 11:28:47] 🔁 Job execution started
+[2025-05-30 11:28:47] 📂 Found 14 new file(s).
+[2025-05-30 11:28:47] 📂 Found 14 new file(s).
+[2025-05-30 11:29:18] 🔁 Job execution started
+[2025-05-30 11:29:18] 📂 Found 14 new file(s).
+[2025-05-30 11:29:18] 🔁 Job execution started
+[2025-05-30 11:29:18] 📂 Found 14 new file(s).
+[2025-05-30 11:32:02] ✅ Job finished successfully
+[2025-05-30 11:32:17] ✅ Job finished successfully
+[2025-05-30 11:33:02] 🔁 Job execution started
+[2025-05-30 11:33:02] 📂 Found 14 new file(s).
+[2025-05-30 11:33:17] 🔁 Job execution started
+[2025-05-30 11:33:17] 📂 Found 14 new file(s).
+[2025-05-30 11:35:45] ✅ Job finished successfully
+[2025-05-30 11:36:23] ✅ Job finished successfully
+[2025-05-30 11:36:45] 🔁 Job execution started
+[2025-05-30 11:36:45] 📂 Found 14 new file(s).
+[2025-05-30 11:37:23] 🔁 Job execution started
+[2025-05-30 11:37:23] 📂 Found 14 new file(s).
+[2025-05-30 11:40:08] ✅ Job finished successfully
+[2025-05-30 11:40:09] ✅ Job finished successfully
+[2025-05-30 11:41:08] 🔁 Job execution started
+[2025-05-30 11:41:08] 📂 Found 14 new file(s).
+[2025-05-30 11:41:09] 🔁 Job execution started
+[2025-05-30 11:41:09] 📂 Found 14 new file(s).
+[2025-05-30 11:44:07] 🔁 Job execution started
+[2025-05-30 11:44:07] 📂 Found 14 new file(s).
+[2025-05-30 11:44:07] 🔁 Job execution started
+[2025-05-30 11:44:07] 📂 Found 14 new file(s).
+[2025-05-30 11:46:59] ✅ Job finished successfully
+[2025-05-30 11:47:13] ✅ Job finished successfully
+[2025-05-30 11:47:59] 🔁 Job execution started
+[2025-05-30 11:47:59] 📂 Found 14 new file(s).
+[2025-05-30 11:48:13] 🔁 Job execution started
+[2025-05-30 11:48:13] 📂 Found 14 new file(s).
+[2025-05-30 11:51:40] 🔁 Job execution started
+[2025-05-30 11:51:40] 🔁 Job execution started
+[2025-05-30 11:51:40] 📂 Found 14 new file(s).
+[2025-05-30 11:51:40] 📂 Found 14 new file(s).
+[2025-05-30 11:52:30] 🔁 Job execution started
+[2025-05-30 11:52:30] 🔁 Job execution started
+[2025-05-30 11:52:30] 📂 Found 14 new file(s).
+[2025-05-30 11:52:30] 📂 Found 14 new file(s).
+[2025-05-30 11:57:59] 🔁 Job execution started
+[2025-05-30 11:57:59] 🔁 Job execution started
+[2025-05-30 11:57:59] 📂 Found 14 new file(s).
+[2025-05-30 11:57:59] 📂 Found 14 new file(s).
+[2025-05-30 12:02:11] ✅ Job finished successfully
+[2025-05-30 12:02:12] ✅ Job finished successfully
+[2025-05-30 12:03:11] 🔁 Job execution started
+[2025-05-30 12:03:11] 📂 Found 14 new file(s).
+[2025-05-30 12:03:12] 🔁 Job execution started
+[2025-05-30 12:03:12] 📂 Found 14 new file(s).
+[2025-05-30 12:07:20] ✅ Job finished successfully
+[2025-05-30 12:07:46] ✅ Job finished successfully
+[2025-05-30 12:07:58] 🔁 Job execution started
+[2025-05-30 12:08:01] 🔁 Job execution started
+[2025-05-30 12:08:01] 🔁 Job execution started
+[2025-05-30 12:08:01] 📂 Found 14 new file(s).
+[2025-05-30 12:08:01] 📂 Found 14 new file(s).
+[2025-05-30 12:08:30] 🔁 Job execution started
+[2025-05-30 12:08:30] 🔁 Job execution started
+[2025-05-30 12:08:30] 📂 Found 14 new file(s).
+[2025-05-30 12:08:30] 📂 Found 14 new file(s).
+[2025-05-30 12:10:30] 🔁 Job execution started
+[2025-05-30 12:10:30] 🔁 Job execution started
+[2025-05-30 12:10:33] 🔁 Job execution started
+[2025-05-30 12:10:33] 🔁 Job execution started
+[2025-05-30 12:10:33] 📂 Found 14 new file(s).
+[2025-05-30 12:10:33] 📂 Found 14 new file(s).
+[2025-05-30 12:11:45] 🔁 Job execution started
+[2025-05-30 12:11:48] 🔁 Job execution started
+[2025-05-30 12:11:48] 🔁 Job execution started
+[2025-05-30 12:11:48] 📂 Found 14 new file(s).
+[2025-05-30 12:11:48] 📂 Found 14 new file(s).
+[2025-05-30 12:12:33] 🔁 Job execution started
+[2025-05-30 12:12:33] 📂 Found 14 new file(s).
+[2025-05-30 12:12:37] 🔁 Job execution started
+[2025-05-30 12:12:37] 🔁 Job execution started
+[2025-05-30 12:12:37] 📂 Found 14 new file(s).
+[2025-05-30 12:12:37] 📂 Found 14 new file(s).
+[2025-05-30 12:13:05] 🔁 Job execution started
+[2025-05-30 12:13:05] 📂 Found 14 new file(s).
+[2025-05-30 12:13:05] 🔁 Job execution started
+[2025-05-30 12:13:05] 📂 Found 14 new file(s).
+[2025-05-30 12:16:04] 🔁 Job execution started
+[2025-05-30 12:16:04] 🔁 Job execution started
+[2025-05-30 12:16:04] 📂 Found 14 new file(s).
+[2025-05-30 12:16:04] 📂 Found 14 new file(s).
+[2025-05-30 12:17:26] 🔁 Job execution started
+[2025-05-30 12:17:26] 🔁 Job execution started
+[2025-05-30 12:17:26] 📂 Found 14 new file(s).
+[2025-05-30 12:17:26] 📂 Found 14 new file(s).
+[2025-05-30 12:17:47] 🔁 Job execution started
+[2025-05-30 12:17:47] 🔁 Job execution started
+[2025-05-30 12:17:47] 📂 Found 14 new file(s).
+[2025-05-30 12:17:47] 📂 Found 14 new file(s).
+[2025-05-30 12:19:26] 🔁 Job execution started
+[2025-05-30 12:19:26] 📂 Found 14 new file(s).
+[2025-05-30 12:19:29] 🔁 Job execution started
+[2025-05-30 12:19:29] 🔁 Job execution started
+[2025-05-30 12:19:29] 📂 Found 14 new file(s).
+[2025-05-30 12:19:29] 📂 Found 14 new file(s).
+[2025-05-30 12:20:39] 🔁 Job execution started
+[2025-05-30 12:20:44] 🔁 Job execution started
+[2025-05-30 12:20:44] 🔁 Job execution started
+[2025-05-30 12:20:44] 📂 Found 14 new file(s).
+[2025-05-30 12:20:44] 📂 Found 14 new file(s).
+[2025-05-30 12:21:17] 🔁 Job execution started
+[2025-05-30 12:21:17] 🔁 Job execution started
+[2025-05-30 12:21:17] 📂 Found 14 new file(s).
+[2025-05-30 12:21:17] 📂 Found 14 new file(s).
+[2025-05-30 12:22:28] 🔁 Job execution started
+[2025-05-30 12:22:32] 🔁 Job execution started
+[2025-05-30 12:22:32] 📂 Found 14 new file(s).
+[2025-05-30 12:22:32] 🔁 Job execution started
+[2025-05-30 12:22:32] 📂 Found 14 new file(s).
+[2025-05-30 12:22:46] 🔁 Job execution started
+[2025-05-30 12:22:46] 🔁 Job execution started
+[2025-05-30 12:22:46] 📂 Found 14 new file(s).
+[2025-05-30 12:22:46] 📂 Found 14 new file(s).
+[2025-05-30 12:25:35] ✅ Job finished successfully
+[2025-05-30 12:25:52] ✅ Job finished successfully
+[2025-05-30 12:26:29] 🔁 Job execution started
+[2025-05-30 12:26:29] 🔁 Job execution started
+[2025-05-30 12:26:29] 📂 Found 14 new file(s).
+[2025-05-30 12:26:29] 📂 Found 14 new file(s).
+[2025-05-30 12:29:01] ✅ Job finished successfully
+[2025-05-30 12:29:52] ✅ Job finished successfully
+[2025-05-30 12:30:01] 🔁 Job execution started
+[2025-05-30 12:30:01] 📂 Found 14 new file(s).
+[2025-05-30 12:30:38] 🔁 Job execution started
+[2025-05-30 12:30:38] 🔁 Job execution started
+[2025-05-30 12:30:38] 📂 Found 14 new file(s).
+[2025-05-30 12:30:38] 📂 Found 14 new file(s).
+[2025-05-30 12:31:41] 🔁 Job execution started
+[2025-05-30 12:31:41] 🔁 Job execution started
+[2025-05-30 12:31:41] 📂 Found 14 new file(s).
+[2025-05-30 12:31:41] 📂 Found 14 new file(s).
+[2025-05-30 12:31:53] 🔁 Job execution started
+[2025-05-30 12:32:00] 🔁 Job execution started
+[2025-05-30 12:32:00] 🔁 Job execution started
+[2025-05-30 12:32:00] 📂 Found 14 new file(s).
+[2025-05-30 12:32:00] 📂 Found 14 new file(s).
+[2025-05-30 12:32:16] 🔁 Job execution started
+[2025-05-30 12:32:19] 🔁 Job execution started
+[2025-05-30 12:32:19] 📂 Found 14 new file(s).
+[2025-05-30 12:32:19] 🔁 Job execution started
+[2025-05-30 12:32:19] 📂 Found 14 new file(s).
+[2025-05-30 12:32:30] 🔁 Job execution started
+[2025-05-30 12:32:33] 🔁 Job execution started
+[2025-05-30 12:32:33] 🔁 Job execution started
+[2025-05-30 12:32:33] 📂 Found 14 new file(s).
+[2025-05-30 12:32:33] 📂 Found 14 new file(s).
+[2025-05-30 12:32:36] 🔁 Job execution started
+[2025-05-30 12:32:36] 📂 Found 14 new file(s).
+[2025-05-30 12:32:36] 🔁 Job execution started
+[2025-05-30 12:32:36] 📂 Found 14 new file(s).
+[2025-05-30 12:32:56] 🔁 Job execution started
+[2025-05-30 12:32:56] 🔁 Job execution started
+[2025-05-30 12:32:56] 📂 Found 14 new file(s).
+[2025-05-30 12:32:56] 📂 Found 14 new file(s).
+[2025-05-30 12:33:02] 🔁 Job execution started
+[2025-05-30 12:33:02] 🔁 Job execution started
+[2025-05-30 12:33:02] 📂 Found 14 new file(s).
+[2025-05-30 12:33:02] 📂 Found 14 new file(s).
+[2025-05-30 12:34:31] 🔁 Job execution started
+[2025-05-30 12:34:31] 📂 Found 14 new file(s).
+[2025-05-30 12:34:31] 🔁 Job execution started
+[2025-05-30 12:34:31] 📂 Found 14 new file(s).
+[2025-05-30 12:36:51] 🔁 Job execution started
+[2025-05-30 12:36:51] 📂 Found 14 new file(s).
+[2025-05-30 12:36:51] 🔁 Job execution started
+[2025-05-30 12:36:51] 📂 Found 14 new file(s).
+[2025-05-30 12:39:58] ✅ Job finished successfully
+[2025-05-30 12:40:19] ✅ Job finished successfully
+[2025-05-30 12:40:58] 🔁 Job execution started
+[2025-05-30 12:40:58] 📂 Found 14 new file(s).
+[2025-05-30 12:41:19] 🔁 Job execution started
+[2025-05-30 12:41:19] 📂 Found 14 new file(s).
+[2025-05-30 12:44:26] ✅ Job finished successfully
+[2025-05-30 12:44:52] ✅ Job finished successfully
+[2025-05-30 12:45:26] 🔁 Job execution started
+[2025-05-30 12:45:26] 📂 Found 14 new file(s).
+[2025-05-30 12:45:52] 🔁 Job execution started
+[2025-05-30 12:45:52] 📂 Found 14 new file(s).
+[2025-05-30 12:46:27] 🔁 Job execution started
+[2025-05-30 12:46:27] 🔁 Job execution started
+[2025-05-30 12:46:27] 📂 Found 14 new file(s).
+[2025-05-30 12:46:27] 📂 Found 14 new file(s).
+[2025-05-30 12:46:41] 🔁 Job execution started
+[2025-05-30 12:46:41] 🔁 Job execution started
+[2025-05-30 12:46:41] 📂 Found 14 new file(s).
+[2025-05-30 12:46:41] 📂 Found 14 new file(s).
+[2025-05-30 12:47:25] 🔁 Job execution started
+[2025-05-30 12:47:25] 🔁 Job execution started
+[2025-05-30 12:47:25] 📂 Found 14 new file(s).
+[2025-05-30 12:47:25] 📂 Found 14 new file(s).
+[2025-05-30 12:47:45] 🔁 Job execution started
+[2025-05-30 12:47:49] 🔁 Job execution started
+[2025-05-30 12:47:49] 🔁 Job execution started
+[2025-05-30 12:47:49] 📂 Found 14 new file(s).
+[2025-05-30 12:47:49] 📂 Found 14 new file(s).
+[2025-05-30 12:48:53] 🔁 Job execution started
+[2025-05-30 12:48:53] 📂 Found 14 new file(s).
+[2025-05-30 12:48:53] 🔁 Job execution started
+[2025-05-30 12:48:53] 📂 Found 14 new file(s).
+[2025-05-30 12:51:47] 🔁 Job execution started
+[2025-05-30 12:51:47] 📂 Found 14 new file(s).
+[2025-05-30 12:51:47] 🔁 Job execution started
+[2025-05-30 12:51:47] 📂 Found 14 new file(s).
+[2025-05-30 12:52:29] 🔁 Job execution started
+[2025-05-30 12:52:29] 📂 Found 14 new file(s).
+[2025-05-30 12:52:29] 🔁 Job execution started
+[2025-05-30 12:52:29] 📂 Found 14 new file(s).
+[2025-05-30 12:53:14] 🔁 Job execution started
+[2025-05-30 12:53:14] 🔁 Job execution started
+[2025-05-30 12:53:14] 📂 Found 14 new file(s).
+[2025-05-30 12:53:14] 📂 Found 14 new file(s).
+[2025-05-30 12:53:23] 🔁 Job execution started
+[2025-05-30 12:53:23] 🔁 Job execution started
+[2025-05-30 12:53:23] 📂 Found 14 new file(s).
+[2025-05-30 12:53:23] 📂 Found 14 new file(s).
+[2025-05-30 12:53:42] 🔁 Job execution started
+[2025-05-30 12:53:42] 📂 Found 14 new file(s).
+[2025-05-30 12:53:42] 🔁 Job execution started
+[2025-05-30 12:53:42] 📂 Found 14 new file(s).
+[2025-05-30 12:53:45] 🔁 Job execution started
+[2025-05-30 12:53:45] 🔁 Job execution started
+[2025-05-30 12:53:45] 📂 Found 14 new file(s).
+[2025-05-30 12:53:45] 📂 Found 14 new file(s).
+[2025-05-30 12:54:16] 🔁 Job execution started
+[2025-05-30 12:54:16] 🔁 Job execution started
+[2025-05-30 12:54:16] 📂 Found 14 new file(s).
+[2025-05-30 12:54:16] 📂 Found 14 new file(s).
+[2025-05-30 12:54:25] 🔁 Job execution started
+[2025-05-30 12:54:25] 📂 Found 14 new file(s).
+[2025-05-30 12:54:25] 🔁 Job execution started
+[2025-05-30 12:54:25] 📂 Found 14 new file(s).
+[2025-05-30 12:54:53] 🔁 Job execution started
+[2025-05-30 12:54:53] 📂 Found 14 new file(s).
+[2025-05-30 12:54:53] 🔁 Job execution started
+[2025-05-30 12:54:53] 📂 Found 14 new file(s).
+[2025-05-30 12:57:37] 🔁 Job execution started
+[2025-05-30 12:57:37] 🔁 Job execution started
+[2025-05-30 12:57:37] 📂 Found 14 new file(s).
+[2025-05-30 12:57:37] 📂 Found 14 new file(s).
+[2025-05-30 13:01:22] ✅ Job finished successfully
+[2025-05-30 13:01:26] ✅ Job finished successfully
+[2025-05-30 13:02:22] 🔁 Job execution started
+[2025-05-30 13:02:22] 📂 Found 14 new file(s).
+[2025-05-30 13:02:26] 🔁 Job execution started
+[2025-05-30 13:02:26] 📂 Found 14 new file(s).
+[2025-05-30 13:05:49] ✅ Job finished successfully
+[2025-05-30 13:05:59] ✅ Job finished successfully
+[2025-05-30 13:06:22] 🔁 Job execution started
+[2025-05-30 13:06:22] 📂 Found 14 new file(s).
+[2025-05-30 13:06:22] 🔁 Job execution started
+[2025-05-30 13:06:22] 📂 Found 14 new file(s).
+[2025-05-30 13:11:45] 🔁 Job execution started
+[2025-05-30 13:11:45] 🔁 Job execution started
+[2025-05-30 13:11:45] 📂 Found 14 new file(s).
+[2025-05-30 13:11:45] 📂 Found 14 new file(s).
+[2025-05-30 13:15:16] ✅ Job finished successfully
+[2025-05-30 13:15:44] ✅ Job finished successfully
+[2025-05-30 13:16:16] 🔁 Job execution started
+[2025-05-30 13:16:16] 📂 Found 14 new file(s).
+[2025-05-30 13:16:22] 🔁 Job execution started
+[2025-05-30 13:16:22] 🔁 Job execution started
+[2025-05-30 13:16:22] 📂 Found 14 new file(s).
+[2025-05-30 13:16:22] 📂 Found 14 new file(s).
+[2025-05-30 13:18:12] 🔁 Job execution started
+[2025-05-30 13:18:15] 🔁 Job execution started
+[2025-05-30 13:18:15] 🔁 Job execution started
+[2025-05-30 13:18:15] 📂 Found 14 new file(s).
+[2025-05-30 13:18:15] 📂 Found 14 new file(s).

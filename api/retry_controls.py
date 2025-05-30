@@ -2,25 +2,13 @@
 
 from fastapi import APIRouter, HTTPException
 from pathlib import Path
+from queue_utils import load_retry_queue, save_retry_queue
 import json
 import uuid
 
 router = APIRouter()
 
 RETRY_QUEUE_TEMPLATE = "jobs/{job_id}/output/retry_queue.json"
-
-def load_retry_queue(job_id: str):
-    path = RETRY_QUEUE_TEMPLATE.format(job_id=job_id)
-    if not Path(path).exists():
-        return []
-    with open(path, "r") as f:
-        return json.load(f)
-
-def save_retry_queue(job_id: str, queue: list):
-    path = RETRY_QUEUE_TEMPLATE.format(job_id=job_id)
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w") as f:
-        json.dump(queue, f, indent=2)
 
 @router.get("/retries/{job_id}")
 def list_retries(job_id: str):

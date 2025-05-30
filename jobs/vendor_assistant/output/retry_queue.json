@@ -1,256 +1,1303 @@
 [
   {
     "task": {
-      "description": "Send a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
-      "assigned_to": "Finance Team",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "assigned_user": {
-        "name": "Finance Team"
-      },
-      "id": "auto-7a1993cd"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-10cf31c9"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Compose a Slack message to request approval for invoice #1034 from BrightIdeas Inc.",
-      "assigned_to": "Finance Team",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "assigned_user": {
-        "name": "Finance Team"
-      },
-      "id": "auto-1009b35d"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Address the Slack message to the Finance Team",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-73b316e6"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Include the request for approval of invoice #1034 from BrightIdeas Inc. in the Slack message",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-40369ae7"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Send the Slack message",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-b32e1ede"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
-      "due_date": null,
-      "time_slot": "2025-05-30T10:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-ac8dd8eb"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Gather monthly sales data",
-      "due_date": null,
-      "time_slot": "2025-06-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-f4628e1c"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Export or format the data as required for Notion",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-63f374ea"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Transfer the data to the Notion database",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-b0a0691f"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Notify the finance team that the Q2 report is finalised and uploaded",
+      "description": "Confirm the finance team acknowledges receipt and access to the Q2 report.",
       "priority": "High",
       "assigned_to": "Finance Team",
       "due_date": null,
-      "time_slot": "2025-06-30T09:00:00+02:00",
+      "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
       "assigned_user": {
         "name": "Finance Team"
-      },
-      "id": "auto-db17c962"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611105.6910236
   },
   {
     "task": {
-      "description": "Send a Slack message to the Finance Team with the content 'Final test from role-aware config.'",
+      "description": "Transfer the monthly sales data to the Notion database",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611106.2983954
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to the Finance Team with the content: 'Final test from role-aware config!'",
+      "assigned_to": "Finance Team",
+      "context": "This is a final test from the role-aware configuration.",
+      "due_date": null,
+      "time_slot": "2025-05-30T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611106.9084685
+  },
+  {
+    "task": {
+      "description": "Notify the finance team that the Q2 report is finalised and available on Drive",
+      "priority": "High",
+      "due_date": null,
+      "time_slot": "2025-07-15T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611107.5715759
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to the Finance Team stating: 'Final test from role-aware config!'",
+      "assigned_to": "Finance Team",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
-      "id": "auto-0a88e958"
+      "assigned_user": {
+        "name": "Finance Team"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611108.3502893
+  },
+  {
+    "task": {
+      "description": "Draft a Slack message to the Finance Team",
+      "context": "The message should confirm the approval of the new quarterly budget",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611109.1260843
+  },
+  {
+    "task": {
+      "description": "Send the Slack message to the appropriate channel or group",
+      "context": "Ensure the message confirms the approval of the new quarterly budget",
+      "due_date": null,
+      "time_slot": "2025-05-30T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611109.7107792
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to the Finance Team to confirm the new quarterly budget approval.",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611110.3057735
+  },
+  {
+    "task": {
+      "description": "Update the system to reflect the payment completion for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611110.878211
+  },
+  {
+    "task": {
+      "description": "Notify XYZ Ltd. about the payment for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611111.440259
+  },
+  {
+    "task": {
+      "description": "Update the system to reflect the payment for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611112.0304523
+  },
+  {
+    "task": {
+      "description": "Notify XYZ Ltd. that the payment has been completed.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611112.6212327
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the review completion of the ACME invoice.",
+      "due_date": null,
+      "time_slot": "2025-05-30T10:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611113.23002
+  },
+  {
+    "task": {
+      "description": "Inform the Finance Team about the reviewed status of the ACME invoice",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611113.8562171
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611114.4417586
+  },
+  {
+    "task": {
+      "description": "Assign the ACME invoice to the finance team for processing",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611115.0065994
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611115.6186554
+  },
+  {
+    "task": {
+      "description": "Assign the invoice to the finance team",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611116.1871445
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice for review",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611116.7438157
+  },
+  {
+    "task": {
+      "description": "Assign the invoice to the Finance Team",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611117.3369095
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice for April 2025.",
+      "due_date": "2025-04-01",
+      "time_slot": "2025-04-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611117.9967806
+  },
+  {
+    "task": {
+      "description": "Assign the invoice to the Finance Team for review.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611118.5608613
+  },
+  {
+    "task": {
+      "description": "Generate the vendor transaction report for May 2025",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611119.1263406
+  },
+  {
+    "task": {
+      "description": "Export all invoice entries from the May 2025 vendor transaction report to Google Sheets",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611119.7069256
+  },
+  {
+    "task": {
+      "description": "Generate the vendor transaction report for May 2025",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611120.3238142
+  },
+  {
+    "task": {
+      "description": "Extract all invoice entries associated with the May 2025 vendor transaction report",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611120.9348588
+  },
+  {
+    "task": {
+      "description": "Export the extracted invoice entries to Google Sheets",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611121.480038
+  },
+  {
+    "task": {
+      "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+      "due_date": "2023-07-05",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "The documentation is saved in Drive.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611121.9767377
+  },
+  {
+    "task": {
+      "description": "Create a new Notion entry titled 'Annual Compliance Review'",
+      "due_date": "2025-07-05",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Include a note in the entry indicating that the documentation is saved in Drive",
+      "time_slot": "2025-05-31T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611122.5054586
+  },
+  {
+    "task": {
+      "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
+      "due_date": "2025-05-28",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "context": "Invoice needs to be marked as urgent",
+      "time_slot": "2025-05-28T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611123.0136948
+  },
+  {
+    "task": {
+      "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "context": "Invoice is marked as urgent",
+      "due_date": "2025-05-28",
+      "time_slot": "2025-05-28T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611123.5307508
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611124.024984
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the overdue payment for invoice #456",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611124.5045383
+  },
+  {
+    "task": {
+      "description": "Send Slack message to Finance Team for approval of invoice #1034 from BrightIdeas Inc.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611125.0489829
+  },
+  {
+    "task": {
+      "description": "Compose a Slack message to the Finance Team requesting approval for invoice #1034 from BrightIdeas Inc.",
+      "assigned_to": "Finance Team",
+      "context": "Include invoice details in the message",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611125.580356
+  },
+  {
+    "task": {
+      "description": "Send the composed message to the Finance Team on Slack",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611126.1100595
+  },
+  {
+    "task": {
+      "description": "Draft and send a Slack message to the Finance Team",
+      "context": "Inform them that the new quarterly budget has been approved",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611126.7244506
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611127.2160308
   },
   {
     "task": {
       "description": "Gather the monthly sales data",
       "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611127.7400565
+  },
+  {
+    "task": {
+      "description": "Upload or send the data to the Notion database",
+      "due_date": null,
+      "time_slot": "2025-05-30T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611128.4174666
+  },
+  {
+    "task": {
+      "description": "Gather the monthly sales data",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611128.9892898
+  },
+  {
+    "task": {
+      "description": "Upload or input the sales data into the Notion database",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611129.4889157
+  },
+  {
+    "task": {
+      "description": "Notify the finance team about the finalisation and upload of the Q2 report.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611129.9878433
+  },
+  {
+    "task": {
+      "description": "Notify the finance team that the Q2 report is available.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
       "time_slot": "2025-06-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
-      "id": "auto-ae655566"
+      "assigned_user": {
+        "name": "Finance Team"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611130.502684
   },
   {
     "task": {
-      "description": "Format the sales data as needed for upload",
+      "description": "Send the message 'Final test from role-aware config!' to the Finance Team via Slack",
+      "assigned_to": "Finance Team",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
-      "id": "auto-c97fa909"
+      "assigned_user": {
+        "name": "Finance Team"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611131.048719
   },
   {
     "task": {
-      "description": "Access the Notion database",
+      "description": "Send a Slack message to the Finance Team with the content: 'Final test from role-aware config!'",
+      "assigned_to": "Finance Team",
+      "context": "This is a final test related to a role-aware configuration.",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
-      "id": "auto-8f376ea4"
+      "assigned_user": {
+        "name": "Finance Team"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611131.5493026
   },
   {
     "task": {
-      "description": "Upload the sales data to the designated section in the Notion database",
+      "description": "Send a Slack message to the Finance Team to confirm the approval of the new quarterly budget.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611132.0584197
+  },
+  {
+    "task": {
+      "description": "Draft a message confirming the new quarterly budget approval",
+      "assigned_to": "Finance Team",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
-      "id": "auto-ee447d84"
+      "assigned_user": {
+        "name": "Finance Team"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611132.572123
+  },
+  {
+    "task": {
+      "description": "Send the drafted message to the Finance Team via Slack",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611133.0981355
+  },
+  {
+    "task": {
+      "description": "Collect the monthly sales data",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 7,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611133.6147394
+  },
+  {
+    "task": {
+      "description": "Update the system to reflect the completed payment for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611134.1509602
+  },
+  {
+    "task": {
+      "description": "Notify XYZ Ltd. about the payment completion.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611134.6536088
+  },
+  {
+    "task": {
+      "description": "Update the system to reflect the payment for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611135.1598284
+  },
+  {
+    "task": {
+      "description": "Notify XYZ Ltd. that payment has been completed.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611135.6555805
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the overdue payment for invoice #456",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 7,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611136.1457229
+  },
+  {
+    "task": {
+      "description": "Upload or integrate the sales data into the Notion database",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 7,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611136.6740508
+  },
+  {
+    "task": {
+      "description": "Inform the Finance Team about the completed review of the ACME invoice.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611137.199087
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team that the ACME invoice review is complete.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611137.7147868
+  },
+  {
+    "task": {
+      "description": "Request approval for invoice #1034",
+      "context": "The invoice is from BrightIdeas Inc.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 7,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611138.217195
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611138.8132632
+  },
+  {
+    "task": {
+      "description": "Assign the ACME invoice to the finance team for processing",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611139.4010909
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611140.1647913
+  },
+  {
+    "task": {
+      "description": "Assign the ACME invoice to the finance team for processing",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611140.757698
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice for April 2025 for review.",
+      "due_date": "2025-04-01",
+      "time_slot": "2025-04-30T15:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611141.3331208
+  },
+  {
+    "task": {
+      "description": "Assign the logged invoice to the Finance Team.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611141.909197
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice for April 2025 for review",
+      "assigned_to": "Finance Team",
+      "due_date": "2025-04-01",
+      "time_slot": "2025-04-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611142.5230336
+  },
+  {
+    "task": {
+      "description": "Assign the ACME invoice for April 2025 to the Finance Team",
+      "due_date": null,
+      "time_slot": "2025-04-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611143.1894782
+  },
+  {
+    "task": {
+      "description": "Generate the vendor transaction report for May 2025.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611143.7979753
+  },
+  {
+    "task": {
+      "description": "Export all invoice entries from the May 2025 vendor transaction report to Google Sheets.",
+      "due_date": "2025-05-01",
+      "time_slot": "2025-05-31T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611144.4435115
+  },
+  {
+    "task": {
+      "description": "Generate the vendor transaction report for May 2025",
+      "due_date": "2025-06-30",
+      "time_slot": "2025-05-31T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611145.1129143
+  },
+  {
+    "task": {
+      "description": "Ensure all invoice entries for May 2025 are accurately listed",
+      "due_date": "2025-06-30",
+      "time_slot": "2025-05-31T23:59:59+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611145.9198148
+  },
+  {
+    "task": {
+      "description": "Export the compiled invoice entries to a Google Sheets document",
+      "due_date": "2025-06-30",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611146.673774
+  },
+  {
+    "task": {
+      "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Documentation is saved in Drive",
+      "due_date": "2023-07-05",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611147.2415123
+  },
+  {
+    "task": {
+      "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+      "due_date": "2023-07-05",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "Documentation is saved in Drive.",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611147.820223
+  },
+  {
+    "task": {
+      "description": "Log the vendor invoice from AlphaTech dated 28 May 2025",
+      "due_date": "2025-05-28",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "context": "Invoice needs to be marked as urgent",
+      "time_slot": "2025-05-28T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611148.397124
+  },
+  {
+    "task": {
+      "description": "Log the vendor invoice from AlphaTech, dated 28 May 2025",
+      "due_date": "2025-05-28",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "time_slot": "2025-05-28T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611148.9867337
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the overdue payment for invoice #456 from GlobeTech",
+      "assigned_to": "Finance Team",
+      "context": "The payment is overdue",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611149.5976515
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the overdue payment for invoice #456",
+      "assigned_to": "Finance Team",
+      "context": "The payment for invoice #456 from GlobeTech is overdue.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611150.2015953
+  },
+  {
+    "task": {
+      "description": "Draft and send a Slack message to the Finance Team requesting their approval for invoice #1034 from BrightIdeas Inc.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611150.780014
+  },
+  {
+    "task": {
+      "description": "Draft and send a Slack message to the Finance Team requesting their approval for invoice #1034 from BrightIdeas Inc.",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611151.3497996
   },
   {
     "task": {
@@ -258,165 +1305,119 @@
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-d1c5f747"
+      "time_slot_confidence": "medium"
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611151.9372625
   },
   {
     "task": {
-      "description": "Notify the finance team about the completion and upload of the Q2 report to Drive.",
+      "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611152.5275671
+  },
+  {
+    "task": {
+      "description": "Transfer the monthly sales data to the Notion database",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611153.2534828
+  },
+  {
+    "task": {
+      "description": "Upload or transfer monthly sales data to the Notion database.",
+      "due_date": null,
+      "time_slot": "2025-06-01T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 6,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611153.9049838
+  },
+  {
+    "task": {
+      "description": "Notify the finance team that the Q2 report is finalized and uploaded to Drive",
       "priority": "High",
       "assigned_to": "Finance Team",
       "due_date": null,
-      "time_slot": "2025-07-01T09:00:00+02:00",
+      "time_slot": "2025-06-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
       "assigned_user": {
         "name": "Finance Team"
-      },
-      "id": "auto-dbf6f4ec"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611154.4800432
   },
   {
     "task": {
-      "description": "Send a message via Slack to the Finance Team stating, 'Final test from role-aware config!'",
+      "description": "Notify the finance team about the completion and upload of the Q2 report",
       "assigned_to": "Finance Team",
       "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot": "2025-07-02T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
       "assigned_user": {
         "name": "Finance Team"
-      },
-      "id": "auto-7e30c4a6"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611155.0573533
   },
   {
     "task": {
-      "description": "Update the system to reflect the completed payment for invoice #789.",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-5ce90285"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Notify XYZ Ltd. about the payment completion.",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-3f57bb0e"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Update the system to reflect the completed payment for invoice #789.",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-767aa576"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Notify XYZ Ltd. about the payment completion.",
-      "due_date": null,
-      "time_slot": "2025-05-30T15:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-fdb462a1"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Notify the Finance Team about the review of the ACME invoice.",
-      "due_date": null,
-      "time_slot": "2025-06-05T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "id": "auto-c7fce73e"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Inform the Finance Team about the review of the ACME invoice",
+      "description": "Ensure the finance team prioritizes the Q2 report task as high",
+      "priority": "High",
       "assigned_to": "Finance Team",
       "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot": "2025-06-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
       "assigned_user": {
         "name": "Finance Team"
-      },
-      "id": "auto-1d931edd"
+      }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611155.5504103
   },
   {
     "task": {
-      "description": "Log the ACME invoice",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Assign the logged ACME invoice to the finance team for processing",
+      "description": "Send a Slack message to the Finance Team with the content: 'Final test from role-aware config!'",
       "assigned_to": "Finance Team",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
@@ -427,28 +1428,14 @@
       }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 6,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611156.0445786
   },
   {
     "task": {
-      "description": "Log the ACME invoice",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Assign the logged invoice to the finance team",
+      "description": "Compose a Slack message addressing the Finance Team",
       "assigned_to": "Finance Team",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
@@ -459,10 +1446,181 @@
       }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 7,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611156.5389
+  },
+  {
+    "task": {
+      "description": "Notify the finance team that the Q2 report is finalized and available on Drive.",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-06-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 7,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611157.0790823
+  },
+  {
+    "task": {
+      "description": "Update the system to reflect the completed payment for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611157.5977755
+  },
+  {
+    "task": {
+      "description": "Notify XYZ Ltd. about the payment completion.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611158.1257622
+  },
+  {
+    "task": {
+      "description": "Update the system to reflect the completed payment for invoice #789.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611158.6044652
+  },
+  {
+    "task": {
+      "description": "Notify XYZ Ltd. about the payment completion.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611159.0985084
+  },
+  {
+    "task": {
+      "description": "Notify the Finance Team about the completion of the review for the ACME invoice",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611159.5864851
+  },
+  {
+    "task": {
+      "description": "Inform the Finance Team that the ACME invoice has been reviewed.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611160.1215925
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611160.6346564
+  },
+  {
+    "task": {
+      "description": "Assign the logged invoice to the finance team for processing",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611161.1618738
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611161.6547306
+  },
+  {
+    "task": {
+      "description": "Assign the invoice to the finance team for processing",
+      "assigned_to": "Finance Team",
+      "due_date": null,
+      "time_slot": "2025-06-02T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611162.148426
   },
   {
     "task": {
@@ -473,16 +1631,16 @@
       "time_slot_confidence": "medium"
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 1,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611162.7410786
   },
   {
     "task": {
       "description": "Assign the ACME invoice for April 2025 to the Finance Team for review.",
       "assigned_to": "Finance Team",
-      "due_date": null,
+      "due_date": "2025-04-01",
       "time_slot": "2025-04-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
@@ -491,28 +1649,28 @@
       }
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 1,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611163.3547263
   },
   {
     "task": {
-      "description": "Log the ACME invoice for April 2025.",
+      "description": "Log the ACME invoice for April 2025 for review",
       "due_date": "2025-04-01",
       "time_slot": "2025-04-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium"
     },
     "target": "sheets",
-    "attempts": 0,
+    "attempts": 1,
     "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
+    "retry_result": null,
+    "result_timestamp": 1748611163.8742242
   },
   {
     "task": {
-      "description": "Review the ACME invoice for April 2025.",
+      "description": "Assign the ACME invoice for April 2025 to the Finance Team",
       "assigned_to": "Finance Team",
       "due_date": "2025-04-01",
       "time_slot": "2025-04-01T09:00:00+02:00",
@@ -523,6 +1681,158 @@
       }
     },
     "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611164.4058967
+  },
+  {
+    "task": {
+      "description": "Generate the vendor transaction report for May 2025.",
+      "due_date": null,
+      "time_slot": "2025-05-31T00:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611164.9301567
+  },
+  {
+    "task": {
+      "description": "Export the invoice entries from the report to Google Sheets.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611165.4080603
+  },
+  {
+    "task": {
+      "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "The documentation is saved in Drive.",
+      "due_date": "2023-07-05",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611165.9373543
+  },
+  {
+    "task": {
+      "description": "Compile all vendor transactions for May 2025.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T23:59:59+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611166.446714
+  },
+  {
+    "task": {
+      "description": "Generate a detailed report of vendor transactions for May 2025.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611166.9538693
+  },
+  {
+    "task": {
+      "description": "Export all relevant invoice entries into a Google Sheets document.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611167.4746485
+  },
+  {
+    "task": {
+      "description": "Ensure the Google Sheets document is organized and accessible for review.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611167.9972854
+  },
+  {
+    "task": {
+      "description": "Log the vendor invoice from AlphaTech",
+      "due_date": "2025-05-28",
+      "priority": "High",
+      "assigned_to": "Finance Team",
+      "context": "Invoice dated 28 May 2025",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 1,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611168.4988432
+  },
+  {
+    "task": {
+      "description": "Send a Slack message to the Finance Team confirming the approval of the new quarterly budget.",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 7,
+    "last_attempt": null,
+    "retry_result": null,
+    "result_timestamp": 1748611105.0816689
+  },
+  {
+    "task": {
+      "description": "Log the ACME invoice for review",
+      "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
     "attempts": 0,
     "last_attempt": null,
     "retry_result": false,
@@ -530,8 +1840,40 @@
   },
   {
     "task": {
-      "description": "Generate the monthly vendor transaction report for May 2025.",
+      "description": "Assign the invoice to the Finance Team",
+      "assigned_to": "Finance Team",
       "due_date": null,
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Finance Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Compile and generate the vendor transaction report for May 2025",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Export all invoice entries for May 2025 to a Google Sheets format",
+      "due_date": "2025-06-01",
       "time_slot": "2025-05-31T00:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium"
@@ -544,9 +1886,71 @@
   },
   {
     "task": {
-      "description": "Export all invoice entries from the report to Google Sheets.",
-      "due_date": null,
+      "description": "Create a new Notion entry titled 'Annual Compliance Review'",
+      "priority": "High",
+      "assigned_to": "Legal Team",
+      "context": "The documentation is saved in Drive",
+      "due_date": "2023-07-05",
       "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium",
+      "assigned_user": {
+        "name": "Legal Team"
+      }
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Collect and organize all vendor transaction data for May 2025.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T23:59:59+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Generate a monthly report detailing vendor transactions for May 2025.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-31T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Export the invoice entries from the report to a Google Sheets document.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot_source": "gpt",
+      "time_slot_confidence": "medium"
+    },
+    "target": "sheets",
+    "attempts": 0,
+    "last_attempt": null,
+    "retry_result": false,
+    "result_timestamp": null
+  },
+  {
+    "task": {
+      "description": "Ensure the exported data is accurately formatted and easily accessible in Google Sheets.",
+      "due_date": "2025-06-01",
+      "time_slot": "2025-05-30T00:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium"
     },
@@ -562,8 +1966,8 @@
       "due_date": "2023-07-05",
       "priority": "High",
       "assigned_to": "Legal Team",
-      "context": "The documentation is saved in Drive",
-      "time_slot": "2025-06-02T09:00:00+02:00",
+      "context": "Include a note indicating the documentation is saved in Drive",
+      "time_slot": "2025-05-30T09:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
       "assigned_user": {
@@ -578,75 +1982,11 @@
   },
   {
     "task": {
-      "description": "Generate the vendor transaction report for May 2025",
-      "due_date": "2025-06-30",
-      "time_slot": "2025-05-31T00:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Ensure all invoice entries are included in the report",
-      "context": "Part of the vendor transaction report for May 2025",
-      "due_date": null,
-      "time_slot": "2025-06-05T15:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Export the completed report to Google Sheets",
-      "context": "Final step after generating the vendor transaction report for May 2025",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Create a new Notion entry titled 'Annual Compliance Review.'",
-      "priority": "High",
-      "assigned_to": "Legal Team",
-      "due_date": "2023-07-05",
-      "context": "Include a note stating that the documentation is saved in Drive.",
-      "time_slot": "2025-06-01T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "assigned_user": {
-        "name": "Legal Team"
-      }
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Log the vendor invoice from AlphaTech",
+      "description": "Log the vendor invoice from AlphaTech dated May 28, 2025.",
       "due_date": "2025-05-28",
       "priority": "High",
       "assigned_to": "Finance Team",
-      "time_slot": "2025-05-30T09:00:00+02:00",
+      "time_slot": "2025-05-28T00:00:00+02:00",
       "time_slot_source": "gpt",
       "time_slot_confidence": "medium",
       "assigned_user": {
@@ -661,7 +2001,7 @@
   },
   {
     "task": {
-      "description": "Mark the invoice as urgent",
+      "description": "Mark the invoice as urgent.",
       "priority": "High",
       "assigned_to": "Finance Team",
       "due_date": null,
@@ -680,41 +2020,8 @@
   },
   {
     "task": {
-      "description": "Assign the invoice to the Finance Team",
+      "description": "Assign the invoice to the Finance Team for further handling.",
       "priority": "High",
-      "due_date": null,
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium"
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Log the vendor invoice from AlphaTech",
-      "due_date": "2025-05-28",
-      "priority": "High",
-      "assigned_to": "Finance Team",
-      "time_slot": "2025-05-30T09:00:00+02:00",
-      "time_slot_source": "gpt",
-      "time_slot_confidence": "medium",
-      "assigned_user": {
-        "name": "Finance Team"
-      }
-    },
-    "target": "sheets",
-    "attempts": 0,
-    "last_attempt": null,
-    "retry_result": false,
-    "result_timestamp": null
-  },
-  {
-    "task": {
-      "description": "Notify the Finance Team about the overdue payment for invoice #456",
       "assigned_to": "Finance Team",
       "due_date": null,
       "time_slot": "2025-05-30T09:00:00+02:00",
