@@ -22,10 +22,10 @@ from ghost_employee.dashboard.tiles.task_health_stale import router as stale_tas
 from ghost_employee.dashboard.tiles.summary_tile import router as summary_tile_router
 from ghost_employee.dashboard.tiles.retry_summary import router as retry_summary_router
 
-from ghost_employee.dashboard.add_job_ui import router as job_router
-from ghost_employee.dashboard.job_manager_api import router as job_manager_api
-from ghost_employee.dashboard.job_logs_api import router as job_logs_api
-from ghost_employee.dashboard.job_config_api import router as job_config_router
+from ghost_employee.dashboard.routes.add_job_ui import router as job_router
+from ghost_employee.dashboard.routes.job_manager_api import router as job_manager_api
+from ghost_employee.dashboard.routes.job_logs_api import router as job_logs_api
+from ghost_employee.dashboard.routes.job_config_api import router as job_config_router
 
 app = FastAPI()
 
